@@ -1,0 +1,162 @@
+[
+  {
+    "text": "The library was quiet and the staff were genuinely helpful.",
+    "label": 1
+  },
+  {
+    "text": "I waited forty minutes for a password reset and nobody apologised.",
+    "label": 0
+  },
+  {
+    "text": "Not a bad lecture, though the slides were dense.",
+    "label": 1
+  },
+  {
+    "text": "The food is not good.",
+    "label": 0
+  },
+  {
+    "text": "The food is not bad.",
+    "label": 1
+  },
+  {
+    "text": "I would not recommend this module to anyone.",
+    "label": 0
+  },
+  {
+    "text": "I would not say I disliked it.",
+    "label": 1
+  },
+  {
+    "text": "Great, another 9am lecture on a Monday.",
+    "label": 0
+  },
+  {
+    "text": "Absolutely brilliant, the projector failed again.",
+    "label": 0
+  },
+  {
+    "text": "The room was fine.",
+    "label": 1
+  },
+  {
+    "text": "The room was fine, I suppose.",
+    "label": 0
+  },
+  {
+    "text": "Wonderful support from the disability office, they solved it in a day.",
+    "label": 1
+  },
+  {
+    "text": "The exam was fair and matched the learning outcomes.",
+    "label": 1
+  },
+  {
+    "text": "The exam was impossible and nothing like the practice paper.",
+    "label": 0
+  },
+  {
+    "text": "The accommodation is expensive but the location is unbeatable.",
+    "label": 1
+  },
+  {
+    "text": "Cheap and cheerful, and it does the job.",
+    "label": 1
+  },
+  {
+    "text": "The seminar was cancelled twice with no explanation.",
+    "label": 0
+  },
+  {
+    "text": "Supervision was inconsistent, although my second supervisor was excellent.",
+    "label": 0
+  },
+  {
+    "text": "I learned more in this module than in any other this year.",
+    "label": 1
+  },
+  {
+    "text": "The marking was slow, but the feedback was detailed and useful.",
+    "label": 1
+  },
+  {
+    "text": "The timetable clashes every single week and nobody fixes it.",
+    "label": 0
+  },
+  {
+    "text": "The careers adviser gave me three concrete leads.",
+    "label": 1
+  },
+  {
+    "text": "There is no way anyone could enjoy this assessment.",
+    "label": 0
+  },
+  {
+    "text": "It is hard to imagine a better induction week.",
+    "label": 1
+  },
+  {
+    "text": "The lab equipment was broken for most of the term.",
+    "label": 0
+  },
+  {
+    "text": "The new study spaces are a real improvement.",
+    "label": 1
+  },
+  {
+    "text": "I expected to hate the group project and ended up enjoying it.",
+    "label": 1
+  },
+  {
+    "text": "The reading list was never updated and half the books are missing.",
+    "label": 0
+  },
+  {
+    "text": "The shuttle bus was late, as usual.",
+    "label": 0
+  },
+  {
+    "text": "The shuttle bus was unusually on time today.",
+    "label": 1
+  },
+  {
+    "text": "The lecture was long.",
+    "label": 1
+  },
+  {
+    "text": "The lecture was long and pointless.",
+    "label": 0
+  },
+  {
+    "text": "Support was responsive and clear.",
+    "label": 1
+  },
+  {
+    "text": "Support was responsive, eventually.",
+    "label": 0
+  },
+  {
+    "text": "No complaints at all about the labs.",
+    "label": 1
+  },
+  {
+    "text": "Not the worst canteen I have eaten in.",
+    "label": 1
+  },
+  {
+    "text": "The website is unusable on a phone.",
+    "label": 0
+  },
+  {
+    "text": "The website works now that they fixed the login page.",
+    "label": 1
+  },
+  {
+    "text": "Fees are high, but the teaching is worth it.",
+    "label": 1
+  },
+  {
+    "text": "Fees are high and the teaching does not justify them.",
+    "label": 0
+  }
+]

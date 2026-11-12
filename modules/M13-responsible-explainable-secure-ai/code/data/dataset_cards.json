@@ -1,0 +1,62 @@
+[
+  {
+    "name": "synthetic recruitment screen",
+    "n": 4000,
+    "seed": 0,
+    "licence": "CC0-1.0",
+    "features": [
+      "experience_years",
+      "education_score",
+      "interview_score",
+      "referral"
+    ],
+    "label": "hired (a historical decision, not ground truth about ability)",
+    "bias_mechanism": "label bias: merit threshold 0.52 for group A, 0.62 for B",
+    "intended_use": "teaching fairness measurement; never a hiring tool",
+    "known_limits": [
+      "merit is a synthetic construct",
+      "no intersectional groups",
+      "referral is a privilege proxy, not a qualification"
+    ]
+  },
+  {
+    "name": "synthetic student pass prediction",
+    "n": 3000,
+    "seed": 0,
+    "licence": "CC0-1.0",
+    "features": [
+      "prior_attainment",
+      "attendance_rate",
+      "study_hours",
+      "tutoring_access"
+    ],
+    "label": "passed the module",
+    "bias_mechanism": "proxy bias: tutoring_access is group-correlated and predictive",
+    "intended_use": "teaching proxy discrimination and explainability",
+    "known_limits": [
+      "no temporal effects",
+      "two groups only",
+      "synthetic grade scale"
+    ]
+  },
+  {
+    "name": "synthetic loan approval",
+    "n": 5000,
+    "seed": 0,
+    "licence": "CC0-1.0",
+    "features": [
+      "income",
+      "credit_score",
+      "employment_years",
+      "loan_amount"
+    ],
+    "label": "approved (1) / not approved (0)",
+    "bias_mechanism": "base-rate difference plus 70/30 sampling imbalance",
+    "intended_use": "teaching disparity metrics and threshold trade-offs",
+    "known_limits": [
+      "income and score are correlated by construction",
+      "no real credit history",
+      "no intersectional analysis"
+    ]
+  }
+]

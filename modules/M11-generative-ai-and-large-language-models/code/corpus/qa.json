@@ -1,0 +1,189 @@
+{
+  "answerable": [
+    {
+      "q": "What time does the Hartley Library open on weekdays in term time?",
+      "a": "08:00",
+      "source": "hb-01"
+    },
+    {
+      "q": "How many items can an undergraduate borrow at once?",
+      "a": "12",
+      "source": "hb-02"
+    },
+    {
+      "q": "What is the daily overdue charge for a library item?",
+      "a": "0.40 GBP per item",
+      "source": "hb-02"
+    },
+    {
+      "q": "When is the IT helpdesk open on Saturdays?",
+      "a": "09:00 to 16:00",
+      "source": "hb-03"
+    },
+    {
+      "q": "How much does a replacement student card cost?",
+      "a": "12 GBP",
+      "source": "hb-03"
+    },
+    {
+      "q": "What is the international undergraduate tuition fee per year?",
+      "a": "21,400 GBP",
+      "source": "hb-05"
+    },
+    {
+      "q": "When is the second tuition instalment due?",
+      "a": "15 January",
+      "source": "hb-05"
+    },
+    {
+      "q": "How much does the Northfield Merit Scholarship pay per year?",
+      "a": "3,000 GBP",
+      "source": "hb-06"
+    },
+    {
+      "q": "When do hardship bursary applications close?",
+      "a": "31 October",
+      "source": "hb-06"
+    },
+    {
+      "q": "How much is the accommodation deposit?",
+      "a": "400 GBP",
+      "source": "hb-07"
+    },
+    {
+      "q": "How many weeks is an undergraduate hall contract?",
+      "a": "44 weeks",
+      "source": "hb-07"
+    },
+    {
+      "q": "How early must a student arrive before an examination?",
+      "a": "15 minutes",
+      "source": "hb-08"
+    },
+    {
+      "q": "What percentage is needed for a first-class undergraduate mark?",
+      "a": "70",
+      "source": "hb-09"
+    },
+    {
+      "q": "How many working days does coursework marking take?",
+      "a": "15 working days",
+      "source": "hb-09"
+    },
+    {
+      "q": "How much is deducted per working day for late coursework?",
+      "a": "10 percent of the available marks",
+      "source": "hb-10"
+    },
+    {
+      "q": "How long are self-certified extensions?",
+      "a": "up to seven days",
+      "source": "hb-10"
+    },
+    {
+      "q": "Where are mitigating circumstances submitted?",
+      "a": "the faculty office",
+      "source": "hb-10"
+    },
+    {
+      "q": "What happens to a student who pays someone to write an assignment?",
+      "a": "normally exclusion from the programme",
+      "source": "hb-11"
+    },
+    {
+      "q": "What attendance rate must a student on a student visa maintain?",
+      "a": "80 percent of scheduled contact hours",
+      "source": "hb-12"
+    },
+    {
+      "q": "What are the counselling service opening hours?",
+      "a": "09:00 to 17:00 Monday to Friday",
+      "source": "hb-13"
+    },
+    {
+      "q": "How many hours may a student on a student visa work per week in term time?",
+      "a": "20 hours",
+      "source": "hb-15"
+    },
+    {
+      "q": "How much is the annual student sports centre membership?",
+      "a": "180 GBP",
+      "source": "hb-16"
+    },
+    {
+      "q": "How many members are needed to start a new society?",
+      "a": "15",
+      "source": "hb-16"
+    },
+    {
+      "q": "What tuition fee is charged during a placement year?",
+      "a": "1,850 GBP",
+      "source": "hb-17"
+    },
+    {
+      "q": "How many working days are allowed to submit a formal complaint?",
+      "a": "20 working days",
+      "source": "hb-18"
+    },
+    {
+      "q": "How many guest tickets does each graduand receive?",
+      "a": "two",
+      "source": "hb-19"
+    },
+    {
+      "q": "How much is a student parking permit?",
+      "a": "120 GBP per year",
+      "source": "hb-20"
+    },
+    {
+      "q": "What is the printing credit per term?",
+      "a": "5 GBP",
+      "source": "hb-21"
+    },
+    {
+      "q": "How long are examination scripts retained?",
+      "a": "12 months",
+      "source": "hb-23"
+    },
+    {
+      "q": "How far in advance must religious festival adjustments be requested?",
+      "a": "14 days",
+      "source": "hb-24"
+    }
+  ],
+  "multi_document": [
+    {
+      "q": "I am an international undergraduate in halls: what will tuition and accommodation cost me in total for a 44-week year?",
+      "a": "21,400 GBP tuition plus 44 weeks of hall fees (128-176 GBP per week), so between 27,032 and 29,144 GBP",
+      "sources": [
+        "hb-05",
+        "hb-07"
+      ]
+    },
+    {
+      "q": "Which two services can I contact outside normal office hours?",
+      "a": "The 24-hour study centre (library, with a student card) and campus security on extension 2222",
+      "sources": [
+        "hb-01",
+        "hb-14"
+      ]
+    },
+    {
+      "q": "What is the difference between a self-certified extension and mitigating circumstances?",
+      "a": "A self-certified extension is up to seven days, once per year, for eligible modules; mitigating circumstances are evidence-based and go to the faculty office within five working days",
+      "sources": [
+        "hb-10"
+      ]
+    }
+  ],
+  "unanswerable": [
+    "What is the deadline for the computer science dissertation?",
+    "How many PhD scholarships does the chemistry department offer?",
+    "What is the university's policy on emotional support animals?",
+    "Which professor teaches the advanced robotics module?",
+    "How much does a parking fine cost in the city centre?",
+    "When was Northfield University founded?",
+    "What is the acceptance rate for the medical school?",
+    "How do I transfer to a different university?"
+  ]
+}

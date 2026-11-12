@@ -1,0 +1,52 @@
+# ---------------------------------------------------------------------------
+# Artificial Intelligence Course — repository ignore rules
+# ---------------------------------------------------------------------------
+
+# Freebuff workspace metadata (never part of the course)
+.freebuff/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging artefacts
+build/
+dist/
+*.egg-info/
+
+# Secrets and local configuration (never commit keys)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Downloaded or generated data that students should regenerate
+datasets/**/raw/*.zip
+datasets/**/raw/*.tar.gz
+**/outputs/
+**/figures/generated/
+
+# Operating system and editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+
+# LaTeX/Jupyter build leftovers
+*.aux
+*.log
+*.toc
