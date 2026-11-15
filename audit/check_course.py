@@ -62,7 +62,11 @@ def check_links(quiet):
     for path in glob.glob("**/*.md", recursive=True):
         if any(part in {".git", "node_modules", ".freebuff", "templates"} for part in path.split(os.sep)):
             continue
-        directory = os.path.dirname(path)
+        # Website source pages are staged at the documentation root, so links between them are
+        # authored root-relative. During source review, fall back to the website/ directory for
+        # links that only exist as sibling website pages/assets.
+        is_website = path.startswith(f"website{os.sep}")
+        directory = "" if is_website else os.path.dirname(path)
         for target in LINK.findall(without_code(open(path, encoding="utf-8").read())):
             if target.startswith(("http://", "https://", "mailto:")):
                 continue
@@ -70,6 +74,12 @@ def check_links(quiet):
             file_part, _, anchor = target.partition("#")
             file_part = urllib.parse.unquote(file_part)
             resolved = os.path.normpath(os.path.join(directory, file_part)) if file_part else path
+            if file_part and not os.path.exists(resolved) and is_website:
+                staged_fallback = os.path.normpath(os.path.join("website", file_part))
+                if file_part == "index.md":
+                    staged_fallback = os.path.join("website", "home.md")
+                if os.path.exists(staged_fallback):
+                    resolved = staged_fallback
             if not os.path.exists(resolved):
                 broken.append((path, target, "missing file"))
                 continue

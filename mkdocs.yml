@@ -1,0 +1,381 @@
+# Artificial Intelligence — A Comprehensive Course
+# MkDocs Material configuration for the public course website.
+
+site_name: Artificial Intelligence — A Comprehensive Course
+site_description: >-
+  A university-level, beginner-to-advanced artificial intelligence course with sequenced lessons,
+  Python notebooks, practical laboratories, assessments, projects and a capstone.
+site_author: Muhammad Nadeem Majeed
+site_url: https://nadeem-majeedch.github.io/Artificial-Intelligence-Course/
+repo_url: https://github.com/nadeem-majeedch/Artificial-Intelligence-Course
+repo_name: nadeem-majeedch/Artificial-Intelligence-Course
+
+docs_dir: .site-build/docs
+site_dir: site
+strict: true
+use_directory_urls: true
+
+copyright: >-
+  Copyright © 2026 Muhammad Nadeem Majeed · Educational content CC BY 4.0 · Source code MIT
+
+theme:
+  name: material
+  language: en
+  logo: assets/logo.svg
+  favicon: assets/favicon.svg
+  font:
+    text: Inter
+    code: JetBrains Mono
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - announce.dismiss
+
+plugins:
+  - search
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3.2.2/es5/tex-mml-chtml.js
+  - https://unpkg.com/mermaid@11.12.0/dist/mermaid.min.js
+  - javascripts/mermaid.js
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+      slugify: !!python/name:scripts.site_slugify.github_slugify
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_div_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tilde
+
+validation:
+  omitted_files: warn
+  absolute_links: warn
+  unrecognized_links: warn
+  anchors: warn
+
+not_in_nav: |
+  course-home.md
+  CONTENT-LICENSE.md
+  DATASET-LICENSE.md
+  LICENSING-INVENTORY.md
+  THIRD-PARTY-ATTRIBUTIONS.md
+  docs/ARCHITECTURE.md
+  docs/AUDIT.md
+  docs/IMPLEMENTATION-ROADMAP.md
+  docs/index.md
+  assessments/**
+  modules/*/assignments/*.md
+  modules/*/projects/*.md
+  modules/*/quizzes/*.md
+  modules/M14*/capstone/briefs/*.md
+  modules/M14*/capstone/milestones.md
+  modules/M14*/capstone/report-template.md
+  modules/M14*/capstone/report-writing.md
+  modules/M14*/capstone/rubric.md
+  prerequisites/EXERCISES.md
+  prerequisites/*/lessons/*.md
+  prerequisites/*/labs/*.md
+  resources/glossary/*.md
+  resources/library/**/*.md
+
+extra:
+  generator: false
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Start Here: getting-started.md
+    - Learning Paths: docs/learning-path.md
+    - Course Roadmap: docs/course-roadmap.md
+  - Prerequisites:
+    - Overview: prerequisites/README.md
+    - Readiness Diagnostic: prerequisites/diagnostic.md
+    - P01 — Python Programming for AI: prerequisites/P01-python-programming/README.md
+    - P02 — Mathematics for AI: prerequisites/P02-mathematics-for-ai/README.md
+    - P03 — Probability and Statistics: prerequisites/P03-probability-and-statistics/README.md
+    - P04 — Data Preparation and Visualisation: prerequisites/P04-data-preparation-and-visualization/README.md
+  - Modules:
+    - Overview: modules/README.md
+    - M01 — Introduction and Foundations of Artificial Intelligence:
+      - Overview: modules/M01-introduction-and-foundations/README.md
+      - Lessons:
+        - L01-01 — What Is Artificial Intelligence? Definitions, Goals and Myths: modules/M01-introduction-and-foundations/lessons/L01-01-what-is-artificial-intelligence.md
+        - L01-02 — A Brief History of AI and the AI Winters: modules/M01-introduction-and-foundations/lessons/L01-02-history-and-ai-winters.md
+        - 'L01-03 — The Many Faces of AI: Symbolic, Statistical and Generative': modules/M01-introduction-and-foundations/lessons/L01-03-symbolic-statistical-generative.md
+        - L01-04 — What AI Can and Cannot Do Today: modules/M01-introduction-and-foundations/lessons/L01-04-ai-capabilities-and-limitations.md
+        - 'L01-05 — How This Course Works: Tools, Workflow and Study Habits': modules/M01-introduction-and-foundations/lessons/L01-05-course-workflow-and-study-habits.md
+      - Laboratories:
+        - 'LAB-01-01 — Claim Audit: Does the Enquiry Assistant Really Work?': modules/M01-introduction-and-foundations/labs/lab-01-01-claim-audit.md
+        - LAB-01-02 — Build a Turing-Test-Style Conversational System: modules/M01-introduction-and-foundations/labs/lab-01-02-turing-test-conversation.md
+      - Summary: modules/M01-introduction-and-foundations/summary.md
+      - Project: modules/M01-introduction-and-foundations/projects/mp-01-ai-in-your-field-audit.md
+      - Quiz: modules/M01-introduction-and-foundations/quizzes/quiz-01.md
+    - M02 — Intelligent Agents and Environments:
+      - Overview: modules/M02-intelligent-agents-and-environments/README.md
+      - Lessons:
+        - L02-01 — Agents, Percepts, Actions and the Agent–Environment Boundary: modules/M02-intelligent-agents-and-environments/lessons/L02-01-agents-percepts-actions.md
+        - L02-02 — Rational Agents and PEAS Descriptions: modules/M02-intelligent-agents-and-environments/lessons/L02-02-rational-agents-and-peas.md
+        - L02-03 — Task Environments and Their Properties: modules/M02-intelligent-agents-and-environments/lessons/L02-03-task-environments-and-properties.md
+        - L02-04 — Simple Reflex and Model-Based Agents: modules/M02-intelligent-agents-and-environments/lessons/L02-04-simple-reflex-and-model-based-agents.md
+        - L02-05 — Goal-Based, Utility-Based and Learning Agents: modules/M02-intelligent-agents-and-environments/lessons/L02-05-goal-utility-and-learning-agents.md
+      - Laboratories:
+        - LAB-02-01 — The Intelligent Vacuum Cleaner: modules/M02-intelligent-agents-and-environments/labs/lab-02-01-intelligent-vacuum-cleaner.md
+        - LAB-02-02 — Intelligent Campus Navigation Agent: modules/M02-intelligent-agents-and-environments/labs/lab-02-02-campus-navigation-agent.md
+    - M03 — Problem Solving and Search Algorithms:
+      - Overview: modules/M03-problem-solving-and-search-algorithms/README.md
+      - Lessons:
+        - L03-01 — Problem Formulation and State-Space Representation: modules/M03-problem-solving-and-search-algorithms/lessons/L03-01-problem-formulation-and-state-spaces.md
+        - 'L03-02 — Uninformed Search: BFS, DFS, UCS, DLS and Iterative Deepening': modules/M03-problem-solving-and-search-algorithms/lessons/L03-02-uninformed-search-bfs-dfs-ucs-dls-ids.md
+        - 'L03-03 — Informed Search: Greedy Best-First, A* and Heuristic Design': modules/M03-problem-solving-and-search-algorithms/lessons/L03-03-informed-search-greedy-and-a-star.md
+        - 'L03-04 — Local Search: Hill Climbing, Simulated Annealing and Genetic Algorithms': modules/M03-problem-solving-and-search-algorithms/lessons/L03-04-local-search-hill-climbing-annealing-genetic.md
+        - 'L03-05 — Adversarial Search: Minimax and Alpha–Beta Pruning': modules/M03-problem-solving-and-search-algorithms/lessons/L03-05-adversarial-search-minimax-and-alpha-beta.md
+        - L03-06 — Constraint Satisfaction Problems: modules/M03-problem-solving-and-search-algorithms/lessons/L03-06-constraint-satisfaction-problems.md
+        - L03-07 — Choosing and Combining Search Strategies: modules/M03-problem-solving-and-search-algorithms/lessons/L03-07-choosing-and-combining-search-strategies.md
+      - Laboratories:
+        - LAB-03-01 — Route Planning Under Real Constraints: modules/M03-problem-solving-and-search-algorithms/labs/lab-03-01-route-planning-under-constraints.md
+        - LAB-03-02 — A Game Agent and a Timetable Solver: modules/M03-problem-solving-and-search-algorithms/labs/lab-03-02-game-agent-and-timetable-solver.md
+    - M04 — Knowledge Representation and Logical Reasoning:
+      - Overview: modules/M04-knowledge-representation-and-logical-reasoning/README.md
+      - Lessons:
+        - L04-01 — Knowledge Representation and Knowledge-Based Systems: modules/M04-knowledge-representation-and-logical-reasoning/lessons/L04-01-knowledge-representation-fundamentals.md
+        - 'L04-02 — Propositional Logic: Syntax, Operators and Truth Tables': modules/M04-knowledge-representation-and-logical-reasoning/lessons/L04-02-propositional-logic.md
+        - L04-03 — Inference Rules and Logical Equivalence: modules/M04-knowledge-representation-and-logical-reasoning/lessons/L04-03-inference-rules-and-equivalence.md
+        - 'L04-04 — First-Order Logic: Predicates, Terms and Quantifiers': modules/M04-knowledge-representation-and-logical-reasoning/lessons/L04-04-first-order-logic-and-quantifiers.md
+        - L04-05 — Unification, Forward Chaining and Backward Chaining: modules/M04-knowledge-representation-and-logical-reasoning/lessons/L04-05-unification-and-chaining.md
+        - L04-06 — Resolution and Automated Reasoning: modules/M04-knowledge-representation-and-logical-reasoning/lessons/L04-06-resolution-and-automated-reasoning.md
+        - L04-07 — Semantic Networks, Frames, Ontologies and Expert Systems: modules/M04-knowledge-representation-and-logical-reasoning/lessons/L04-07-rule-based-and-expert-systems.md
+      - Laboratories:
+        - LAB-04-01 — Rule-Based Expert System: modules/M04-knowledge-representation-and-logical-reasoning/labs/lab-04-01-rule-based-expert-system.md
+        - LAB-04-02 — Logic-Based Reasoning and Inference: modules/M04-knowledge-representation-and-logical-reasoning/labs/lab-04-02-logic-based-reasoning-and-inference.md
+        - LAB-04-03 — Bayesian and Knowledge-Based Decision Support: modules/M04-knowledge-representation-and-logical-reasoning/labs/lab-04-03-bayesian-and-knowledge-based-decision-support.md
+      - Project: modules/M04-knowledge-representation-and-logical-reasoning/projects/project-04-01-intelligent-university-advisory-expert-system.md
+    - M05 — Uncertainty, Bayesian Reasoning and Fuzzy Logic:
+      - Overview: modules/M05-uncertainty-bayesian-reasoning-and-fuzzy-logic/README.md
+      - Lessons:
+        - L05-01 — Probability, Conditional Probability and Bayes' Theorem: modules/M05-uncertainty-bayesian-reasoning-and-fuzzy-logic/lessons/L05-01-probability-conditional-probability-and-bayes-theorem.md
+        - L05-02 — Bayesian Networks, Conditional Independence and Inference: modules/M05-uncertainty-bayesian-reasoning-and-fuzzy-logic/lessons/L05-02-bayesian-networks-independence-and-inference.md
+        - L05-03 — Naive Bayes and Text Classification: modules/M05-uncertainty-bayesian-reasoning-and-fuzzy-logic/lessons/L05-03-naive-bayes-and-text-classification.md
+        - L05-04 — Fuzzy Sets, Membership Functions and Fuzzy Operations: modules/M05-uncertainty-bayesian-reasoning-and-fuzzy-logic/lessons/L05-04-fuzzy-sets-membership-functions-and-operations.md
+        - 'L05-05 — Fuzzy Inference: Mamdani, Sugeno and Defuzzification': modules/M05-uncertainty-bayesian-reasoning-and-fuzzy-logic/lessons/L05-05-fuzzy-inference-mamdani-sugeno-and-defuzzification.md
+        - L05-06 — Variable Elimination and Factor Algebra: modules/M05-uncertainty-bayesian-reasoning-and-fuzzy-logic/lessons/L05-06-variable-elimination-and-factor-algebra.md
+      - Laboratories:
+        - LAB-05-01 — A Bayesian and Fuzzy Decision System: modules/M05-uncertainty-bayesian-reasoning-and-fuzzy-logic/labs/lab-05-01-bayesian-and-fuzzy-decision-system.md
+        - LAB-05-02 — Bayesian Network Inference and Intelligent Diagnosis: modules/M05-uncertainty-bayesian-reasoning-and-fuzzy-logic/labs/lab-05-02-bayesian-network-inference-and-diagnosis.md
+    - M06 — Machine Learning Fundamentals and Algorithms:
+      - Overview: modules/M06-machine-learning-fundamentals/README.md
+      - Lessons:
+        - L06-01 — What Machine Learning Is, and What It Is Not: modules/M06-machine-learning-fundamentals/lessons/L06-01-what-machine-learning-is.md
+        - L06-02 — Data Preparation, Splitting and Leakage: modules/M06-machine-learning-fundamentals/lessons/L06-02-data-splitting-leakage-and-cross-validation.md
+        - L06-03 — Linear Regression from First Principles: modules/M06-machine-learning-fundamentals/lessons/L06-03-linear-regression-from-first-principles.md
+        - L06-04 — Classification with Logistic Regression: modules/M06-machine-learning-fundamentals/lessons/L06-04-classification-with-logistic-regression.md
+        - 'L06-05 — Model Evaluation: Metrics, Confusion Matrices and ROC': modules/M06-machine-learning-fundamentals/lessons/L06-05-model-evaluation-metrics-and-roc.md
+        - L06-06 — Bias, Variance, Regularisation and Generalisation: modules/M06-machine-learning-fundamentals/lessons/L06-06-bias-variance-and-regularisation.md
+        - L06-07 — k-Nearest Neighbours and Naïve Bayes: modules/M06-machine-learning-fundamentals/lessons/L06-07-k-nearest-neighbours-and-naive-bayes.md
+        - L06-08 — Decision Trees, Random Forests, Gradient Boosting and SVMs: modules/M06-machine-learning-fundamentals/lessons/L06-08-trees-forests-boosting-and-svm.md
+        - 'L06-09 — Unsupervised Learning: k-Means, PCA and Dimensionality Reduction': modules/M06-machine-learning-fundamentals/lessons/L06-09-unsupervised-learning-and-dimensionality-reduction.md
+        - L06-10 — Building a Reproducible Machine-Learning Pipeline: modules/M06-machine-learning-fundamentals/lessons/L06-10-reproducible-ml-pipelines.md
+      - Laboratories:
+        - 'LAB-06-01 — Tabular Prediction End-to-End: Student Performance and House Prices': modules/M06-machine-learning-fundamentals/labs/lab-06-01-student-performance-prediction.md
+        - 'LAB-06-02 — Model Comparison Study: Email Spam and Loan Approval': modules/M06-machine-learning-fundamentals/labs/lab-06-02-model-comparison-spam-and-loans.md
+        - LAB-06-03 — Customer Segmentation and Employee Attrition: modules/M06-machine-learning-fundamentals/labs/lab-06-03-customer-segmentation-and-attrition.md
+        - LAB-06-04 — Intrusion, Fraud and the Leakage Hunt: modules/M06-machine-learning-fundamentals/labs/lab-06-04-intrusion-fraud-and-leakage.md
+      - Summary: modules/M06-machine-learning-fundamentals/summary.md
+      - Assignment: modules/M06-machine-learning-fundamentals/assignments/asg-06-complete-ml-pipeline.md
+      - Project: modules/M06-machine-learning-fundamentals/projects/mp-06-prediction-challenge.md
+      - Quiz: modules/M06-machine-learning-fundamentals/quizzes/quiz-06.md
+    - M07 — Artificial Neural Networks and Deep Learning:
+      - Overview: modules/M07-neural-networks-and-deep-learning/README.md
+      - Lessons:
+        - L07-01 — From the Perceptron to the Multilayer Perceptron: modules/M07-neural-networks-and-deep-learning/lessons/L07-01-from-perceptron-to-mlp.md
+        - 'L07-02 — Backpropagation: The Mathematics of Learning': modules/M07-neural-networks-and-deep-learning/lessons/L07-02-backpropagation-the-mathematics-of-learning.md
+        - 'L07-03 — Training in Practice: Frameworks, Optimisers and Learning Rates': modules/M07-neural-networks-and-deep-learning/lessons/L07-03-training-in-practice.md
+        - L07-04 — Regularisation, Dropout and Diagnosing a Deep Network: modules/M07-neural-networks-and-deep-learning/lessons/L07-04-regularisation-and-diagnosis.md
+        - L07-05 — Convolutional Neural Networks: modules/M07-neural-networks-and-deep-learning/lessons/L07-05-convolutional-neural-networks.md
+        - 'L07-06 — Sequence Models: RNN, LSTM and GRU': modules/M07-neural-networks-and-deep-learning/lessons/L07-06-sequence-models-rnn-lstm-gru.md
+        - L07-07 — Attention Mechanisms and the Transformer: modules/M07-neural-networks-and-deep-learning/lessons/L07-07-attention-and-transformers.md
+        - L07-08 — Transfer Learning, Fine-Tuning and Autoencoders: modules/M07-neural-networks-and-deep-learning/lessons/L07-08-transfer-learning-and-autoencoders.md
+      - Laboratories:
+        - 'LAB-07-01 — A Neural Network From Scratch: Logic Gates and Backpropagation': modules/M07-neural-networks-and-deep-learning/labs/lab-07-01-neural-network-from-scratch.md
+        - 'LAB-07-02 — Image Classifiers: Digits, Fashion and Plant Disease': modules/M07-neural-networks-and-deep-learning/labs/lab-07-02-digital-fashion-and-plant-classifiers.md
+        - LAB-07-03 — Sentiment, Forecasting and Transfer Learning: modules/M07-neural-networks-and-deep-learning/labs/lab-07-03-sentiment-forecasting-and-transfer.md
+      - Summary: modules/M07-neural-networks-and-deep-learning/summary.md
+      - Assignment: modules/M07-neural-networks-and-deep-learning/assignments/asg-07-ablation-study.md
+      - Project: modules/M07-neural-networks-and-deep-learning/projects/mp-07-image-classifier-sprint.md
+      - Quiz: modules/M07-neural-networks-and-deep-learning/quizzes/quiz-07.md
+    - M08 — Natural Language Processing:
+      - Overview: modules/M08-natural-language-processing/README.md
+      - Lessons:
+        - L08-01 — Introduction to NLP and the Text Pipeline: modules/M08-natural-language-processing/lessons/L08-01-introduction-to-nlp-and-the-text-pipeline.md
+        - L08-02 — Preprocessing, Tokenization, Stemming and Lemmatization: modules/M08-natural-language-processing/lessons/L08-02-preprocessing-tokenization-stemming-lemmatization.md
+        - L08-03 — Bag of Words, N-grams and TF-IDF: modules/M08-natural-language-processing/lessons/L08-03-bag-of-words-ngrams-and-tfidf.md
+        - L08-04 — Word Embeddings, Word2Vec and Semantic Similarity: modules/M08-natural-language-processing/lessons/L08-04-word-embeddings-word2vec-and-similarity.md
+        - L08-05 — Text Classification, Sentiment Analysis and Named Entity Recognition: modules/M08-natural-language-processing/lessons/L08-05-text-classification-sentiment-and-ner.md
+        - L08-06 — Sequence Models, Attention and Transformer Foundations: modules/M08-natural-language-processing/lessons/L08-06-sequence-models-attention-and-transformers.md
+      - Laboratories:
+        - LAB-08-01 — Text Preprocessing and Feature Extraction: modules/M08-natural-language-processing/labs/lab-08-01-text-preprocessing-and-feature-extraction.md
+        - LAB-08-02 — News and Document Classification: modules/M08-natural-language-processing/labs/lab-08-02-news-and-document-classification.md
+        - LAB-08-03 — Urdu and English Sentiment Analysis and Named Entity Recognition: modules/M08-natural-language-processing/labs/lab-08-03-urdu-and-english-sentiment-and-ner.md
+    - M09 — Computer Vision:
+      - Overview: modules/M09-computer-vision/README.md
+      - Lessons:
+        - L09-01 — Introduction to Computer Vision: modules/M09-computer-vision/lessons/L09-01-introduction-to-computer-vision.md
+        - L09-02 — Image Processing and Feature Extraction: modules/M09-computer-vision/lessons/L09-02-image-processing-and-feature-extraction.md
+        - L09-03 — Image Classification and CNNs: modules/M09-computer-vision/lessons/L09-03-image-classification-and-cnns.md
+        - L09-04 — Object Detection: modules/M09-computer-vision/lessons/L09-04-object-detection.md
+        - L09-05 — Image Segmentation: modules/M09-computer-vision/lessons/L09-05-image-segmentation.md
+        - L09-06 — Advanced Computer Vision: modules/M09-computer-vision/lessons/L09-06-advanced-computer-vision.md
+      - Laboratories:
+        - LAB-09-01 — Image Processing and Feature Extraction: modules/M09-computer-vision/labs/lab-09-01-image-processing-and-feature-extraction.md
+        - LAB-09-02 — Image Classification Using CNNs: modules/M09-computer-vision/labs/lab-09-02-image-classification-with-cnns.md
+        - LAB-09-03 — Object Detection: modules/M09-computer-vision/labs/lab-09-03-object-detection.md
+        - LAB-09-04 — Image Segmentation Using U-Net: modules/M09-computer-vision/labs/lab-09-04-image-segmentation-with-unet.md
+    - M10 — Reinforcement Learning:
+      - Overview: modules/M10-reinforcement-learning/README.md
+      - Lessons:
+        - L10-01 — Foundations of Reinforcement Learning: modules/M10-reinforcement-learning/lessons/L10-01-foundations-of-reinforcement-learning.md
+        - L10-02 — Value-Based Reinforcement Learning: modules/M10-reinforcement-learning/lessons/L10-02-value-based-reinforcement-learning.md
+        - L10-03 — Temporal Difference Learning: modules/M10-reinforcement-learning/lessons/L10-03-temporal-difference-learning.md
+        - L10-04 — Deep Reinforcement Learning: modules/M10-reinforcement-learning/lessons/L10-04-deep-reinforcement-learning.md
+        - L10-05 — Advanced Reinforcement Learning: modules/M10-reinforcement-learning/lessons/L10-05-advanced-reinforcement-learning.md
+      - Laboratories:
+        - LAB-10-01 — Grid-World Navigation Using Q-Learning: modules/M10-reinforcement-learning/labs/lab-10-01-grid-world-navigation-using-q-learning.md
+        - LAB-10-02 — Compare SARSA and Q-Learning: modules/M10-reinforcement-learning/labs/lab-10-02-compare-sarsa-and-q-learning.md
+        - LAB-10-03 — CartPole Using Deep Q-Networks: modules/M10-reinforcement-learning/labs/lab-10-03-cartpole-with-deep-q-networks.md
+        - LAB-10-04 — Policy-Based Learning and PPO Introduction: modules/M10-reinforcement-learning/labs/lab-10-04-policy-based-learning-and-ppo-introduction.md
+      - Project: modules/M10-reinforcement-learning/projects/mp-10-inventory-control-agent.md
+    - M11 — Generative AI and Large Language Models:
+      - Overview: modules/M11-generative-ai-and-large-language-models/README.md
+      - Lessons:
+        - L11-01 — The Generative Modelling Landscape: modules/M11-generative-ai-and-large-language-models/lessons/L11-01-the-generative-modelling-landscape.md
+        - 'L11-02 — Inside a Large Language Model: Tokens, Attention, Next-Token Prediction': modules/M11-generative-ai-and-large-language-models/lessons/L11-02-inside-a-large-language-model.md
+        - L11-03 — Pretraining, Instruction Tuning and Preference Alignment: modules/M11-generative-ai-and-large-language-models/lessons/L11-03-pretraining-instruction-tuning-and-alignment.md
+        - L11-04 — Prompt Engineering and In-Context Learning: modules/M11-generative-ai-and-large-language-models/lessons/L11-04-prompt-engineering-and-in-context-learning.md
+        - L11-05 — Retrieval-Augmented Generation: modules/M11-generative-ai-and-large-language-models/lessons/L11-05-retrieval-augmented-generation.md
+        - L11-06 — Fine-Tuning and Parameter-Efficient Adaptation: modules/M11-generative-ai-and-large-language-models/lessons/L11-06-fine-tuning-and-parameter-efficient-adaptation.md
+        - 'L11-07 — Evaluating LLM Systems: Quality, Hallucination, Cost and Safety': modules/M11-generative-ai-and-large-language-models/lessons/L11-07-evaluating-llm-systems.md
+      - Laboratories:
+        - LAB-11-01 — Prompt Engineering Laboratory: modules/M11-generative-ai-and-large-language-models/labs/lab-11-01-prompt-engineering-laboratory.md
+        - LAB-11-02 — Build a Retrieval-Augmented Assistant: modules/M11-generative-ai-and-large-language-models/labs/lab-11-02-build-a-retrieval-augmented-assistant.md
+        - LAB-11-03 — An Evaluation Harness for LLM Systems: modules/M11-generative-ai-and-large-language-models/labs/lab-11-03-evaluation-harness.md
+      - Summary: modules/M11-generative-ai-and-large-language-models/summary.md
+      - Assignment: modules/M11-generative-ai-and-large-language-models/assignments/asg-11-rag-evaluation-report.md
+      - Project: modules/M11-generative-ai-and-large-language-models/projects/mp-11-domain-qa-assistant.md
+      - Quiz: modules/M11-generative-ai-and-large-language-models/quizzes/quiz-11.md
+    - M12 — AI Agents and Agentic AI Systems:
+      - Overview: modules/M12-ai-agents-and-agentic-systems/README.md
+      - Lessons:
+        - L12-01 — Foundations and Architecture of AI Agents: modules/M12-ai-agents-and-agentic-systems/lessons/L12-01-foundations-and-architecture-of-ai-agents.md
+        - L12-02 — LLM Agents, Tool Calling and Structured Outputs: modules/M12-ai-agents-and-agentic-systems/lessons/L12-02-llm-agents-tool-calling-and-structured-outputs.md
+        - L12-03 — Planning, Memory and Workflow Orchestration: modules/M12-ai-agents-and-agentic-systems/lessons/L12-03-planning-memory-and-workflow-orchestration.md
+        - L12-04 — Agent Frameworks and Practical Implementation: modules/M12-ai-agents-and-agentic-systems/lessons/L12-04-agent-frameworks-and-practical-implementation.md
+        - L12-05 — Multi-Agent Systems and Collaboration: modules/M12-ai-agents-and-agentic-systems/lessons/L12-05-multi-agent-systems-and-collaboration.md
+        - L12-06 — MCP, Agent Security, Evaluation and Reliable Execution: modules/M12-ai-agents-and-agentic-systems/lessons/L12-06-mcp-security-evaluation-and-reliable-execution.md
+      - Laboratories:
+        - LAB-12-01 — A Tool-Using Support Agent: modules/M12-ai-agents-and-agentic-systems/labs/lab-12-01-tool-using-agent.md
+        - LAB-12-02 — Agent Security and Evaluation: modules/M12-ai-agents-and-agentic-systems/labs/lab-12-02-agent-security-and-evaluation.md
+      - Project: modules/M12-ai-agents-and-agentic-systems/projects/mp-12-multi-tool-agent.md
+    - M13 — Responsible, Explainable and Secure AI:
+      - Overview: modules/M13-responsible-explainable-secure-ai/README.md
+      - Lessons:
+        - L13-01 — Responsible AI, Fairness and Bias: modules/M13-responsible-explainable-secure-ai/lessons/L13-01-responsible-ai-fairness-and-bias.md
+        - 'L13-02 — Explainability: From Importance to Counterfactuals': modules/M13-responsible-explainable-secure-ai/lessons/L13-02-explainability-from-importance-to-counterfactuals.md
+        - L13-03 — Privacy, Memorisation and Model Attacks: modules/M13-responsible-explainable-secure-ai/lessons/L13-03-privacy-memorisation-and-model-attacks.md
+        - 'L13-04 — Security: Adversarial Examples and Prompt Injection': modules/M13-responsible-explainable-secure-ai/lessons/L13-04-security-adversarial-examples-and-prompt-injection.md
+        - L13-05 — Governance, Risk and the AI Lifecycle: modules/M13-responsible-explainable-secure-ai/lessons/L13-05-governance-risk-and-the-ai-lifecycle.md
+        - L13-06 — Auditing and Responsible Deployment: modules/M13-responsible-explainable-secure-ai/lessons/L13-06-auditing-and-responsible-deployment.md
+      - Laboratories:
+        - LAB-13-01 — Fairness Audit of Three Models: modules/M13-responsible-explainable-secure-ai/labs/lab-13-01-fairness-audit.md
+        - LAB-13-02 — Security and Prompt-Injection Testing: modules/M13-responsible-explainable-secure-ai/labs/lab-13-02-security-and-prompt-injection-testing.md
+      - Summary: modules/M13-responsible-explainable-secure-ai/summary.md
+      - Assignment: modules/M13-responsible-explainable-secure-ai/assignments/asg-13-model-card-and-audit-report.md
+      - Project: modules/M13-responsible-explainable-secure-ai/projects/mp-13-ethics-review-board.md
+      - Quiz: modules/M13-responsible-explainable-secure-ai/quizzes/quiz-13.md
+    - M14 — Advanced AI Applications and Capstone Projects:
+      - Overview: modules/M14-advanced-ai-applications-and-capstone/README.md
+      - Lessons:
+        - 'L14-01 — AI in Practice: Case Studies, Hybrid and Neuro-Symbolic Systems': modules/M14-advanced-ai-applications-and-capstone/lessons/L14-01-ai-in-practice-case-studies-and-hybrid-systems.md
+        - 'L14-02 — From Model to Product: Serving, Compression and MLOps': modules/M14-advanced-ai-applications-and-capstone/lessons/L14-02-from-model-to-product-mlops-and-serving.md
+        - L14-03 — Monitoring, Drift and Continuous Evaluation: modules/M14-advanced-ai-applications-and-capstone/lessons/L14-03-monitoring-drift-and-continuous-evaluation.md
+        - L14-04 — Reading and Reproducing AI Research: modules/M14-advanced-ai-applications-and-capstone/lessons/L14-04-reading-and-reproducing-ai-research.md
+        - 'L14-05 — Capstone Studio: Scoping, Milestones and Defence': modules/M14-advanced-ai-applications-and-capstone/lessons/L14-05-capstone-studio.md
+      - Laboratories:
+        - LAB-14-01 — Multimodal and Graph Systems: modules/M14-advanced-ai-applications-and-capstone/labs/lab-14-01-multimodal-and-graph-systems.md
+        - 'LAB-14-02 — Efficient Serving: Compression, Latency and Drift': modules/M14-advanced-ai-applications-and-capstone/labs/lab-14-02-efficient-serving.md
+      - Summary: modules/M14-advanced-ai-applications-and-capstone/summary.md
+      - Assignment: modules/M14-advanced-ai-applications-and-capstone/assignments/asg-14-capstone-proposal.md
+      - Quiz: modules/M14-advanced-ai-applications-and-capstone/quizzes/quiz-14.md
+      - Capstone studio: modules/M14-advanced-ai-applications-and-capstone/capstone/README.md
+  - Laboratories: laboratories.md
+  - Assignments: assignments.md
+  - Projects and Capstones: projects-and-capstones.md
+  - Quizzes and Self-Assessment: quizzes-and-self-assessment.md
+  - Resources:
+    - Overview: resources/README.md
+    - Glossary: resources/glossary.md
+    - Detailed Glossary: resources/glossary/README.md
+    - Concept Maps: docs/CONCEPT-MAPS.md
+    - Books: resources/books.md
+    - Documentation: resources/documentation.md
+    - Research Papers: resources/research-papers.md
+    - Curriculum Map: docs/CURRICULUM-MAP.md
+  - FAQ: docs/faq.md
+  - Licensing: licensing.md
+  - About the Instructor:
+    - Instructor: about-instructor.md
+    - About the Course: docs/about.md

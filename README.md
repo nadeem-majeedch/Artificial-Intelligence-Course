@@ -14,8 +14,16 @@ Professor
 Department of Data Science (PUCIT)  
 University of the Punjab, Lahore, Pakistan.
 
-**Start here:** [Learning paths](docs/learning-path.md) · [Prerequisites](prerequisites/README.md) ·
+- **Live course website:** <https://nadeem-majeedch.github.io/Artificial-Intelligence-Course/>
+- **Repository:** <https://github.com/nadeem-majeedch/Artificial-Intelligence-Course>
+
+**Start here:** [Course website](https://nadeem-majeedch.github.io/Artificial-Intelligence-Course/) ·
+[Learning paths](docs/learning-path.md) · [Prerequisites](prerequisites/README.md) ·
 [All modules](modules/README.md) · [FAQ](docs/faq.md)
+
+The website and this repository use the same Markdown source. Use the website for searchable
+navigation and reading; use the repository for source files, notebooks, starter code and issue
+reporting.
 
 ---
 

@@ -23,6 +23,12 @@ htmlcov/
 *.nbconvert.ipynb
 _*.log
 
+# Generated website build and staging trees
+site/
+.site-build/
+.venv-site/
+.cache/
+
 # Local virtual environments
 .venv/
 venv/
