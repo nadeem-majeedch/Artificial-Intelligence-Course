@@ -39,7 +39,7 @@ jobs:
         run: python scripts/stage_site.py
 
       - name: Build the website in strict mode
-        run: mkdocs build --strict
+        run: python -m mkdocs build --strict
 
       - name: Check required pages, links and project-site base path
         run: python scripts/check_site.py
