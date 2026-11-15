@@ -2,10 +2,10 @@
 
 | Level | 400 |
 | :--- | :--- |
-| Study time | 24 hours |
+| Study time | 23.3 hours — guided 7.0 · practical 8.5 · assessment 5.8 · project 2.0 |
 | Lessons | 7 |
 | Course outcome | CLO7 — build, evaluate and reason about generative and retrieval systems |
-| Prerequisites | M07 (attention, essential), P04 (recommended). M08 is in the syllabus, but its lessons are not published; the NLP you actually need — tokenisation, embeddings, BM25 — is taught in L11-02 and L11-05 |
+| Prerequisites | M07 (attention, essential), P04 and M08 (recommended). The NLP you actually need — tokenisation, embeddings, BM25 — is also taught in L11-02 and L11-05 |
 
 [Course home](../../README.md) · [All modules](../README.md) · [Previous module: M10](../README.md#m10) · [Next module: M12](../README.md#m12)
 
@@ -58,7 +58,7 @@ or downloaded by name from the Hugging Face hub on first use.
 | `distilbert-base-uncased-finetuned-sst-2-english` | Apache-2.0 | 67M parameters, sentiment baseline |
 | The Northfield handbook (24 documents) | **CC0-1.0** | authored for this module; fictional institution |
 | QA set, unanswerable set, sentiment set | **CC0-1.0** | authored for this module |
-| scikit-learn `load_digits` | public-domain UCI data | 1,797 8×8 images, bundled with scikit-learn |
+| scikit-learn `load_digits` | **CC BY 4.0** (UCI dataset); BSD-3-Clause loader | 1,797 8×8 images, loaded at runtime; not redistributed |
 
 **Check licences before redistribution.** Apache-2.0 weights may be redistributed with
 attribution; the CC0 corpus here may be used freely. A model's licence is separate from its
@@ -103,8 +103,7 @@ pip install faiss-cpu rank_bm25 pypdf streamlit
 | QUIZ-11 | Module self-check | Quiz | 30 m | [Take](quizzes/quiz-11.md) |
 | MP-11 | Domain Question-Answering Assistant | Mini-project | 2 h | [Start](projects/mp-11-domain-qa-assistant.md) |
 
-Total: 10.5 h lessons + 2 h notebooks + 7.5 h labs + 1.5 h assignment + 0.5 h quiz + 2 h
-mini-project = **24 hours**.
+**Total published:** 7.0 h guided study + 8.5 h practical + 5.8 h assessment + 2.0 h mini-project = **23.3 hours**.
 
 Supporting code lives in [`code/`](code/):
 
@@ -201,3 +200,7 @@ All are defined in the [glossary](../../resources/glossary.md). The one-page rec
 
 [Course home](../../README.md) · [All modules](../README.md) · [Previous: M10](../README.md#m10) ·
 [Next module: M12](../README.md#m12)
+
+## Assignment
+
+[PA-11 — A Small Generative Model, Sampled Three Ways](../../assessments/programming/pa-11-generative-ai.md)

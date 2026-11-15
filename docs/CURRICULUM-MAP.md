@@ -31,8 +31,8 @@ or project.
 | Track | Sections | Lessons | Hours |
 | :--- | :--- | ---: | ---: |
 | Prerequisites P01–P04 | 4 | 21 | ≈ 56 |
-| Modules M01–M14 | 14 | 93 | ≈ 318 |
-| **Total** | **18** | **114** | **≈ 374** |
+| Modules M01–M14 | 14 | 93 | 350.7 |
+| **Total** | **18** | **114** | **406.7** |
 
 Artifact counts across the full course:
 
@@ -51,26 +51,54 @@ Artifact counts across the full course:
 `Level` is the depth of assumed background: 100 = no AI background, 200 = programming plus basic
 mathematics, 300 = probability and linear algebra fluency, 400 = the preceding module chain.
 `AIMA` refers to *Artificial Intelligence: A Modern Approach*, 4th edition (Russell & Norvig).
-Hours are total student effort — lessons, notebooks, labs, assignments, quizzes and mini-projects —
-not contact hours. They are estimates for planning, not deadlines.
+Hours are total student effort — guided study, practical work, assessment and project work — not
+contact hours. They are estimates for planning, not deadlines. The calculation method is in §3.1.
 
 | ID | Module | Level | Lessons | Labs | NB | Asg | Quiz | MP | Hours | AIMA ch. |
 | :--- | :--- | :--- | ---: | ---: | ---: | ---: | :-: | :-: | ---: | :--- |
-| M01 | Introduction and Foundations of AI | 100 | 5 | 1 | 1 | — | ✓ | ✓ | 10 | 1 |
-| M02 | Intelligent Agents and Environments | 200 | 5 | 2 | 2 | 1 | ✓ | ✓ | 18 | 2 |
-| M03 | Problem Solving and Search Algorithms | 200 | 8 | 3 | 3 | 1 | ✓ | ✓ | 26 | 3–6 |
-| M04 | Knowledge Representation and Logical Reasoning | 200 | 7 | 2 | 2 | 1 | ✓ | ✓ | 21 | 7–10 |
-| M05 | Uncertainty, Bayesian Reasoning and Fuzzy Logic | 300 | 7 | 3 | 3 | 1 | ✓ | ✓ | 24 | 12–16 |
-| M06 | Machine Learning Fundamentals and Algorithms | 300 | 10 | 4 | 4 | 1 | ✓ | ✓ | 31 | 19–20 |
-| M07 | Artificial Neural Networks and Deep Learning | 300 | 8 | 3 | 3 | 1 | ✓ | ✓ | 27 | 21 |
-| M08 | Natural Language Processing | 300 | 6 | 2 | 2 | 1 | ✓ | ✓ | 22 | 23–24 |
-| M09 | Computer Vision | 300 | 6 | 2 | 2 | 1 | ✓ | ✓ | 22 | 25 |
-| M10 | Reinforcement Learning | 400 | 7 | 3 | 3 | 1 | ✓ | ✓ | 25 | 22 |
-| M11 | Generative AI and Large Language Models | 400 | 7 | 3 | 2 | 1 | ✓ | ✓ | 24 | 24 + current literature |
-| M12 | AI Agents and Agentic AI Systems | 400 | 6 | 2 | 1 | 1 | ✓ | ✓ | 19 | — (current literature) |
-| M13 | Responsible, Explainable and Secure AI | 300 | 6 | 2 | 1 | 1 | ✓ | ✓ | 19 | 27 |
-| M14 | Advanced AI Applications and Capstone Projects | 400 | 5 | — | — | 1 | ✓ | — | 30 | 26–28 |
-| | **Totals** | | **93** | **32** | **29** | **13** | **14** | **13** | **318** | |
+| M01 | Introduction and Foundations of AI | 100 | 5 | 1 | 1 | — | ✓ | ✓ | 12.8 | 1 |
+| M02 | Intelligent Agents and Environments | 200 | 5 | 2 | 2 | 1 | ✓ | ✓ | 17.9 | 2 |
+| M03 | Problem Solving and Search Algorithms | 200 | 8 | 3 | 3 | 1 | ✓ | ✓ | 19.9 | 3–6 |
+| M04 | Knowledge Representation and Logical Reasoning | 200 | 7 | 2 | 2 | 1 | ✓ | ✓ | 31.6 | 7–10 |
+| M05 | Uncertainty, Bayesian Reasoning and Fuzzy Logic | 300 | 7 | 3 | 3 | 1 | ✓ | ✓ | 20.6 | 12–16 |
+| M06 | Machine Learning Fundamentals and Algorithms | 300 | 10 | 4 | 4 | 1 | ✓ | ✓ | 31.4 | 19–20 |
+| M07 | Artificial Neural Networks and Deep Learning | 300 | 8 | 3 | 3 | 1 | ✓ | ✓ | 24.9 | 21 |
+| M08 | Natural Language Processing | 300 | 6 | 2 | 2 | 1 | ✓ | ✓ | 24.3 | 23–24 |
+| M09 | Computer Vision | 300 | 6 | 2 | 2 | 1 | ✓ | ✓ | 26.8 | 25 |
+| M10 | Reinforcement Learning | 400 | 7 | 3 | 3 | 1 | ✓ | ✓ | 34.1 | 22 |
+| M11 | Generative AI and Large Language Models | 400 | 7 | 3 | 2 | 1 | ✓ | ✓ | 23.3 | 24 + current literature |
+| M12 | AI Agents and Agentic AI Systems | 400 | 6 | 2 | 1 | 1 | ✓ | ✓ | 27.8 | — (current literature) |
+| M13 | Responsible, Explainable and Secure AI | 300 | 6 | 2 | 1 | 1 | ✓ | ✓ | 22.4 | 27 |
+| M14 | Advanced AI Applications and Capstone Projects | 400 | 5 | — | — | 1 | ✓ | — | 32.9 | 26–28 |
+| | **Totals** | | **93** | **32** | **29** | **13** | **14** | **13** | **350.7** | |
+
+### 3.1 How the hour totals are calculated
+
+One method, used by every table in this repository:
+
+1. **Unit.** One hour is one hour of total student effort at the stated level, not a
+   fifty-minute contact hour. Contact hours are not tracked, because the course is self-study
+   and no timetable exists.
+2. **Four components.** Each module page publishes its own breakdown: **guided** (lesson
+   reading plus the worked examples), **practical** (labs, coding exercises and hands-on
+   notebook work), **assessment** (quizzes, assignments and self-assessment) and **project**
+   (mini-project or capstone work). A module total is the sum of those four numbers.
+3. **Module total.** Sum of the published components on that module's page. Totals below are
+   the exact published values, which is why they carry one decimal.
+4. **Programme total.** Prerequisite sections (P01 14 + P02 24 + P03 10 + P04 8 = 56 h) plus
+   all fourteen module totals (350.7 h) = **406.7 h**.
+5. **Study paths.** A path total is the sum of the full module totals it includes, plus an
+   explicit share of the prerequisite sections. The core path takes P01 in full (14 h) and
+   50% of P02–P04 (21 h) as a planning assumption for "the essentials"; that assumption is
+   stated because the repository does not record per-lesson prerequisite hours. Reusing a
+   different share changes the core-path total, not the module totals.
+6. **Rounding.** Module and component figures are exact to one decimal. Path and programme
+   totals are rounded to the nearest hour for display; the unrounded total is quoted in §7.
+
+No hours are double-counted: a lab's time sits in `practical`, its report mark in `assessment`,
+and project time only in `project`. The earlier design budgets (318 h for modules, 374 h total)
+were estimates made before the labs and projects were written; they are superseded by the
+measured figures above and are no longer used anywhere in the course.
 
 ## 4. Prerequisite track (P01–P04)
 
@@ -430,13 +458,27 @@ is last.
 
 | Path | Composition | Effort |
 | :--- | :--- | ---: |
-| **Core (one semester, 3 credits)** | P01 + essentials of P02–P04 → M01–M06 | ≈ 165 h |
-| **Core plus deep learning** | Core → M07 | ≈ 192 h |
-| **Full programme (two semesters)** | All prerequisites and all 14 modules | ≈ 374 h |
-| **Specialisation: NLP & Generative AI** | Core + M07 → M08 → M11 → M12 | ≈ 257 h |
-| **Specialisation: Vision** | Core + M07 → M09 → full M13 | ≈ 223 h |
-| **Specialisation: Decision systems** | Core + M07 → M10 → M12 | ≈ 236 h |
-| **Responsible AI emphasis** | Core + M07 → full M13 → M12 → M11 | ≈ 244 h |
+| **Core (one semester, 3 credits)** | P01 + essentials of P02–P04 → M01–M06 | ≈ 169 h |
+| **Core plus deep learning** | Core → M07 | ≈ 194 h |
+| **Full programme (two semesters)** | All prerequisites and all 14 modules | ≈ 407 h |
+| **Specialisation: NLP & Generative AI** | Core + M07 → M08 → M11 → M12 | ≈ 270 h |
+| **Specialisation: Vision** | Core + M07 → M09 → full M13 | ≈ 243 h |
+| **Specialisation: Decision systems** | Core + M07 → M10 → M12 | ≈ 256 h |
+| **Responsible AI emphasis** | Core + M07 → full M13 → M12 → M11 | ≈ 268 h |
+
+**How each path total is obtained** (same method as §3.1):
+
+- Core = P01 14 + 50% of P02–P04 21 + M01–M06 (12.8 + 17.9 + 19.9 + 31.6 + 20.6 + 31.4
+  = 134.2) = **169.2 h**.
+- Core plus deep learning = 169.2 + M07 24.9 = **194.1 h**.
+- Full programme = prerequisites 56 + modules 350.7 = **406.7 h**.
+- NLP & Generative AI = 194.1 + M08 24.3 + M11 23.3 + M12 27.8 = **269.5 h**.
+- Vision = 194.1 + M09 26.8 + M13 22.4 = **243.3 h**.
+- Decision systems = 194.1 + M10 34.1 + M12 27.8 = **256.0 h**.
+- Responsible AI = 194.1 + M13 22.4 + M12 27.8 + M11 23.3 = **267.6 h**.
+
+Every module total in this table is the published figure on that module's page. Nothing here is
+a design estimate, and no figure depends on the retired 318/374 budgets.
 
 The core path is defined by the *(essential)* markers in §4 and by the modules listed above.
 Students following the core path should be told plainly which lessons they are skipping and what

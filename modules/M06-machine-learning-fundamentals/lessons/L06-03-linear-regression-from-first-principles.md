@@ -1,6 +1,6 @@
 # L06-03 — Linear Regression from First Principles
 
-[← Previous: ? Lesson](L06-02-data-splitting-leakage-and-cross-validation.md) · [Module home](../README.md) · [Next: ? Lesson →](L06-04-classification-with-logistic-regression.md)
+[← Previous: L06-02](L06-02-data-splitting-leakage-and-cross-validation.md) · [Module home](../README.md) · [Next: L06-04 →](L06-04-classification-with-logistic-regression.md)
 
 ## On this page
 
@@ -410,4 +410,4 @@ degree 5: 125 columns train R2 0.651 test R2 -15.688
 
 ---
 
-**Navigation:** [← Previous: ? Lesson](L06-02-data-splitting-leakage-and-cross-validation.md) · [Module home](../README.md) · [Next: ? Lesson →](L06-04-classification-with-logistic-regression.md)
+**Navigation:** [← Previous: L06-02](L06-02-data-splitting-leakage-and-cross-validation.md) · [Module home](../README.md) · [Next: L06-04 →](L06-04-classification-with-logistic-regression.md)

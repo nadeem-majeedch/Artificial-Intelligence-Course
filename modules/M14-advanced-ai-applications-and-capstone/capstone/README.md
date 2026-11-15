@@ -1,6 +1,6 @@
 # Capstone Studio
 
-The capstone is most of M14: about 14 of its 30 hours. This directory holds everything except
+The capstone is most of M14: about 14 of its 32.9 hours. This directory holds everything except
 your own work.
 
 | File | What it is |

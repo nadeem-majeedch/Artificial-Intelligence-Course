@@ -2,7 +2,7 @@
 
 | Level | 300 |
 | :--- | :--- |
-| Study time | 27 hours |
+| Study time | 24.9 hours — guided 8.0 · practical 9.0 · assessment 5.9 · project 2.0 |
 | Lessons | 8 |
 | Course outcome | CLO6 — build, train, evaluate and debug a neural network, and explain why it works |
 | Prerequisites | P02 (matrices, gradients), M06 (essential) |
@@ -91,8 +91,7 @@ explain train/validation/test splits. The prerequisite lessons:
 | QUIZ-07 | Module self-check | Quiz | 30 m | [Take](quizzes/quiz-07.md) |
 | MP-07 | Image Classifier Sprint | Mini-project | 2 h | [Start](projects/mp-07-image-classifier-sprint.md) |
 
-Total: 12 h lessons + 3 h notebooks + 7.5 h labs + 2 h assignment + 0.5 h quiz + 2 h mini-project
-= **27 hours**.
+**Total published:** 8.0 h guided study + 9.0 h practical + 5.9 h assessment + 2.0 h mini-project = **24.9 hours**.
 
 Supporting code lives in [`code/`](code/):
 
@@ -168,3 +167,7 @@ All are defined in the [glossary](../../resources/glossary.md). The one-page rec
 
 [Course home](../../README.md) · [All modules](../README.md) ·
 [Prerequisites](../../prerequisites/README.md) · [Next module: M08](../README.md#m08)
+
+## Assignment
+
+[PA-07 — A Neural Network From Scratch, Then in PyTorch](../../assessments/programming/pa-07-neural-networks.md)

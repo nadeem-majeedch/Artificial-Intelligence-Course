@@ -193,3 +193,120 @@ disclosed rather than hidden.
 The repository is honest about its gaps once a student reaches a module page, and after this phase
 the learning paths no longer contradict the module pages. It is not complete, and no navigation
 fix could make it so: six modules still lack teaching content.
+
+---
+
+# Phase 21C re-test — 12 November 2026
+
+This section repeats all six student journeys from their documented entry points after the M02, M03,
+M05, M08 and M12 work. It supersedes the verdict in section 10 above; the earlier sections are kept
+unchanged as the record of the previous phase.
+
+## 11. What is actually published, module by module
+
+Measured from the files, not from the READMEs:
+
+| Module | Lessons | Labs | Notebooks | Quiz | Assignment | Self-assessment |
+| :--- | ---: | ---: | ---: | :--- | :--- | :--- |
+| M01 | 5 | 2 | 1 | yes | yes | yes |
+| M02 | 5 | 2 | 1 | yes | yes | yes |
+| M03 | 7 | 2 | 1 | yes | yes | yes |
+| M04 | 7 | **0** | 2 | yes | yes | yes |
+| M05 | 6 | 2 | 2 | yes | yes | yes |
+| M06 | 10 | 4 | 4 | yes | yes | yes |
+| M07 | 8 | 3 | 3 | yes | yes | yes |
+| M08 | 6 | 3 | 3 | yes | yes | yes |
+| M09 | **0** | 0 | 0 | yes | yes | yes |
+| M10 | **0** | 0 | 0 | yes | yes | yes |
+| M11 | 7 | 3 | 2 | yes | yes | yes |
+| M12 | 6 | 2 | 1 | yes | yes | yes |
+| M13 | 6 | 2 | 1 | yes | yes | yes |
+| M14 | 5 | 2 | 1 | yes | yes | yes |
+
+M10 publishes four reference modules (`rl_envs.py`, `dp.py`, `tabular.py`, `dqn.py`) and nothing else.
+M09 has no directory at all: it is a syllabus section inside `modules/README.md`, and its quiz,
+assignment and self-assessment sheet exist for a module a student cannot study. That is the single
+most misleading artefact left in the repository.
+
+## 12. The six journeys
+
+Each journey was started from the entry point named in `docs/learning-path.md` or
+`docs/entry-points.md`, followed link by link, and checked against what exists.
+
+**Journey 1 — basic programming to classical AI and machine learning.** Entry: [Path A](docs/learning-path.md)
+→ P01 → M01 → M02 → M03 → M04 → M05 → M06. Every module page loads, every listed lesson exists, and each
+module's notebook executes (see the regression report). The student can run a lab in M01, M02, M03, M05
+and M06 and sit every quiz. **One genuine break:** M04 has no labs and no mini-project, so the
+knowledge-representation stage is reading plus two notebooks and an assignment. The module page says so
+in its status note, which is why this is a warning rather than a failure.
+
+**Journey 2 — knows Python, weak mathematics.** Entry: [P02](prerequisites/P02-mathematics-for-ai/README.md)
+and [P03](prerequisites/P03-probability-and-statistics/README.md), then M01 → M02 → M03 → M05. The new
+[prerequisites/EXERCISES.md](prerequisites/EXERCISES.md) gives this student three graded exercises, a
+guided exercise and a challenge per topic with validation criteria and hints, so mathematics can be
+practised before it is used. Both prerequisite notebooks and all M05 notebooks execute. **No blocker.**
+
+**Journey 3 — knows machine learning, wants deep learning.** Entry: [Path B](docs/learning-path.md)
+→ M06 → M07 → M08 → M11. All four modules are complete; the three M07 notebooks and the two M11
+notebooks run on CPU with cached models (41 s and 70 s, the slowest in the suite). **No blocker.**
+
+**Journey 4 — build an LLM application.** Entry: [M08](modules/M08-natural-language-processing/README.md)
+→ [M11](modules/M11-generative-ai-and-large-language-models/README.md) → LAB-11-01. Six M08 lessons with
+three labs and three notebooks, seven M11 lessons with three labs and two notebooks. **No blocker**; the
+only warning is cost discipline — the paid-API path is optional and clearly separated.
+
+**Journey 5 — build an autonomous agent.** Entry: [M12](modules/M12-ai-agents-and-agentic-systems/README.md).
+This journey previously failed because M12 had no lessons. It now has six lessons, two labs, the
+integrated project and the new [NB-12-01](modules/M12-ai-agents-and-agentic-systems/notebooks/nb-12-01-agentic-ai-workbench.ipynb),
+which builds an agent loop, tool registry, memory, approval gate, evaluation harness, injection defence
+and a two-agent team in one run. **The journey completes.** The agent can also read M10 for
+reinforcement learning, but M10's lessons do not exist, and its page says so.
+
+**Journey 6 — complete beginner to classical AI problem solver.** Entry: [README](README.md) §"Start here"
+→ P01 → M01 → M02 → M03. M01 (5 lessons, 2 labs, notebook), M02 (5 lessons, 2 labs, notebook) and M03
+(7 lessons, 2 labs, notebook) are complete, and the M03 search workbench notebook exercises BFS, DFS,
+A\*, minimax and simulated annealing on small graphs. The student finishes with a working solver and a
+quiz to prove it. **No blocker.**
+
+## 13. Assessment availability
+
+14 quizzes with 14 worked answer keys in `assessments/solutions/`, 15 programming assignments and 15
+self-assessment sheets. Every module page links its own quiz, assignment and sheet. The M09 and M10
+assessment material exists ahead of the teaching material; a student who follows a link from the module
+index reaches a quiz for a module with no lessons. This is documented in the gap report, not fixed here.
+
+## 14. What changed in this phase
+
+1. `modules/M12-.../notebooks/nb-12-01-agentic-ai-workbench.ipynb` created and executed (new).
+2. `modules/M05-.../labs/lab-05-02-bayesian-network-inference-and-diagnosis.md` created (new).
+3. `prerequisites/EXERCISES.md` created and linked from `prerequisites/README.md`.
+4. 15 glossary entries added (35 named terms; 20 already defined) — `resources/glossary.md`.
+5. `modules/M12-.../code/multi_agent.py`: `build_team()` unpacking defect repaired.
+6. Stale status and count text corrected in `README.md`, `modules/README.md`, the M05 and M12 module
+   pages, and the M05 lesson that pointed at the wrong lab.
+7. `NOTEBOOK-REGRESSION-REPORT.md` created: 28 of 28 notebooks executed, 318.7 s total.
+
+## 15. Verdict
+
+**PASS WITH WARNINGS.**
+
+All six journeys can be started at their documented entry points and completed to their stated scope.
+Every notebook in the repository executes from a clean kernel, every internal link and anchor resolves,
+and the two classical-AI modules that were syllabus entries in the previous phase (M03, M05) now teach
+and assess their material.
+
+The warnings are real and are not navigation problems:
+
+- **M09 Computer Vision has no teaching content**, no module page and no directory, while its quiz,
+  assignment and self-assessment exist.
+- **M10 Reinforcement Learning has reference code but no lessons, labs or notebooks.**
+- **M04 has lessons and notebooks but no labs and no mini-project.**
+- **Study-hour figures differ between the module pages and the module index** for the modules whose
+  published subset is smaller than the module design (M02 14/18, M03 19/26, M05 12/24, M08 18/22,
+  M12 24/19). The pages label these as "published here", the index as module totals; the M12 pair is
+  the one that reads as a contradiction and is now annotated.
+- **Journey 5 depends on M12 alone**; the reinforcement-learning half of "autonomous agent" that the
+  decision-systems specialisation suggests (M10) remains unavailable.
+
+A student can complete any of the six journeys today. A student cannot complete the full programme as
+the curriculum map describes it, because two of the fourteen modules are not written.

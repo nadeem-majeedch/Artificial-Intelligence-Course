@@ -16,7 +16,7 @@
 - [2. Prerequisite Knowledge](#2-prerequisite-knowledge)
 - [3. Conceptual Explanation](#3-conceptual-explanation)
 - [4. Procedure: writing a derivation](#4-procedure-writing-a-derivation)
-- [5. Worked Example — a four-line proof](#5-worked-example--a-four-line-proof)
+- [5. Worked Example — a five-line proof](#5-worked-example--a-five-line-proof)
 - [6. Complexity](#6-complexity)
 - [7. Python Implementation — a proof engine with justifications](#7-python-implementation--a-proof-engine-with-justifications)
 - [8. Visual Explanation — forward versus backward](#8-visual-explanation--forward-versus-backward)
@@ -140,7 +140,7 @@ Both are sound. Neither is complete without loop checking on cyclic rules.
 
 Marks are lost for unlabelled steps. A derivation that reaches the right answer by an unnamed transformation is not a proof; it is a claim.
 
-## 5. Worked Example — a four-line proof
+## 5. Worked Example — a five-line proof
 
 Premises:
 

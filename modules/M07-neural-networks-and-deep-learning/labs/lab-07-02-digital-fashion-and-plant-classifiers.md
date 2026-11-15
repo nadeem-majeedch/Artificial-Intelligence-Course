@@ -28,7 +28,7 @@ misread digit on a cheque is expensive, so per-class recall matters more than ov
 
 - **In this lab:** `code/deep_data.digit_images(n=2400, size=8, seed=0)` — synthetic glyphs rendered
   from a built-in 7×5 bitmap font with jitter, intensity variation and noise. Generated in-script,
-  no licence restrictions, deterministic.
+  dedicated to CC0 1.0, deterministic.
 - **Real counterpart:** MNIST (LeCun, Cortes & Burges), **CC BY-SA 3.0**. Load the original IDX files
   with `code/deep_data.load_idx_images("train-images-idx3-ubyte.gz")`; the array convention
   `(n, 1, 28, 28)` in `[0, 1]` matches, so only the model's `image_size` and input width change.
@@ -214,3 +214,11 @@ Report all three, with the split sizes and seed, in one table.
 | Error analysis: confusion matrix and image inspection | 20% |
 | Grayscale/cue-dependence ablation and its interpretation | 20% |
 | Report and model card quality | 15% |
+
+## Starter material
+
+The guided notebook [`nb-07-02-pytorch-image-classification.ipynb`](../notebooks/nb-07-02-pytorch-image-classification.ipynb) works through the
+same pipeline end to end; use it when you are stuck, and cite what you
+changed rather than copying its outputs.
+
+Module reference code: [`../code/`](../code/).

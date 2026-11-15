@@ -1,6 +1,6 @@
 # L11-01 — The Generative Modelling Landscape
 
-[← Module start](../README.md) · [Next: ? Lesson →](L11-02-inside-a-large-language-model.md)
+[← Module start](../README.md) · [Next: L11-02 →](L11-02-inside-a-large-language-model.md)
 
 ## On this page
 
@@ -396,4 +396,4 @@ model**, **teacher forcing**, **perplexity**, **multimodal generation**.
 
 ---
 
-**Navigation:** [← Module start](../README.md) · [Next: ? Lesson →](L11-02-inside-a-large-language-model.md)
+**Navigation:** [← Module start](../README.md) · [Next: L11-02 →](L11-02-inside-a-large-language-model.md)

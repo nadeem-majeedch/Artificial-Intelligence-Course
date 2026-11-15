@@ -1,6 +1,6 @@
 # L06-09 — Unsupervised Learning: k-Means, PCA and Dimensionality Reduction
 
-[← Previous: ? Lesson](L06-08-trees-forests-boosting-and-svm.md) · [Module home](../README.md) · [Next: ? Lesson →](L06-10-reproducible-ml-pipelines.md)
+[← Previous: L06-08](L06-08-trees-forests-boosting-and-svm.md) · [Module home](../README.md) · [Next: L06-10 →](L06-10-reproducible-ml-pipelines.md)
 
 ## On this page
 
@@ -454,4 +454,4 @@ clustering**, **linkage**, **dendrogram**, **DBSCAN**, **core point**, **noise p
 
 ---
 
-**Navigation:** [← Previous: ? Lesson](L06-08-trees-forests-boosting-and-svm.md) · [Module home](../README.md) · [Next: ? Lesson →](L06-10-reproducible-ml-pipelines.md)
+**Navigation:** [← Previous: L06-08](L06-08-trees-forests-boosting-and-svm.md) · [Module home](../README.md) · [Next: L06-10 →](L06-10-reproducible-ml-pipelines.md)

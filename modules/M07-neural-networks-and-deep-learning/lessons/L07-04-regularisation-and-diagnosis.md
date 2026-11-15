@@ -1,6 +1,6 @@
 # L07-04 — Regularisation, Dropout and Diagnosing a Deep Network
 
-[← Previous: ? Lesson](L07-03-training-in-practice.md) · [Module home](../README.md) · [Next: ? Lesson →](L07-05-convolutional-neural-networks.md)
+[← Previous: L07-03](L07-03-training-in-practice.md) · [Module home](../README.md) · [Next: L07-05 →](L07-05-convolutional-neural-networks.md)
 
 ## On this page
 
@@ -361,4 +361,4 @@ normalisation**, **data augmentation**, **label smoothing**, **focal loss**, **a
 
 ---
 
-**Navigation:** [← Previous: ? Lesson](L07-03-training-in-practice.md) · [Module home](../README.md) · [Next: ? Lesson →](L07-05-convolutional-neural-networks.md)
+**Navigation:** [← Previous: L07-03](L07-03-training-in-practice.md) · [Module home](../README.md) · [Next: L07-05 →](L07-05-convolutional-neural-networks.md)

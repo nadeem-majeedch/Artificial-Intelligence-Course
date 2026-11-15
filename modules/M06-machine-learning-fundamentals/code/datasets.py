@@ -2,7 +2,7 @@
 
 Every generator is seeded and returns a pandas DataFrame with exactly the columns
 documented in DATASETS. The module exists so the module's lessons, notebooks and labs
-run offline, on any machine, with no downloads and no licence questions.
+run offline, on any machine, with no downloads and no third-party licensing questions.
 
 Each dataset mirrors the schema of a real public dataset named in DATASETS, so a
 student can swap in the real file (see the labs) without rewriting the code. The

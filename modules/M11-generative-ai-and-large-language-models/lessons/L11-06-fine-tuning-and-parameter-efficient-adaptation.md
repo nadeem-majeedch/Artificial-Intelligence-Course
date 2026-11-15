@@ -1,6 +1,6 @@
 # L11-06 — Fine-Tuning and Parameter-Efficient Adaptation
 
-[← Previous: ? Lesson](L11-05-retrieval-augmented-generation.md) · [Module home](../README.md) · [Next: ? Lesson →](L11-07-evaluating-llm-systems.md)
+[← Previous: L11-05](L11-05-retrieval-augmented-generation.md) · [Module home](../README.md) · [Next: L11-07 →](L11-07-evaluating-llm-systems.md)
 
 ## On this page
 
@@ -291,4 +291,4 @@ difference) and that `YAML`-free JSON metadata is saved alongside the adapter.
 
 ---
 
-**Navigation:** [← Previous: ? Lesson](L11-05-retrieval-augmented-generation.md) · [Module home](../README.md) · [Next: ? Lesson →](L11-07-evaluating-llm-systems.md)
+**Navigation:** [← Previous: L11-05](L11-05-retrieval-augmented-generation.md) · [Module home](../README.md) · [Next: L11-07 →](L11-07-evaluating-llm-systems.md)

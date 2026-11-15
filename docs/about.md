@@ -35,12 +35,14 @@ concept, worked examples, visuals, mathematics, code, applications, common mista
 self-assessment, further reading. Once you learn the structure, you always know where to look.
 
 **Runnable, not merely readable.** Every algorithm the course teaches is implemented in Python you
-can run, change and break. Notebooks execute on a CPU in under a minute, use no network access, and
-ship with their data.
+can run, change and break. Notebooks execute on a CPU; most finish in seconds, and the longest take
+about 1–1.5 minutes on the release-audit machine. Datasets ship with the course or are generated
+locally.
 
-**Offline and affordable by design.** No paid account, no GPU, no download is required anywhere in
-the course. Where a hosted language model illustrates something important, an offline alternative
-that teaches the same idea is always supplied, and assessment never depends on the paid path.
+**Offline after first use and affordable by design.** No paid account and no GPU are required.
+Two M11 notebooks download small pretrained weights on first use and then run offline; optional
+M08 demonstrations may do the same. Where a hosted language model illustrates something important,
+an offline alternative teaches the same idea, and assessment never depends on the paid path.
 
 **Assessment you can use alone.** Quizzes mark themselves with explained answers and point to the
 lesson to revisit. Labs and assignments come with rubrics that state what "excellent" looks like,
@@ -54,10 +56,10 @@ requirements, not closing remarks.
 
 | Part | Content |
 | :--- | :--- |
-| Prerequisite track | Six units: Python, mathematical notation, linear algebra, probability and statistics, calculus, data handling |
+| Prerequisite track | Four sections: Python, mathematics (notation, linear algebra and calculus), probability and statistics, and data preparation |
 | Modules M01–M14 | Foundations, agents, search, logic, uncertainty, machine learning, deep learning, NLP, vision, reinforcement learning, generative AI, agentic AI, responsible AI, applications |
 | Lessons | Teaching pages with objectives, worked examples, mathematics, code, applications, mistakes and self-assessment |
-| Notebooks | Runnable practicals that execute offline in under a minute |
+| Notebooks | Runnable practicals that execute on a CPU; a few optional demonstrations download small pretrained weights on first use |
 | Labs | Realistic scenarios with a stakeholder, requirements, deliverables and a rubric |
 | Assignments | Graded, specification-driven work with a six-dimension rubric |
 | Quizzes | Multiple-choice sets with explained answers and a revision map |
@@ -76,9 +78,6 @@ it fails, and how to prove which of two options is better.
 evaluate, debug and explain systems; that ability is built by the labs and the capstone, not by
 finishing the reading.
 
-**It is not complete on the day you read this.** The course is written and published module by
-module. Each module page states what is available; nothing is linked before it exists.
-
 **It is not a substitute for a supervisor on research.** M14 teaches you to read and reproduce a
 paper, not to conduct novel research independently.
 
@@ -89,9 +88,9 @@ evaluation, communication, and responsibility. The weighting is deliberately not
 A correct implementation that cannot say how well it works, or where it fails, is an unfinished
 piece of engineering — and the rubric says so before you begin.
 
-Marks are not the point of a self-study course; evidence is. Each mini-project produces something
-you can show: a repository, a figure, a short report. Twelve of those at the end of the course are
-worth more than any certificate, because they demonstrate what you can actually do.
+Marks are not the point of a self-study course; evidence is. Each module project and the capstone
+produces something you can show: a repository, a figure, a short report. That portfolio is worth
+more than any certificate, because it demonstrates what you can actually do.
 
 ## Using this course as an instructor
 

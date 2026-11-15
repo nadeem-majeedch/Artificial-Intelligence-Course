@@ -202,3 +202,11 @@ about a point — with 60 labels the head, not the features, is the bottleneck.
 | Seed and data-size sweep for transfer | 20% |
 | Error/residual analysis quality | 20% |
 | Recommendations justified by the numbers | 15% |
+
+## Starter material
+
+The guided notebook [`nb-07-03-sequences-attention-transfer.ipynb`](../notebooks/nb-07-03-sequences-attention-transfer.ipynb) works through the
+same pipeline end to end; use it when you are stuck, and cite what you
+changed rather than copying its outputs.
+
+Module reference code: [`../code/`](../code/).

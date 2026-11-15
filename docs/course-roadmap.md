@@ -48,7 +48,7 @@ assurance stage; the capstone comes last. Hours shown are total study effort for
 
 ## 3. Stage-by-stage description
 
-### Stage 0 — Orientation (24 hours)
+### Stage 0 — Orientation (26.8 hours)
 
 **P01 Python programming, M01 Introduction.**
 
@@ -60,7 +60,7 @@ demanding.
 **You are ready to move on when** you can write a function with a loop inside it without help, and
 explain in your own words what an agent is.
 
-### Stage 1 — Foundations (60 hours)
+### Stage 1 — Foundations (59.9 hours)
 
 **P02 Mathematics for AI, P03 Probability and statistics, P04 Data preparation and visualisation,
 M02 Intelligent agents.**
@@ -73,7 +73,7 @@ agentic systems at the end of the course.
 probability by hand, differentiate a simple function, load and plot a CSV, and write a PEAS
 description for a system you know.
 
-### Stage 2 — Classical AI (71 hours)
+### Stage 2 — Classical AI (72.1 hours)
 
 **M03 Search, M04 Logic, M05 Uncertainty.**
 
@@ -86,7 +86,7 @@ remain the right answer for many real problems — scheduling, routing, configur
 algorithm choice, derive a conclusion in first-order logic, and compute a posterior probability
 with Bayes' rule.
 
-### Stage 3 — Machine Learning (31 hours)
+### Stage 3 — Machine Learning (31.4 hours)
 
 **M06 Machine learning fundamentals.**
 
@@ -97,7 +97,7 @@ analysis. Students who rush this stage struggle in every module after it.
 **You are ready to move on when** you can take an unfamiliar dataset to a model you can defend, and
 explain why your evaluation is trustworthy.
 
-### Stage 4 — Deep Learning (27 hours)
+### Stage 4 — Deep Learning (24.9 hours)
 
 **M07 Neural networks and deep learning.**
 
@@ -108,7 +108,7 @@ mechanism behind modern language, vision and generative systems.
 **You are ready to move on when** you can implement a network from scratch, verify its gradients,
 and debug a training run from its loss curves rather than by guessing.
 
-### Stages 5A and 5B — Language and Vision (22 hours each)
+### Stages 5A and 5B — Language and Vision (24.3 and 26.8 hours)
 
 **M08 Natural language processing, M09 Computer vision.**
 
@@ -119,7 +119,7 @@ because both domains fail in ways that average accuracy conceals.
 **You are ready to move on when** you can fine-tune a model on your own small dataset and explain
 the pattern of its errors.
 
-### Stage 6 — Sequential Decisions (25 hours)
+### Stage 6 — Sequential Decisions (34.1 hours)
 
 **M10 Reinforcement learning.**
 
@@ -130,7 +130,7 @@ wrong thing.
 **You are ready to move on when** you can implement Q-learning, explain its convergence conditions,
 and diagnose reward hacking from a learning curve.
 
-### Stage 7 — Generative AI (24 hours)
+### Stage 7 — Generative AI (23.3 hours)
 
 **M11 Generative AI and large language models.**
 
@@ -138,21 +138,21 @@ How autoregressive models generate text, why they hallucinate, and how to build 
 around one: prompting as measurement, retrieval with citations, parameter-efficient fine-tuning,
 and an evaluation harness that reports quality, cost and failure together.
 
-### Stage 8 — Agentic AI (19 hours)
+### Stage 8 — Agentic AI (27.8 hours)
 
 **M12 AI agents and agentic systems.**
 
 From answering to acting: tools, memory, planning, multi-agent coordination — and the guardrails
 that make such a system safe enough to run. This stage converts a model into a system.
 
-### Stage 9 — Assurance (19 hours)
+### Stage 9 — Assurance (22.4 hours)
 
 **M13 Responsible, explainable and secure AI.**
 
 Fairness measurement, explanation, privacy, and attack. Deliberately scheduled *after* you have
 built systems, so that the audit you perform is on your own work rather than a hypothetical.
 
-### Stage 10 — Capstone (30 hours)
+### Stage 10 — Capstone (32.9 hours)
 
 **M14 Applications and capstone.**
 
@@ -167,20 +167,20 @@ scoped, milestone-driven, evaluated and defended.
 | P02 | 24 | — | M03, M04, M06, M07, M10 |
 | P03 | 10 | P02 (recommended) | M05, M06, M10 |
 | P04 | 8 | P01 (recommended) | M06, M08, M09 |
-| M01 | 10 | — | M02 |
-| M02 | 18 | P01 | M03, M12 |
-| M03 | 26 | P01, P02 | M04, M10 |
-| M04 | 21 | P02 | M05 |
-| M05 | 24 | P03 | M06, M10 |
-| M06 | 31 | P02, P03, P04 | M07, M13 |
-| M07 | 27 | M06, P02 | M08, M09, M11 |
-| M08 | 22 | M07 | M11 |
-| M09 | 22 | M07 | capstone |
-| M10 | 25 | M06, M05, P03, P02 | M12 |
-| M11 | 24 | M07, M08 | M12 |
-| M12 | 19 | M11, M02 | capstone |
-| M13 | 19 | M06 | capstone |
-| M14 | 30 | M13 + your brief | — |
+| M01 | 12.8 | — | M02 |
+| M02 | 17.9 | P01 | M03, M12 |
+| M03 | 19.9 | P01, P02 | M04, M10 |
+| M04 | 31.6 | P02 | M05 |
+| M05 | 20.6 | P03 | M06, M10 |
+| M06 | 31.4 | P02, P03, P04 | M07, M13 |
+| M07 | 24.9 | M06, P02 | M08, M09, M11 |
+| M08 | 24.3 | M07 | M11 |
+| M09 | 26.8 | M07 | capstone |
+| M10 | 34.1 | M06, M05, P03, P02 | M12 |
+| M11 | 23.3 | M07, M08 | M12 |
+| M12 | 27.8 | M11, M02 | capstone |
+| M13 | 22.4 | M06 | capstone |
+| M14 | 32.9 | M13 + your brief | — |
 
 **The critical path is P01 → M06 → M07 → M08 → M11 → M12 → M14.** A delay in machine learning or
 deep learning delays every applied module after it. That is why those two modules should not be
@@ -194,9 +194,9 @@ governance can take it sooner — though it is more valuable after building some
 
 | Semester | Content | Hours | Weekly load at 16 weeks |
 | :--- | :--- | ---: | ---: |
-| 1 | P01–P04, M01–M05 | 155 | ≈ 10 h |
-| 2 | M06–M14 | 219 | ≈ 14 h |
-| **Total** | **All eighteen sections and modules** | **374** | |
+| 1 | P01–P04, M01–M05 | 158.8 | ≈ 10 h |
+| 2 | M06–M14 | 247.9 | ≈ 15.5 h |
+| **Total** | **All eighteen sections and modules** | **406.7** | |
 
 The second semester is heavier because the modules are denser. If 14 hours a week is unrealistic,
 split it into three semesters of about 8 hours a week: prerequisites and M01–M03, then M04–M07,

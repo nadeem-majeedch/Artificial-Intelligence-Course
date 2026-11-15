@@ -5,7 +5,7 @@
 # Freebuff workspace metadata (never part of the course)
 .freebuff/
 
-# Python bytecode and caches
+# Python bytecode, caches and coverage artefacts
 __pycache__/
 *.py[cod]
 *$py.class
@@ -13,6 +13,15 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.hypothesis/
+
+# Local notebook execution outputs and temporary logs
+*.nbconvert.ipynb
+_*.log
 
 # Local virtual environments
 .venv/

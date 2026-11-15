@@ -148,13 +148,10 @@ modules/M03-problem-solving-and-search/
 │   ├── L03-02-uninformed-search.md
 │   └── … L03-08
 ├── labs/
-│   ├── lab-03-01-campus-route-planning.md
-│   ├── lab-03-02-puzzle-solver-benchmark.md
-│   └── lab-03-03-game-playing-agent.md
+│   ├── lab-03-01-route-planning-under-constraints.md
+│   └── lab-03-02-game-agent-and-timetable-solver.md
 ├── notebooks/
-│   ├── nb-03-01-search-visualization.ipynb
-│   ├── nb-03-02-search-benchmarks.ipynb
-│   └── nb-03-03-game-tree-exploration.ipynb
+│   └── nb-03-01-search-workbench.ipynb
 ├── assignments/
 │   └── asg-03-a-star-with-a-designed-heuristic.md
 ├── quizzes/
@@ -241,9 +238,9 @@ Every lesson file follows this exact skeleton. `templates/lesson.md` is the cano
 | :--- | :--- |
 | Level | 200 |
 | Study time | 50 minutes |
-| Prerequisites | [L03-04](../lessons/L03-04-heuristics-and-greedy-best-first-search.md) |
-| Notebook | [NB-03-02](../notebooks/nb-03-02-search-benchmarks.ipynb) |
-| Lab | [LAB-03-01](../labs/lab-03-01-campus-route-planning.md) |
+| Prerequisites | [L03-04](../modules/M03-problem-solving-and-search-algorithms/lessons/L03-04-local-search-hill-climbing-annealing-genetic.md) |
+| Notebook | [NB-03-01](../modules/M03-problem-solving-and-search-algorithms/notebooks/nb-03-01-search-workbench.ipynb) |
+| Lab | [LAB-03-01](../modules/M03-problem-solving-and-search-algorithms/labs/lab-03-01-route-planning-under-constraints.md) |
 
 [← Previous: Heuristics](...) · [Module home](../README.md) · [Next: Minimax →](...)
 
@@ -484,7 +481,9 @@ in P01 and never again.
 2. **Committed with outputs cleared** and execution counts `null`, so diffs stay reviewable. The
    lesson Markdown shows expected output as text.
 3. Runs top-to-bottom in **under 60 seconds on a CPU laptop**; no GPU assumptions.
-4. **No network access.** Data comes from `datasets/` or is generated in-cell.
+4. **Offline by default.** Data comes from `datasets/`, is generated in-cell, or is a documented
+   first-run download of small pretrained weights. Any download must have an offline fallback and
+   must be named in the module page.
 5. Paths resolved from the repository root by upward search, never hard-coded:
 
    ```python

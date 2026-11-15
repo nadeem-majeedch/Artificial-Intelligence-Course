@@ -1,6 +1,6 @@
 # L11-03 — Pretraining, Instruction Tuning and Preference Alignment
 
-[← Previous: ? Lesson](L11-02-inside-a-large-language-model.md) · [Module home](../README.md) · [Next: ? Lesson →](L11-04-prompt-engineering-and-in-context-learning.md)
+[← Previous: L11-02](L11-02-inside-a-large-language-model.md) · [Module home](../README.md) · [Next: L11-04 →](L11-04-prompt-engineering-and-in-context-learning.md)
 
 ## On this page
 
@@ -339,4 +339,4 @@ same in every stage: change one thing, evaluate on a fixed set, and report the b
 
 ---
 
-**Navigation:** [← Previous: ? Lesson](L11-02-inside-a-large-language-model.md) · [Module home](../README.md) · [Next: ? Lesson →](L11-04-prompt-engineering-and-in-context-learning.md)
+**Navigation:** [← Previous: L11-02](L11-02-inside-a-large-language-model.md) · [Module home](../README.md) · [Next: L11-04 →](L11-04-prompt-engineering-and-in-context-learning.md)

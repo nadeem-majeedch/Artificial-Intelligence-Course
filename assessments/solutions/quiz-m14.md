@@ -14,7 +14,8 @@ less accurate than the rules alone (0.931) — the gate is bought with refusals,
 investigating. Below 0.10 is treated as stable; 0.10–0.25 is "monitor".
 
 **Q14.3 — B.** Message passing helps when neighbours carry class information and the features are
-weak. At low homophily the GNN lost 0.210 accuracy to a feature-only model in the module's sweep.
+weak. At measured homophily 0.187 the GNN lost 0.131 accuracy to a feature-only model in the
+module's sweep (0.399 MLP vs 0.268 GCN).
 
 **Q14.4 — B.** The registry records version, metrics, owner, approval and target — the things that
 let someone answer "what is live, and is it approved?".
@@ -22,8 +23,9 @@ let someone answer "what is live, and is it approved?".
 ## Part B
 
 **Q14.5 — False.** Quantisation reduces size, but speed depends on kernels and memory bandwidth.
-In the module the int8 model was 2.62× *slower* because weights were dequantised on every forward
-pass. It is faster where int8 kernels exist or memory bandwidth dominates.
+In release validation the int8 model was 1.61–2.35× *slower* across five runs (median 1.68×)
+because weights were dequantised on every forward pass. It is faster where int8 kernels exist or
+memory bandwidth dominates.
 
 ## Part C
 

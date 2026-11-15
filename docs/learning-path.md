@@ -41,45 +41,41 @@ several later.
 
 | Your situation | Route | First week |
 | :--- | :--- | :--- |
-| **Complete beginner** — new to programming | P01 → P02 → P03 → P04 → M01 → M04 | Install Python (see [README §16](../README.md#16-software-and-tools-you-will-need)) and work through P01 lessons 1–3 |
+| **Complete beginner** — new to programming | P01 → P02 → P03 → P04 → M01 → M04 | Install Python (see [README §8](../README.md#8-software-requirements)) and work through P01 lessons 1–3 |
 | **Programmer, weak mathematics** | P02 → P03 → P04 → M01 → M06 | Start P02, and run the NB-P02-01 notebook alongside |
 | **Science or engineering graduate** | M01 → M04 → M06, skimming P02–P04 | Read M01's concept sections and take its quiz |
-| **Software developer moving into ML** | M01 → M04 → M06, with P02–P04 as reference | Start M01; M03 is not published, so M04 is the first classical-AI module you can finish |
 | **Already know ML, new to classical AI** | M04 → M06 revision → M07 | Start M04; use M06 to find gaps in evaluation practice |
 | **Already know ML, want deep learning** | M06 revision → M07 | Take the M06 quiz, then start at [L07-01](../modules/M07-neural-networks-and-deep-learning/lessons/L07-01-from-perceptron-to-mlp.md) |
 | **Want to build an LLM application** | M07 attention → M11 → LAB-11-02 | Read [L07-07](../modules/M07-neural-networks-and-deep-learning/lessons/L07-07-attention-and-transformers.md), then start M11 at L11-01 |
-| **Want to build an autonomous agent** | M02 L02-01 → M11 → M12 reference code | Read M12's status page first: its lessons are not published, so you can read the code but cannot finish the module |
 | **Returning after a long break** | Re-take the eight questions above, then restart one module earlier than you think | Re-read your old written summaries before starting |
 
-## 3. Path A — Core path (≈ 165 hours)
+## 3. Path A — Core path (≈ 169 hours)
 
-The core path covers CLO1–CLO5: foundations, classical AI and machine learning. It is the right
-choice for a single-semester course, or for a first pass that gets you to a defensible model.
-
-| Weeks | Work | Hours/week | Cumulative |
+| Week | Work | Hours | Cumulative |
 | :--- | :--- | ---: | ---: |
-| 1–2 | P01 complete | 9 | 18 |
-| 3 | P02 vectors, matrices and eigenvalues | 10 | 28 |
-| 4 | P02 derivatives and optimisation | 10 | 38 |
-| 5 | P03 probability; P04 data preparation essentials | 7 | 45 |
-| 6 | M01 complete | 10 | 55 |
-| 7 | M02: L02-01 and the reference code (four further lessons not yet published) | 4 | 59 |
-| 8–10 | M04 complete: seven lessons and two notebooks | 10 | 89 |
-| 11–14 | M06 lessons 1–10, four notebooks, assignment | 10 | 129 |
+| 1–2 | P01 Python (14 h) | 7 | 14 |
+| 3 | P02 vectors, matrices, eigenvalues and derivatives (12 h) | 12 | 26 |
+| 4 | P03 probability and P04 data preparation essentials (9 h) | 9 | 35 |
+| 5 | M01 in full: lessons, notebook, two labs, mini-project | 12.8 | 48 |
+| 6–7 | M02 in full: five lessons, notebook, two labs | 9 | 66 |
+| 8–9 | M03 in full: seven lessons, search workbench, two labs | 10 | 86 |
+| 10–12 | M04 in full: seven lessons, two notebooks, three labs, project | 10.5 | 117 |
+| 13–14 | M05 in full: six lessons, two notebooks, two labs | 10 | 138 |
+| 15–17 | M06 in full: ten lessons, four notebooks, four labs, PA-06, mini-project | 10.5 | 169 |
 
-**Status of this path.** It schedules only what is published: P01–P04, M01, M02 (one lesson),
-M04 and M06. M03 and M05 are in the syllabus but have no lessons yet, so they are excluded —
-which is why the published total is about 129 hours against the 165-hour design figure. The
-classical-AI stage cannot be completed today, and no reading plan can change that.
+**Status of this path.** Every unit it schedules is published: four prerequisite sections, M01, M02,
+M03, M04, M05 and M06. The total is **169.2 hours**: P01 in full (14 h), 50% of P02–P04 (21 h) as
+an explicit planning assumption for "the essentials", and the measured module totals for M01–M06
+(134.2 h). It uses the same method as [curriculum map §3.1](CURRICULUM-MAP.md#31-how-the-hour-totals-are-calculated);
+no design budget is used.
 
-**What you give up.** No deep learning, no NLP, no vision, no reinforcement learning, no generative
-AI, and no capstone. What you gain is the foundation that makes all of those learnable later —
-especially the evaluation discipline in M06, which is where most self-taught practitioners are
-weakest.
+**What you give up.** No deep learning, no NLP, no vision, no reinforcement learning, no generative AI,
+and no capstone. What you gain is the foundation that makes all of those learnable later — especially
+the evaluation discipline in M06, which is where most self-taught practitioners are weakest.
 
 **Where to go next.** Continue with Path B (three more weeks for M07), then any specialisation.
 
-## 4. Path B — Core plus deep learning (≈ 192 hours)
+## 4. Path B — Core plus deep learning (≈ 194 hours)
 
 | Weeks | Work | Hours/week |
 | :--- | :--- | ---: |
@@ -90,40 +86,38 @@ M07 is the gate to every modern application. Even if you never build a transform
 backpropagation and attention changes how you read about AI. If you can only add three weeks to the
 core path, add these.
 
-## 5. Path C — Full programme (≈ 374 hours)
+## 5. Path C — Full programme (≈ 407 hours)
 
 Every module, every lab, and a full capstone. This is the course in its complete form and the right
 route if you are preparing for postgraduate study or a career change.
 
 | Semester | Content | Hours | Weekly load |
 | :--- | :--- | ---: | ---: |
-| 1 | P01–P04, M01–M05 | 155 | ≈ 10 h over 16 weeks |
-| 2 | M06–M14 | 219 | ≈ 14 h over 16 weeks |
+| 1 | P01–P04, M01–M05 | 158.8 | ≈ 10 h over 16 weeks |
+| 2 | M06–M14 | 247.9 | ≈ 15.5 h over 16 weeks |
 
 If 14 hours a week is not sustainable, use three semesters of about 8 hours: prerequisites and
 M01–M03; then M04–M07; then M08–M14 including the capstone. The boundaries matter less than the
 order.
 
-**Status of this path.** The full programme is a design target, not something you can finish in
-this repository today. Published: P01–P04, M01, M02 (1 of 5 lessons), M04, M06, M07, M11, M13 and
-M14. Not published: M03, M05 and M09 (no content at all), plus M08, M10 and M12 (reference code,
-no lessons). A student following the semester table as written meets an empty module at M03, again
-at M05, and no lessons in M08. Plan around that, or start from the routes in section 2.
+**Status of this path.** Every section and module named here is published: all four prerequisite
+sections and all fourteen modules. The total is **406.7 hours** (56 prerequisite + 350.7 module
+hours), so the semester split above is the measured one, not a design target.
 
 ## 6. Specialisation paths
 
-Each specialisation assumes the core path plus M07 (≈ 192 hours) and then adds its own modules.
+Each specialisation assumes the core path plus M07 (≈ 194 hours) and then adds its own modules.
 
 | Specialisation | Add | Total | For |
 | :--- | :--- | ---: | :--- |
-| **NLP and generative AI** | M11 (M08 lessons not published; the NLP background is inside M11) | ≈ 195 h | Language technology, applied LLM work |
-| **Computer vision** | M07 CNN lessons plus the M14 vision labs (M09 not published) | ≈ 200 h | Imaging and applied vision |
-| **Decision systems** | M12 reference code (M10 lessons not published) | ≈ 190 h | Agent engineering, not RL research |
-| **Responsible AI** | M13 in full, plus M11 for generative-system risk | ≈ 215 h | Audit, governance, policy, safety engineering |
+| **NLP and generative AI** | M08, M11, M12 | ≈ 270 h | Language technology, LLM applications |
+| **Computer vision** | M09 and M13 in full | ≈ 243 h | Imaging, medical and industrial applications |
+| **Decision systems** | M10, M12 | ≈ 256 h | Operations research, control, robotics |
+| **Responsible AI** | M13, M12, M11 | ≈ 268 h | Audit, governance, policy, safety engineering |
 
-**Honest version.** Only the NLP/generative and responsible-AI specialisations can be completed
-as designed. The vision and decision-systems routes teach the surrounding material but not the
-named module, and the totals above exclude the missing hours.
+**Honest version.** Every specialisation can be completed: every module it names has lessons, labs
+and notebooks. Totals use the module pages' measured hours (core 169.2 + M07 24.9 + the named
+modules); no design figure is mixed in.
 
 Choose one and finish it rather than sampling three. Depth in one area plus the shared foundation
 is more useful than a shallow tour, and every specialisation keeps CLO1–CLO7 intact.
@@ -132,10 +126,10 @@ is more useful than a shallow tour, and every specialisation keeps CLO1–CLO7 i
 
 | Hours per week | Full programme takes | Core path takes | Realistic for |
 | ---: | :--- | :--- | :--- |
-| 5 | ≈ 75 weeks | ≈ 33 weeks | Studying alongside a full-time job |
-| 8 | ≈ 47 weeks | ≈ 21 weeks | A steady, sustainable habit |
-| 12 | ≈ 31 weeks | ≈ 14 weeks | A serious course load |
-| 20 | ≈ 19 weeks | ≈ 8 weeks | Full-time study, with retention risk |
+| 5 | ≈ 81 weeks | ≈ 34 weeks | Studying alongside a full-time job |
+| 8 | ≈ 51 weeks | ≈ 21 weeks | A steady, sustainable habit |
+| 12 | ≈ 34 weeks | ≈ 14 weeks | A serious course load |
+| 20 | ≈ 20 weeks | ≈ 8 weeks | Full-time study, with retention risk |
 
 **A warning about the last row.** Twenty hours a week works only if you keep doing the labs and the
 self-assessment. Students who read quickly and skip the practice finish early and retain little.

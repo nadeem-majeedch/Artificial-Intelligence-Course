@@ -1,6 +1,6 @@
 # L11-04 — Prompt Engineering and In-Context Learning
 
-[← Previous: ? Lesson](L11-03-pretraining-instruction-tuning-and-alignment.md) · [Module home](../README.md) · [Next: ? Lesson →](L11-05-retrieval-augmented-generation.md)
+[← Previous: L11-03](L11-03-pretraining-instruction-tuning-and-alignment.md) · [Module home](../README.md) · [Next: L11-05 →](L11-05-retrieval-augmented-generation.md)
 
 ## On this page
 
@@ -323,4 +323,4 @@ few-shot is 558 characters before any context
 
 ---
 
-**Navigation:** [← Previous: ? Lesson](L11-03-pretraining-instruction-tuning-and-alignment.md) · [Module home](../README.md) · [Next: ? Lesson →](L11-05-retrieval-augmented-generation.md)
+**Navigation:** [← Previous: L11-03](L11-03-pretraining-instruction-tuning-and-alignment.md) · [Module home](../README.md) · [Next: L11-05 →](L11-05-retrieval-augmented-generation.md)

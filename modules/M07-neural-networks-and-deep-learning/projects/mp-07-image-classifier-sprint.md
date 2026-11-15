@@ -100,3 +100,13 @@ real-world deployment from synthetic data.
 3. Which change gave the largest improvement, and is it larger than the seed spread?
 4. What are the three most likely ways this model fails in production?
 5. What would you measure first if it underperformed next month?
+
+## Evaluation criteria
+
+| Criterion | Weight | What earns full marks |
+| :--- | ---: | :--- |
+| Baseline and data hygiene | 25% | Majority baseline reported; train/validation/test kept separate |
+| Architecture and training | 25% | Choices justified; curves shown; seed variance reported |
+| Evaluation | 20% | Per-class metrics and confusion matrix, not accuracy alone |
+| Failure analysis | 20% | Three realistic production failures named and tested |
+| Reproducibility | 10% | Seeded, one command, matches the writeup |

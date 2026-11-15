@@ -9,6 +9,23 @@
 
 [← Previous: L13-02 Explainability: From Importance to Counterfactuals](L13-02-explainability-from-importance-to-counterfactuals.md) · [Module home](../README.md) · [Next: L13-04 Security: Adversarial Examples and Prompt Injection →](L13-04-security-adversarial-examples-and-prompt-injection.md)
 
+## What you will be able to do
+
+By the end you can:
+
+1. **Distinguish** membership inference, model extraction, model inversion, attribute inference
+   and training-data extraction by what the attacker knows and which signal each exploits.
+2. **Run** membership inference and model extraction against a model you trained, and interpret
+   the results with AUC, TPR at a fixed low FPR and surrogate agreement rather than accuracy.
+3. **Explain** why a model that generalises resists membership inference, and why a failed attack
+   is still a result worth reporting.
+4. **Test** a retrieval-augmented pipeline for leakage with and without document-level access
+   control, and identify the pipeline stage where the control belongs.
+5. **Select** privacy-preserving techniques for a stated leakage channel and state what each one
+   does not protect.
+6. **Write** the privacy paragraph of a model card from measurements, including an explicit
+   "not applicable" where a claim cannot be tested.
+
 ## Why this lesson exists
 
 A model is a compressed function of its training data. Compression is lossy but not

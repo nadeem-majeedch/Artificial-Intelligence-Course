@@ -29,6 +29,7 @@ Rumelhart, Hinton and Williams · *Nature*, 323, 1986
 ### Support-vector networks
 Cortes and Vapnik · *Machine Learning*, 20, 1995
 - **URL:** No stable free copy; available through university libraries.
+- **DOI:** [10.1007/BF00994018](https://doi.org/10.1007/BF00994018)
 - **Modules:** M06 · **Level:** Advanced
 - **Why:** The margin formulation of the SVM, stated cleanly. Explains why maximum-margin classifiers generalise.
 - **Access:** Paywalled (Springer).
@@ -103,6 +104,7 @@ Ouyang et al. · *NeurIPS*, 2022
 ### ImageNet: A Large-Scale Hierarchical Image Database
 Deng, Dong, Socher, Li, Li and Fei-Fei · *CVPR*, 2009
 - **URL:** https://ieeexplore.ieee.org/document/5206848
+- **DOI:** [10.1109/CVPR.2009.5206848](https://doi.org/10.1109/CVPR.2009.5206848)
 - **Modules:** M09 · **Level:** Intermediate
 - **Why:** The dataset that made modern vision possible, and a lesson in benchmark design. Read §2 for the collection protocol.
 - **Access:** Paywalled (IEEE); the dataset itself is separately licensed for research.

@@ -29,11 +29,11 @@ why they differ.
 **5.** Distillation gained −0.004 over training without a teacher. Give two conditions under
 which distillation does help.
 
-**6.** int8 reduced size to 27.7% and made inference 2.62× slower. Explain the mechanism and name
-two conditions under which it would be faster.
+**6.** int8 reduced size to 27.7% and made inference 1.6–2.4× slower in release validation. Explain
+the mechanism and name two conditions under which it would be faster.
 
-**7.** Pruning 50% of weights left size at 100% and latency 1.45× worse. What has to change for
-pruning to pay?
+**7.** Pruning 50% of weights left size at 100% and changed latency by 0.8–1.3×, with no reliable
+speed-up. What has to change for pruning to pay?
 
 **8.** Why is the parameter count (74) misleading for the quantised model?
 
@@ -48,8 +48,11 @@ early-warning system.
 **11.** Zero-shot digit accuracy reached 0.904 while instance-level image-to-text R@1 stayed at
 0.024. Give the correct interpretation and the metric you would report.
 
-**12.** The GCN beat the MLP by 0.400 at homophily 0.825, but lost by 0.210 at 0.1. State the
-design rule this implies.
+**12.** The GCN beat the MLP by 0.467 at homophily 0.773, but lost by 0.131 at 0.187; a second
+family (SBM) showed the same pattern (−0.120 to +0.395). State the design rule this implies, and
+say why the 0.906 measured at perfect homophily is not a reason to skip measuring homophily.
+Also state whether the advantage survived the inductive split, and which part of the protocol
+that claim depends on.
 
 ## Part D — Federated learning and research practice (13–15)
 
@@ -87,7 +90,8 @@ environmental.
 structure the hard label hides (class similarity, label noise, an ensemble teacher).
 
 **6.** Weights are stored int8 but dequantised to float on every forward pass, so the conversion
-cost exceeds the arithmetic saved. It is faster where int8 kernels exist (mobile NPUs, quantised
+cost can exceed the arithmetic saved. In release validation the ratio ranged from 1.61× to 2.35×
+across five runs (median 1.68×). It is faster where int8 kernels exist (mobile NPUs, quantised
 inference engines) or where memory bandwidth rather than arithmetic dominates.
 
 **7.** A sparse kernel, a sparse storage format, or structured pruning that yields a genuinely
@@ -108,8 +112,12 @@ misbehave. PSI fires before MAE because it does not need labels.
 the same digit, so exact-pair retrieval is near-impossible by construction. Report digit-level
 retrieval (0.961), and state the instance-level number only with its chance level.
 
-**12.** Measure homophily before choosing a graph architecture. Below roughly 0.5, message
-passing mixes classes and a feature-only model is better.
+**12.** Measure homophily before choosing a graph architecture. Below roughly 0.4, message
+passing mixes classes and a feature-only model is better. The advantage did survive the strict
+inductive split (+0.575 random-mix, +0.465 SBM), but that claim depends on test-node features and
+test-to-training edges being available at inference, and on validation-only epoch selection. The
+0.906 at perfect homophily is an upper bound for a graph where every edge is same-class, not a
+general result.
 
 **13.** It shows the average hides who paid. With a 0.36 spread, some classes (and therefore some
 clients) are much worse off; the global metric is not a fairness statement.

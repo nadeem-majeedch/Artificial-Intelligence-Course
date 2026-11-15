@@ -20,7 +20,10 @@ worked examples and lesson links. **Diagrams:** [concept maps](../docs/CONCEPT-M
 - **Action value** — The expected return from taking action $a$ in state $s$ and then acting well. *(M10)*
 - **Actuator** — The part of an agent that changes the environment. *(M02)*
 - **Adversarial example** — an input perturbed slightly to change a model's prediction while looking unchanged to a person. *(M13)*
+- **Agent evaluation** — Reporting task success, steps, tool-error rate and cost separately; a single aggregate score hides the failure that must be fixed. *(M12)* [Lesson](../modules/M12-ai-agents-and-agentic-systems/lessons/L12-06-mcp-security-evaluation-and-reliable-execution.md)
 - **Agent loop** — The cycle of reasoning, acting, observing the result and deciding again. *(M12)*
+- **Agent memory** — Two tiers: bounded working memory (notes, recent observations) and an external store queried on demand; the transcript is neither. *(M12)* [Lesson](../modules/M12-ai-agents-and-agentic-systems/lessons/L12-03-planning-memory-and-workflow-orchestration.md)
+- **Agent orchestration** — Deciding the order and ownership of steps across agents and the shared state, with per-step postconditions, retries and one owner per subtask. *(M12)* [Lesson](../modules/M12-ai-agents-and-agentic-systems/lessons/L12-03-planning-memory-and-workflow-orchestration.md)
 - **AI winter** — A period when funding and interest in AI collapsed after promises outran results. *(M01)*
 - **Audit (AI)** — a claim-by-claim check that each required artefact exists, contains the required evidence and is current. *(M13)*
 - **Automation bias** — the tendency of human reviewers to accept a system's suggestion instead of checking it. *(M13)*
@@ -39,6 +42,7 @@ worked examples and lesson links. **Diagrams:** [concept maps](../docs/CONCEPT-M
 
 - **Backward chaining** — Working backwards from a goal to the facts that would support it. *(M04)*
 - **Bag of words** — Representing a document by counts of its vocabulary words, ignoring order. *(M08)*
+- **Bellman equation** — The recursive relationship between a state's value and its successors' values; the basis of policy evaluation and value iteration. *(M10)* [Lesson](../modules/M10-reinforcement-learning/lessons/L10-02-value-based-reinforcement-learning.md)
 - **BM25** — a lexical ranking function scoring documents by term overlap with saturation and length normalisation; strong on rare exact terms. *(M11)*
 - **Backpropagation** — applying the chain rule backwards through a network to compute the gradient of the loss with respect to every parameter. *(M07)*
 - **Backdoor** — a model behaviour learned from a poisoned training set that triggers only on a specific pattern and is invisible on clean evaluation. *(M13)*
@@ -59,6 +63,7 @@ worked examples and lesson links. **Diagrams:** [concept maps](../docs/CONCEPT-M
 
 - **Catastrophic forgetting** — losing previously learned capability when a model is trained on new data, especially after aggressive fine-tuning. *(M07, M11)*
 - **Causal mask** — an attention mask that prevents a position from attending to later positions, required when generating left to right. *(M07, M11)*
+- **Causal masking** — Setting the attention logits for future positions to $-\infty$ so a language model cannot see tokens it is meant to predict. *(M08)* [Lesson](../modules/M08-natural-language-processing/lessons/L08-06-sequence-models-attention-and-transformers.md)
 - **Chain-of-thought prompting** — asking a model to produce intermediate reasoning steps before its answer; helpful for capable models on decomposable tasks, harmful to span metrics. *(M11)*
 - **Chain rule** — the rule for differentiating composed functions; the mathematical engine inside backpropagation. *(P02)*
 - **Batch inference** — scoring a whole dataset at once and writing results to a table, trading freshness for throughput. *(M14)*
@@ -70,6 +75,7 @@ worked examples and lesson links. **Diagrams:** [concept maps](../docs/CONCEPT-M
 - **Conditional independence** — Two variables are independent given a third when knowing the third makes the first uninformative about the second. *(M05)*
 - **Confusion matrix** — a table of predicted against actual classes, from which most classification metrics follow. *(M06)*
 - **Connectionist AI** — The approach that builds intelligence from many simple learned units rather than explicit rules. *(M01)*
+- **Constraint satisfaction problem** — A problem defined by variables, domains and constraints, solved by assigning values that satisfy every constraint; map colouring and timetabling are the standard examples. *(M03)* [Lesson](../modules/M03-problem-solving-and-search-algorithms/lessons/L03-06-constraint-satisfaction-problems.md)
 - **Constraint satisfaction problem (CSP)** — a problem defined by variables, their domains and constraints, solved by search with constraint propagation. *(M03)*
 - **Context window** — the maximum amount of text a language model can attend to at once, covering prompt plus generated tokens. *(M11)*
 - **Cosine similarity** — the cosine of the angle between two vectors; on normalised embeddings it is a cheap semantic similarity score. *(M11)*
@@ -106,6 +112,7 @@ worked examples and lesson links. **Diagrams:** [concept maps](../docs/CONCEPT-M
 
 - **Edge AI** — inference on a constrained device, where memory, power and the absence of a GPU shape the model more than accuracy does. *(M14)*
 - **ELBO (evidence lower bound)** — a tractable lower bound on log-likelihood used to train latent-variable models such as the VAE. *(M11)*
+- **Elimination ordering** — The sequence in which hidden variables are summed out; correctness is independent of it, cost is not, because it fixes the size of the largest intermediate factor. *(M05)* [Lesson](../modules/M05-uncertainty-bayesian-reasoning-and-fuzzy-logic/lessons/L05-06-variable-elimination-and-factor-algebra.md)
 - **Embedding** — a dense learned vector representation of a discrete item such as a word or a document. *(M06, M08, M11)*
 - **Ensemble** — a model composed of several models whose predictions are combined. *(M06)*
 - **Entailment** — the relation in which a conclusion follows necessarily from the premises. *(M04)*
@@ -117,6 +124,8 @@ worked examples and lesson links. **Diagrams:** [concept maps](../docs/CONCEPT-M
 - **Efficiency property** — the requirement that Shapley values sum to the prediction minus the baseline; the cheapest check that a SHAP implementation is correct. *(M13)*
 - **Exact match (EM)** — the fraction of predictions identical to the gold answer after normalisation; harsh to verbosity. *(M11)*
 - **Expected utility** — the probability-weighted average utility of the outcomes of an action. *(M05)*
+- **Experience replay** — Storing transitions and sampling random minibatches so that consecutive, correlated samples stop dominating the gradient. *(M10)* [Lesson](../modules/M10-reinforcement-learning/lessons/L10-04-deep-reinforcement-learning.md)
+- **Expert system** — A knowledge base of hand-written rules plus an inference engine and an explanation facility; auditable and expensive to maintain. *(M04)* [Lesson](../modules/M04-knowledge-representation-and-logical-reasoning/lessons/L04-07-rule-based-and-expert-systems.md)
 - **Explainability** — Producing a human-usable account of why a model produced an output. *(M13)*
 - **Exploration–exploitation** — The choice between trying unknown actions and using the best known one. *(M10)*
 - **Exploration–exploitation trade-off** — choosing between trying actions whose value is unknown and using actions known to work. *(M10)*
@@ -124,6 +133,7 @@ worked examples and lesson links. **Diagrams:** [concept maps](../docs/CONCEPT-M
 
 - **F1** — The harmonic mean of precision and recall. *(M06)*
 - **F1 score** — the harmonic mean of precision and recall. *(M06)*
+- **Factor** — A function from an assignment of a set of variables to a non-negative number; a conditional probability table is a factor, and exact inference is arithmetic on factors. *(M05)* [Lesson](../modules/M05-uncertainty-bayesian-reasoning-and-fuzzy-logic/lessons/L05-06-variable-elimination-and-factor-algebra.md)
 - **Fairness** — Acceptable distribution of outcomes and errors across groups of people. *(M13)*
 - **Feature** — an input variable used by a model. *(M06)*
 - **Fast gradient sign method (FGSM)** — a one-step adversarial attack that perturbs each pixel by the sign of the loss gradient times epsilon. *(M13)*
@@ -156,6 +166,7 @@ worked examples and lesson links. **Diagrams:** [concept maps](../docs/CONCEPT-M
 
 - **Hallucination** — fluent, confident generative output that is not supported by any evidence. *(M11)*
 - **Heuristic** — a problem-specific estimate used to guide search. *(M03)*
+- **Heuristic function** — An estimate $h(n)$ of the cost from node $n$ to the goal; admissible if it never overestimates, which is what preserves A\*'s optimality. *(M03)* [Lesson](../modules/M03-problem-solving-and-search-algorithms/lessons/L03-03-informed-search-greedy-and-a-star.md)
 - **Hidden Markov model (HMM)** — a model in which observable outputs are produced by hidden states that follow a Markov chain. *(M05)*
 - **Hold-out split** — Dividing data once into training, validation and test sets. *(M06)*
 - **Human-in-the-loop** — A design in which a person approves or reviews consequential agent actions. *(M12)*
@@ -197,6 +208,7 @@ worked examples and lesson links. **Diagrams:** [concept maps](../docs/CONCEPT-M
 - **Latent variable** — an unobserved variable that is inferred from observed data. *(M05)*
 - **Latency budget** — the allocation of a request's time across network, features, inference and headroom, decided before choosing a model. *(M14)*
 - **Learning rate** — the step size used in gradient-based training. *(M07)*
+- **Lemmatization** — Reducing a word to its dictionary form using morphology, so *was* becomes *be*; slower and more accurate than stemming. *(M08)* [Lesson](../modules/M08-natural-language-processing/lessons/L08-02-preprocessing-tokenization-stemming-lemmatization.md)
 - **LIME** — a local explanation that fits a weighted sparse linear surrogate to the model around one instance, reported with its fidelity. *(M13)*
 - **Linear regression** — Fitting a line (or hyperplane) that minimises squared error. *(M06)*
 - **Local search** — optimisation that moves between neighbouring solutions without remembering the path taken. *(M03)*
@@ -207,14 +219,17 @@ worked examples and lesson links. **Diagrams:** [concept maps](../docs/CONCEPT-M
 ## M
 
 - **Machine learning** — methods that improve performance on a task through experience, usually data. *(M06)*
+- **Markov decision process** — A tuple $(S, A, P, R, \gamma)$: states, actions, transition probabilities, rewards and a discount; the formal object every RL algorithm optimises against. *(M10)* [Lesson](../modules/M10-reinforcement-learning/lessons/L10-01-foundations-of-reinforcement-learning.md)
 - **Markov decision process (MDP)** — a formal model of sequential decision making with states, actions, transition probabilities and rewards. *(M05, M10)*
 - **Maximum likelihood estimation** — choosing the parameters that make the observed data most probable. *(P03)*
+- **Membership function** — A function $\mu_A: X \to [0,1]$ giving the degree to which a value belongs to a fuzzy set; a temperature of 24 °C can be "warm to 0.6" and "hot to 0.1". *(M05)* [Lesson](../modules/M05-uncertainty-bayesian-reasoning-and-fuzzy-logic/lessons/L05-04-fuzzy-sets-membership-functions-and-operations.md)
 - **Membership inference** — an attack that decides whether a specific record was in the training set, exploiting the model's confidence gap. *(M13)*
 - **Memory** — Stored state an agent carries between steps or sessions. *(M12)*
 - **Mini-batch** — a small batch used for each update in stochastic gradient descent. *(M07)*
 - **Model** — a parameterised function mapping inputs to outputs, fitted from data. *(M06)*
 - **Message passing** — the aggregation step in a GNN, where each node combines its neighbours' representations with its own. *(M14)*
 - **MLOps** — the practices that make a model reproducible and operable: versioned data and code, a registry, staged rollout and rollback. *(M14)*
+- **Model Context Protocol** — An open protocol standardising how a host exposes tools, resources and prompts to a model; it solves integration, not trust — a server is still code to audit. *(M12)* [Lesson](../modules/M12-ai-agents-and-agentic-systems/lessons/L12-06-mcp-security-evaluation-and-reliable-execution.md)
 - **Model registry** — the record of each model version's metrics, owner, approval status and deployment target. *(M14)*
 - **Model card** — a short document recording a model's purpose, data, metrics, subgroup performance, limitations and monitoring plan. *(M06)*
 - **Mode collapse** — a generator that produces a narrow set of outputs and stops covering the data distribution. *(M11)*
@@ -236,6 +251,7 @@ worked examples and lesson links. **Diagrams:** [concept maps](../docs/CONCEPT-M
 - **nDCG (normalised discounted cumulative gain)** — a ranking score that discounts relevant items by their position and normalises by the ideal ordering. *(M11)*
 - **Natural language processing (NLP)** — the computational treatment of human language. *(M08)*
 - **Neural network** — a composition of parameterised layers trained by gradient descent. *(M07)*
+- **Non-maximum suppression** — Keeping the highest-scoring detection and deleting boxes that overlap it above a threshold, so one object yields one prediction. *(M09)* [Lesson](../modules/M09-computer-vision/lessons/L09-04-object-detection.md)
 - **Normalisation** — rescaling inputs or activations to a standard range or distribution. *(M06, M07)*
 ## O
 
@@ -260,6 +276,8 @@ worked examples and lesson links. **Diagrams:** [concept maps](../docs/CONCEPT-M
 - **Permutation importance** — the drop in a metric when one feature is shuffled, repeated and averaged; model-agnostic but splits credit between correlated features. *(M13)*
 - **Perplexity** — the exponential of mean negative log-likelihood per token; lower means the model finds the text more predictable. *(M11)*
 - **Planning** — Decomposing a goal into ordered steps before acting. *(M12)*
+- **Pointwise mutual information** — $\mathrm{PMI}(w,c)=\log\frac{P(w,c)}{P(w)P(c)}$, clipped at zero (PPMI) before factorisation — the classical way to turn co-occurrence counts into usable embeddings. *(M08)* [Lesson](../modules/M08-natural-language-processing/lessons/L08-04-word-embeddings-word2vec-and-similarity.md)
+- **Policy gradient** — Ascending $\nabla_\theta \mathbb{E}[\log\pi_\theta(a\mid s)G_t]$: optimising the policy directly instead of deriving it from values. *(M10)* [Lesson](../modules/M10-reinforcement-learning/lessons/L10-04-deep-reinforcement-learning.md)
 - **Precision and recall** — Of the items flagged, the share that were right (precision); of the real positives, the share that were found (recall). *(M06)*
 - **Prior and posterior** — The belief before seeing evidence, and the belief after. *(M05)*
 - **Projected gradient descent (PGD)** — a multi-step adversarial attack that re-projects the perturbation into the epsilon-ball after each step. *(M13)*
@@ -316,6 +334,7 @@ worked examples and lesson links. **Diagrams:** [concept maps](../docs/CONCEPT-M
 - **ROUGE-L** — a summary-quality score based on the longest common subsequence of tokens between output and reference. *(M11)*
 ## S
 
+- **SARSA** — On-policy TD control whose target uses the action the behaviour policy actually takes next; it learns the value of the exploring policy. *(M10)* [Lesson](../modules/M10-reinforcement-learning/lessons/L10-03-temporal-difference-learning.md)
 - **Search space (state space)** — the set of states reachable from the initial state through legal actions. *(M03)*
 - **Selection rate** — the fraction of a group receiving a positive decision; the quantity behind demographic parity and disparate impact. *(M13)*
 - **Shadow deployment** — Running a new model alongside the live one without using its output. *(M14)*
@@ -340,12 +359,16 @@ worked examples and lesson links. **Diagrams:** [concept maps](../docs/CONCEPT-M
 - **Support vector machine (SVM)** — a classifier that maximises the margin between classes, optionally using kernels. *(M06)*
 ## T
 
+- **Target network** — A periodically refreshed copy of the Q-network used to compute bootstrap targets, so the target does not move with every update. *(M10)* [Lesson](../modules/M10-reinforcement-learning/lessons/L10-04-deep-reinforcement-learning.md)
 - **Temperature** — a sampling parameter controlling how random a language model's token choices are. *(M11)*
 - **Temporal difference** — Learning a value estimate from a later value estimate instead of waiting for the true return. *(M10)*
 - **Temporal-difference (TD) learning** — updating value estimates from the difference between successive estimates. *(M10)*
+- **Temporal-difference learning** — Learning a value from a one-step reward plus the current estimate of the next state's value — biased but far lower variance than Monte Carlo. *(M10)* [Lesson](../modules/M10-reinforcement-learning/lessons/L10-03-temporal-difference-learning.md)
 - **Tensor** — a multi-dimensional array; the basic data structure of deep learning. *(M07)*
 - **TF-IDF** — Weighting a term by how often it appears in a document and how rare it is across the corpus. *(M08)*
 - **Throughput and latency budget** — The requests a system handles per second, and the time one request is allowed to take. *(M14)*
+- **Tokenization** — Splitting text into the units a model sees — words, subwords or characters; the choice fixes the vocabulary and the sequence length. *(M08)* [Lesson](../modules/M08-natural-language-processing/lessons/L08-02-preprocessing-tokenization-stemming-lemmatization.md)
+- **Tool calling** — A model emitting a structured request — tool name plus JSON arguments — that the host validates, authorises and executes; the model never runs code itself. *(M12)* [Lesson](../modules/M12-ai-agents-and-agentic-systems/lessons/L12-02-llm-agents-tool-calling-and-structured-outputs.md)
 - **Tool schema** — the declared name, arguments, types and descriptions of a tool an agent may call, used to validate a call before it runs. *(M12)*
 - **Token** — a unit of text — word, subword or character — that a language model processes. *(M08, M11)*
 - **Tokenisation** — splitting text into tokens. *(M08, M11)*
@@ -360,6 +383,7 @@ worked examples and lesson links. **Diagrams:** [concept maps](../docs/CONCEPT-M
 - **Turing test** — an operational test of machine intelligence based on indistinguishability in conversation. *(M01)*
 ## U
 
+- **U-Net** — An encoder–decoder segmentation network whose skip connections carry fine spatial detail into the decoder. *(M09)* [Lesson](../modules/M09-computer-vision/lessons/L09-05-image-segmentation.md)
 - **Uncertainty** — lack of complete information about the state of the world; handled with probability. *(M05)*
 - **Underfitting** — a model too simple to capture the pattern, performing poorly on training and test data alike. *(M06)*
 - **Unification** — Finding a substitution that makes two logical expressions identical. *(M04)*
@@ -368,7 +392,9 @@ worked examples and lesson links. **Diagrams:** [concept maps](../docs/CONCEPT-M
 ## V
 
 - **Two-tower model** — separate encoders for two modalities trained into one embedding space, the structure behind image-text retrieval. *(M14)*
+- **Variable elimination** — Exact inference that multiplies the factors touching a variable, sums the variable out, and repeats — computing the same sum as enumeration but discarding each variable once. *(M05)* [Lesson](../modules/M05-uncertainty-bayesian-reasoning-and-fuzzy-logic/lessons/L05-06-variable-elimination-and-factor-algebra.md)
 - **Vector index** — A data structure that finds the nearest vectors to a query quickly. *(M11)*
+- **Vision Transformer** — A transformer over image patches with learned position embeddings; attention replaces convolution and needs more data to match it. *(M09)* [Lesson](../modules/M09-computer-vision/lessons/L09-06-advanced-computer-vision.md)
 - **Vision-language model** — a model that relates images and text, by contrastive alignment or by generating text conditioned on images. *(M14)*
 - **Validation set** — held-out data used to make tuning decisions without touching the test set. *(M06)*
 - **Value function** — the expected return from a state, or from a state–action pair. *(M10)*

@@ -2,7 +2,7 @@
 
 | Level | 300 |
 | :--- | :--- |
-| Study time | 19 hours |
+| Study time | 22.4 hours — guided 9.0 · practical 5.5 · assessment 5.9 · project 2.0 |
 | Lessons | 6 |
 | Course outcome | CLO8 — build, audit and govern AI systems whose behaviour can be explained, challenged and defended |
 | Prerequisites | M07 (essential), M11 (recommended), L13-01 assumes basic statistics |
@@ -62,7 +62,7 @@ specific to find.
 | `recruitment()` | **CC0-1.0** | 4,000 rows, 4 features; label bias: merit threshold 0.52 (A) vs 0.62 (B) |
 | `student()` | **CC0-1.0** | 3,000 rows, 4 features; proxy bias via `tutoring_access` |
 | `loans()` | **CC0-1.0** | 5,000 rows, 4 features; group-correlated calibration offset |
-| scikit-learn `load_digits` | public-domain UCI data | 1,797 8×8 images, bundled with scikit-learn |
+| scikit-learn `load_digits` | **CC BY 4.0** (UCI dataset); BSD-3-Clause loader | 1,797 8×8 images, loaded at runtime; not redistributed |
 | The five-document RAG corpus | **CC0-1.0** | authored here; one document is deliberately confidential |
 
 `random_state=0` and `seed=0` throughout. Regenerating the data reproduces every number in the
@@ -110,8 +110,7 @@ implementation against them as an exercise.
 | QUIZ-13 | Module self-check | Quiz | 30 m | [Take](quizzes/quiz-13.md) |
 | MP-13 | Ethics Review Board Simulation | Mini-project | 2 h | [Start](projects/mp-13-ethics-review-board.md) |
 
-Total: 9 h lessons + 1 h notebook + 5 h labs + 1.5 h assignment + 0.5 h quiz + 2 h
-mini-project = **19 hours**.
+**Total published:** 9.0 h guided study + 5.5 h practical + 5.9 h assessment + 2.0 h project = **22.4 hours**.
 
 Supporting code lives in [`code/`](code/):
 
@@ -223,3 +222,7 @@ All are defined in the [glossary](../../resources/glossary.md). The one-page rec
 ## Navigation
 
 [Course home](../../README.md) · [All modules](../README.md) · [Previous: M12](../README.md#m12)
+
+## Assignment
+
+[PA-14 — An Audit of a Model You Built](../../assessments/programming/pa-14-explainable-and-secure-ai.md)

@@ -264,3 +264,11 @@ the delta is the finding.
 | Write-up | 15 min |
 
 Next: [LAB-06-02 — Model Comparison: Spam and Loan Approval](lab-06-02-model-comparison-spam-and-loans.md).
+
+## Starter material
+
+The guided notebook [`nb-06-01-data-preparation-workbench.ipynb`](../notebooks/nb-06-01-data-preparation-workbench.ipynb) works through the
+same pipeline end to end; use it when you are stuck, and cite what you
+changed rather than copying its outputs.
+
+Module reference code: [`../code/`](../code/).

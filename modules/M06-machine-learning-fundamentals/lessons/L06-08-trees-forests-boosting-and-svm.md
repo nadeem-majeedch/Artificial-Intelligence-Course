@@ -1,6 +1,6 @@
 # L06-08 — Decision Trees, Random Forests, Gradient Boosting and SVMs
 
-[← Previous: ? Lesson](L06-07-k-nearest-neighbours-and-naive-bayes.md) · [Module home](../README.md) · [Next: ? Lesson →](L06-09-unsupervised-learning-and-dimensionality-reduction.md)
+[← Previous: L06-07](L06-07-k-nearest-neighbours-and-naive-bayes.md) · [Module home](../README.md) · [Next: L06-09 →](L06-09-unsupervised-learning-and-dimensionality-reduction.md)
 
 ## On this page
 
@@ -438,4 +438,4 @@ accuracy 0.979
 
 ---
 
-**Navigation:** [← Previous: ? Lesson](L06-07-k-nearest-neighbours-and-naive-bayes.md) · [Module home](../README.md) · [Next: ? Lesson →](L06-09-unsupervised-learning-and-dimensionality-reduction.md)
+**Navigation:** [← Previous: L06-07](L06-07-k-nearest-neighbours-and-naive-bayes.md) · [Module home](../README.md) · [Next: L06-09 →](L06-09-unsupervised-learning-and-dimensionality-reduction.md)

@@ -8,9 +8,7 @@
 | Covers | L03-01 … L03-07 |
 | Pass mark | 12 / 20 |
 
-> **Availability.** M03 (Problem Solving and Search) is not published in this repository yet. This paper is
-> included so the assessment set is complete; it cannot be attempted until the module's
-> lessons and labs are available.
+> **Availability.** This module's lessons, notebook and lab are published in this repository; sit this paper after finishing them.
 
 [Assessment index](../README.md) · [Solutions](../solutions/quiz-m03.md) · [Module](../../modules/README.md#m03)
 

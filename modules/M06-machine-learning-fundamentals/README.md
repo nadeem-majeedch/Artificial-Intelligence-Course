@@ -2,7 +2,7 @@
 
 | Level | 300 |
 | :--- | :--- |
-| Study time | 31 hours |
+| Study time | 31.4 hours — guided 10.0 · practical 12.0 · assessment 5.9 · project 3.5 |
 | Lessons | 10 |
 | Course outcome | CLO5 — build, evaluate and defend a machine-learning model on tabular data |
 | Prerequisites | P02 (matrices, gradients), P03 (probability), P04 (data preparation); M05 recommended |
@@ -87,8 +87,7 @@ and read a derivative. The prerequisite lessons:
 | QUIZ-06 | Module self-check | Quiz | 30 m | [Take](quizzes/quiz-06.md) |
 | MP-06 | Prediction Challenge | Mini-project | 2 h | [Start](projects/mp-06-prediction-challenge.md) |
 
-Total: 12.5 h lessons + 4 h notebooks + 10 h labs + 2 h assignment + 0.5 h quiz + 2 h mini-project
-= **31 hours**.
+**Total published:** 10.0 h guided study + 12.0 h practical + 5.9 h assessment + 3.5 h mini-project = **31.4 hours**.
 
 Supporting code lives in [`code/`](code/): `datasets.py` (eight seeded generators), `prep.py`
 (splitting, imputation, encoding, scaling, pipeline), `linreg.py` (OLS, gradient descent,
@@ -159,3 +158,7 @@ All are defined in the [glossary](../../resources/glossary.md). The one-page rec
 
 [Course home](../../README.md) · [All modules](../README.md) ·
 [Prerequisites](../../prerequisites/README.md) · [Next module: M07 Neural Networks →](../README.md#m07)
+
+## Assignment
+
+[PA-06 — A Leakage-Free Prediction Pipeline](../../assessments/programming/pa-06-machine-learning.md)

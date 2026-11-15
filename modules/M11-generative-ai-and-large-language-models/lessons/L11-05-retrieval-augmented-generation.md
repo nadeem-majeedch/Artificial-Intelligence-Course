@@ -1,6 +1,6 @@
 # L11-05 — Retrieval-Augmented Generation
 
-[← Previous: ? Lesson](L11-04-prompt-engineering-and-in-context-learning.md) · [Module home](../README.md) · [Next: ? Lesson →](L11-06-fine-tuning-and-parameter-efficient-adaptation.md)
+[← Previous: L11-04](L11-04-prompt-engineering-and-in-context-learning.md) · [Module home](../README.md) · [Next: L11-06 →](L11-06-fine-tuning-and-parameter-efficient-adaptation.md)
 
 ## On this page
 
@@ -358,4 +358,4 @@ construction**, **grounding**, **citation**, **query rewriting**, **HyDE**.
 
 ---
 
-**Navigation:** [← Previous: ? Lesson](L11-04-prompt-engineering-and-in-context-learning.md) · [Module home](../README.md) · [Next: ? Lesson →](L11-06-fine-tuning-and-parameter-efficient-adaptation.md)
+**Navigation:** [← Previous: L11-04](L11-04-prompt-engineering-and-in-context-learning.md) · [Module home](../README.md) · [Next: L11-06 →](L11-06-fine-tuning-and-parameter-efficient-adaptation.md)

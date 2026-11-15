@@ -5,12 +5,10 @@
 | Module | M05 · Uncertainty, Bayesian Reasoning and Fuzzy Logic |
 | Questions | 11 (20 marks) |
 | Time | 35 minutes |
-| Covers | L05-01 … L05-07 |
+| Covers | L05-01 … L05-06 (including L05-06, variable elimination) |
 | Pass mark | 12 / 20 |
 
-> **Availability.** M05 (Reasoning Under Uncertainty) is not published in this repository yet. This paper is
-> included so the assessment set is complete; it cannot be attempted until the module's
-> lessons and labs are available.
+> **Availability.** This module's lessons, notebook and lab are published in this repository; sit this paper after finishing them.
 
 [Assessment index](../README.md) · [Solutions](../solutions/quiz-m05.md)
 

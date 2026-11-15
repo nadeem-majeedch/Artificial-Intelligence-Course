@@ -1,0 +1,2203 @@
+[
+  {
+    "file": "resources/research-papers.md",
+    "title": "A Formal Basis for the Heuristic Determination of Minimum Cost Paths",
+    "meta": "Hart, Nilsson and Raphael · 1968",
+    "url": "",
+    "modules": "",
+    "access": "",
+    "note": ", *IEEE Transactions on Systems Science and Cybernetics* | M03 | The paper that introduced A\\*. Short, and the origin of the admissibility argument the course proves. |",
+    "id": "REF-01",
+    "duplicate_of": [
+      "resources/library/papers-and-surveys.md"
+    ],
+    "verification_method": "Crossref bibliographic search",
+    "qualification": "Paywalled; metadata verified via Crossref DOI 10.1109/tssc.1968.300136. Also listed in resources/library/papers-and-surveys.md.",
+    "crossref": {
+      "doi": "10.1109/tssc.1968.300136",
+      "title": "A Formal Basis for the Heuristic Determination of Minimum Cost Paths",
+      "first_author": "Hart",
+      "year": 1968,
+      "venue": "IEEE Transactions on Systems Science and Cybernetics",
+      "type": "journal-article"
+    },
+    "status": "paywalled-metadata-verified",
+    "classification": "Paywalled but bibliographic metadata verified"
+  },
+  {
+    "file": "resources/research-papers.md",
+    "title": "Support-vector networks",
+    "meta": "Cortes and Vapnik · 1995",
+    "url": "https://doi.org/10.1007/BF00994018",
+    "modules": "",
+    "access": "",
+    "note": ", *Machine Learning* — [doi:10.1007/BF00994018](https://doi.org/10.1007/BF00994018) | M06 | The margin idea, stated cleanly. Useful for understanding why maximum-margin classification generalises. |",
+    "id": "REF-02",
+    "duplicate_of": [
+      "resources/library/papers-and-surveys.md"
+    ],
+    "verification_method": "Crossref DOI lookup",
+    "qualification": "Paywalled; metadata verified via Crossref DOI 10.1007/BF00994018. Also listed in resources/library/papers-and-surveys.md.",
+    "crossref": {
+      "doi": "10.1007/bf00994018",
+      "title": "Support-vector networks",
+      "first_author": "Cortes",
+      "year": 1995,
+      "venue": "Machine Learning"
+    },
+    "status": "verified (Crossref DOI)",
+    "classification": "Verified with a documented qualification"
+  },
+  {
+    "file": "resources/research-papers.md",
+    "title": "Random Forests",
+    "meta": "Breiman · 2001",
+    "url": "",
+    "modules": "",
+    "access": "",
+    "note": ", *Machine Learning* | M06 | Bagging plus random feature selection, from the author. Explains the variance argument better than any summary. |",
+    "id": "REF-03",
+    "duplicate_of": [
+      "resources/library/papers-and-surveys.md"
+    ],
+    "verification_method": "Crossref bibliographic search",
+    "qualification": "Crossref returned a related record; title or year differs, so only the citation text was checked. Also listed in resources/library/papers-and-surveys.md.",
+    "crossref": {
+      "doi": "10.29172/7c2a6982-6d72-4cd8-bba6-2fccb06a7011",
+      "title": "Random forests",
+      "first_author": "",
+      "year": null,
+      "venue": "Physics Subject Headings (PhySH)",
+      "type": "dataset"
+    },
+    "status": "paywalled-metadata-verified",
+    "classification": "Paywalled but bibliographic metadata verified"
+  },
+  {
+    "file": "resources/research-papers.md",
+    "title": "*Probabilistic Reasoning in Intelligent Systems",
+    "meta": "Pearl · 1988",
+    "url": "",
+    "modules": "",
+    "access": "",
+    "note": "* (book) | M05 | Not a paper, but the source of Bayesian networks. See [books](books.md). |",
+    "id": "REF-04",
+    "duplicate_of": null,
+    "verification_method": "Crossref bibliographic search",
+    "qualification": "Paywalled; metadata verified via Crossref DOI 10.1016/c2009-0-27609-4.",
+    "crossref": {
+      "doi": "10.1016/c2009-0-27609-4",
+      "title": "Probabilistic Reasoning in Intelligent Systems",
+      "first_author": "",
+      "year": 1988,
+      "venue": "",
+      "type": "edited-book"
+    },
+    "status": "paywalled-metadata-verified",
+    "classification": "Paywalled but bibliographic metadata verified"
+  },
+  {
+    "file": "resources/research-papers.md",
+    "title": "Learning representations by back-propagating errors",
+    "meta": "Rumelhart, Hinton and Williams · 1986",
+    "url": "",
+    "modules": "",
+    "access": "",
+    "note": ", *Nature* | M07 | Two pages that made backpropagation famous. Read it after deriving the algorithm by hand. |",
+    "id": "REF-05",
+    "duplicate_of": [
+      "resources/library/papers-and-surveys.md"
+    ],
+    "verification_method": "Crossref bibliographic search",
+    "qualification": "Crossref returned a related record; title or year differs, so only the citation text was checked. Also listed in resources/library/papers-and-surveys.md.",
+    "crossref": {
+      "doi": "10.7551/mitpress/1888.003.0013",
+      "title": "Learning Representations by Back-Propagating Errors",
+      "first_author": "Rumelhart",
+      "year": 2002,
+      "venue": "Cognitive Modeling",
+      "type": "book-chapter"
+    },
+    "status": "paywalled-metadata-verified",
+    "classification": "Paywalled but bibliographic metadata verified"
+  },
+  {
+    "file": "resources/research-papers.md",
+    "title": "Long Short-Term Memory",
+    "meta": "Hochreiter and Schmidhuber · 1997",
+    "url": "https://doi.org/10.1162/neco.1997.9.8.1735",
+    "modules": "",
+    "access": "",
+    "note": ", *Neural Computation* — [doi:10.1162/neco.1997.9.8.1735](https://doi.org/10.1162/neco.1997.9.8.1735) | M07 | The gating mechanism that made sequence learning work for two decades. |",
+    "id": "REF-06",
+    "duplicate_of": null,
+    "verification_method": "Crossref DOI lookup",
+    "qualification": "Paywalled; metadata verified via Crossref DOI 10.1162/neco.1997.9.8.1735.",
+    "crossref": {
+      "doi": "10.1162/neco.1997.9.8.1735",
+      "title": "Long Short-Term Memory",
+      "first_author": "Hochreiter",
+      "year": 1997,
+      "venue": "Neural Computation"
+    },
+    "status": "verified (Crossref DOI)",
+    "classification": "Verified with a documented qualification"
+  },
+  {
+    "file": "resources/research-papers.md",
+    "title": "Gradient-based learning applied to document recognition",
+    "meta": "LeCun, Bottou, Bengio and Haffner · 1998",
+    "url": "",
+    "modules": "",
+    "access": "",
+    "note": ", *Proceedings of the IEEE* | M09 | Convolutional networks applied end to end to handwriting recognition. Long, but the architecture diagrams are worth it. |",
+    "id": "REF-07",
+    "duplicate_of": null,
+    "verification_method": "Crossref bibliographic search",
+    "qualification": "Paywalled; metadata verified via Crossref DOI 10.1109/5.726791.",
+    "crossref": {
+      "doi": "10.1109/5.726791",
+      "title": "Gradient-based learning applied to document recognition",
+      "first_author": "Lecun",
+      "year": 1998,
+      "venue": "Proceedings of the IEEE",
+      "type": "journal-article"
+    },
+    "status": "paywalled-metadata-verified",
+    "classification": "Paywalled but bibliographic metadata verified"
+  },
+  {
+    "file": "resources/research-papers.md",
+    "title": "ImageNet Classification with Deep Convolutional Neural Networks",
+    "meta": "Krizhevsky, Sutskever and Hinton · 2012",
+    "url": "",
+    "modules": "",
+    "access": "",
+    "note": ", *NeurIPS* | M09 | AlexNet: the result that started the deep-learning era, with the engineering details that made it work. |",
+    "id": "REF-08",
+    "duplicate_of": [
+      "resources/library/papers-and-surveys.md"
+    ],
+    "verification_method": "Crossref bibliographic search",
+    "qualification": "Crossref returned a related record; title or year differs, so only the citation text was checked. Also listed in resources/library/papers-and-surveys.md.",
+    "crossref": {
+      "doi": "10.1145/3065386",
+      "title": "ImageNet classification with deep convolutional neural networks",
+      "first_author": "Krizhevsky",
+      "year": 2017,
+      "venue": "Communications of the ACM",
+      "type": "journal-article"
+    },
+    "status": "paywalled-metadata-verified",
+    "classification": "Paywalled but bibliographic metadata verified"
+  },
+  {
+    "file": "resources/research-papers.md",
+    "title": "Dropout: A Simple Way to Prevent Neural Networks from Overfitting",
+    "meta": "Srivastava, Hinton, Krizhevsky, Sutskever and Salakhutdinov · 2014",
+    "url": "https://arxiv.org/abs/1207.0580",
+    "modules": "",
+    "access": "",
+    "note": ", *JMLR* — [arXiv:1207.0580](https://arxiv.org/abs/1207.0580) (preprint: \"Improving neural networks by preventing co-adaptation of feature detectors\"; the JMLR paper is the published version) | M07 | The regulariser everyone uses, with the intuition clearly argued. |",
+    "id": "REF-09",
+    "duplicate_of": null,
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Entry links the preprint and names it while citing the published venue.",
+    "crossref": null,
+    "api": {
+      "title": "Improving neural networks by preventing co-adaptation of feature detectors",
+      "first_author": "Geoffrey E. Hinton",
+      "year": 2012,
+      "journal_ref": ""
+    },
+    "title_similarity": 0.432,
+    "status": "verified (preprint documented)",
+    "classification": "Verified with a documented qualification"
+  },
+  {
+    "file": "resources/research-papers.md",
+    "title": "Adam: A Method for Stochastic Optimization",
+    "meta": "Kingma and Ba · 2015",
+    "url": "https://arxiv.org/abs/1412.6980",
+    "modules": "",
+    "access": "",
+    "note": " — [arXiv:1412.6980](https://arxiv.org/abs/1412.6980) | M07 | The default optimiser, and why its bias correction matters. |",
+    "id": "REF-10",
+    "duplicate_of": null,
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "",
+    "crossref": null,
+    "api": {
+      "title": "Adam: A Method for Stochastic Optimization",
+      "first_author": "Diederik P. Kingma",
+      "year": 2014,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/research-papers.md",
+    "title": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+    "meta": "Ioffe and Szegedy · 2015",
+    "url": "https://arxiv.org/abs/1502.03167",
+    "modules": "",
+    "access": "",
+    "note": " — [arXiv:1502.03167](https://arxiv.org/abs/1502.03167) | M07 | Why normalising activations changes what is trainable. |",
+    "id": "REF-11",
+    "duplicate_of": null,
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "",
+    "crossref": null,
+    "api": {
+      "title": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+      "first_author": "Sergey Ioffe",
+      "year": 2015,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/research-papers.md",
+    "title": "Deep Residual Learning for Image Recognition",
+    "meta": "He, Zhang, Ren and Sun · 2016",
+    "url": "https://arxiv.org/abs/1512.03385",
+    "modules": "",
+    "access": "",
+    "note": " — [arXiv:1512.03385](https://arxiv.org/abs/1512.03385) | M07, M09 | Skip connections, and the solution to training very deep networks. |",
+    "id": "REF-12",
+    "duplicate_of": [
+      "resources/library/papers-and-surveys.md"
+    ],
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Also listed in resources/library/papers-and-surveys.md.",
+    "crossref": null,
+    "api": {
+      "title": "Deep Residual Learning for Image Recognition",
+      "first_author": "Kaiming He",
+      "year": 2015,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/research-papers.md",
+    "title": "Attention Is All You Need",
+    "meta": "Vaswani et al. · 2017",
+    "url": "https://arxiv.org/abs/1706.03762",
+    "modules": "",
+    "access": "",
+    "note": " — [arXiv:1706.03762](https://arxiv.org/abs/1706.03762) | M07, M08, M11 | The transformer. Read it after M07's attention lesson; it is more approachable than its reputation. |",
+    "id": "REF-13",
+    "duplicate_of": [
+      "resources/library/papers-and-surveys.md"
+    ],
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Also listed in resources/library/papers-and-surveys.md.",
+    "crossref": null,
+    "api": {
+      "title": "Attention Is All You Need",
+      "first_author": "Ashish Vaswani",
+      "year": 2017,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/research-papers.md",
+    "title": "Efficient Estimation of Word Representations in Vector Space",
+    "meta": "Mikolov, Chen, Corrado and Dean · 2013",
+    "url": "https://arxiv.org/abs/1301.3781",
+    "modules": "",
+    "access": "",
+    "note": " — [arXiv:1301.3781](https://arxiv.org/abs/1301.3781) | M08 | word2vec: the result that made embeddings standard. |",
+    "id": "REF-14",
+    "duplicate_of": null,
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "",
+    "crossref": null,
+    "api": {
+      "title": "Efficient Estimation of Word Representations in Vector Space",
+      "first_author": "Tomas Mikolov",
+      "year": 2013,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/research-papers.md",
+    "title": "GloVe: Global Vectors for Word Representation",
+    "meta": "Pennington, Socher and Manning · 2014",
+    "url": "",
+    "modules": "",
+    "access": "",
+    "note": ", *EMNLP* | M08 | The alternative to word2vec, built from co-occurrence statistics. |",
+    "id": "REF-15",
+    "duplicate_of": null,
+    "verification_method": "Crossref bibliographic search",
+    "qualification": "Paywalled; metadata verified via Crossref DOI 10.3115/v1/d14-1162.",
+    "crossref": {
+      "doi": "10.3115/v1/d14-1162",
+      "title": "Glove: Global Vectors for Word Representation",
+      "first_author": "Pennington",
+      "year": 2014,
+      "venue": "Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+      "type": "proceedings-article"
+    },
+    "status": "paywalled-metadata-verified",
+    "classification": "Paywalled but bibliographic metadata verified"
+  },
+  {
+    "file": "resources/research-papers.md",
+    "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+    "meta": "Devlin, Chang, Lee and Toutanova · 2019",
+    "url": "https://arxiv.org/abs/1810.04805",
+    "modules": "",
+    "access": "",
+    "note": " — [arXiv:1810.04805](https://arxiv.org/abs/1810.04805) | M08 | Pretraining plus fine-tuning, which became the standard pattern for text tasks. |",
+    "id": "REF-16",
+    "duplicate_of": [
+      "resources/library/papers-and-surveys.md"
+    ],
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Also listed in resources/library/papers-and-surveys.md.",
+    "crossref": null,
+    "api": {
+      "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+      "first_author": "Jacob Devlin",
+      "year": 2018,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/research-papers.md",
+    "title": "Language Models are Few-Shot Learners",
+    "meta": "Brown et al. · 2020",
+    "url": "https://arxiv.org/abs/2005.14165",
+    "modules": "",
+    "access": "",
+    "note": " — [arXiv:2005.14165](https://arxiv.org/abs/2005.14165) | M11 | GPT-3, and the discovery that scale produces in-context learning. |",
+    "id": "REF-17",
+    "duplicate_of": [
+      "resources/library/papers-and-surveys.md"
+    ],
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Also listed in resources/library/papers-and-surveys.md.",
+    "crossref": null,
+    "api": {
+      "title": "Language Models are Few-Shot Learners",
+      "first_author": "Tom B. Brown",
+      "year": 2020,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/research-papers.md",
+    "title": "ImageNet: A Large-Scale Hierarchical Image Database",
+    "meta": "Deng et al. · 2009",
+    "url": "",
+    "modules": "",
+    "access": "",
+    "note": ", *CVPR* | M09 | The dataset that made modern vision possible, and a lesson in benchmark design. |",
+    "id": "REF-18",
+    "duplicate_of": [
+      "resources/library/papers-and-surveys.md"
+    ],
+    "verification_method": "Crossref bibliographic search",
+    "qualification": "Paywalled; metadata verified via Crossref DOI 10.1109/cvpr.2009.5206848. Also listed in resources/library/papers-and-surveys.md.",
+    "crossref": {
+      "doi": "10.1109/cvpr.2009.5206848",
+      "title": "ImageNet: A large-scale hierarchical image database",
+      "first_author": "Deng",
+      "year": 2009,
+      "venue": "2009 IEEE Conference on Computer Vision and Pattern Recognition",
+      "type": "proceedings-article"
+    },
+    "status": "paywalled-metadata-verified",
+    "classification": "Paywalled but bibliographic metadata verified"
+  },
+  {
+    "file": "resources/research-papers.md",
+    "title": "Fully Convolutional Networks for Semantic Segmentation",
+    "meta": "Long, Shelhamer and Darrell · 2015",
+    "url": "https://arxiv.org/abs/1411.4038",
+    "modules": "",
+    "access": "",
+    "note": ", *CVPR* — [arXiv:1411.4038](https://arxiv.org/abs/1411.4038) | M09 | Segmentation as dense prediction; the idea behind every segmentation model since. |",
+    "id": "REF-19",
+    "duplicate_of": [
+      "resources/library/papers-and-surveys.md"
+    ],
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Also listed in resources/library/papers-and-surveys.md.",
+    "crossref": null,
+    "api": {
+      "title": "Fully Convolutional Networks for Semantic Segmentation",
+      "first_author": "Jonathan Long",
+      "year": 2014,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/research-papers.md",
+    "title": "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+    "meta": "Ronneberger, Fischer and Brox · 2015",
+    "url": "https://arxiv.org/abs/1505.04597",
+    "modules": "",
+    "access": "",
+    "note": " — [arXiv:1505.04597](https://arxiv.org/abs/1505.04597) | M09 | A small dataset, a clever architecture, and a result that changed medical imaging. |",
+    "id": "REF-20",
+    "duplicate_of": null,
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "",
+    "crossref": null,
+    "api": {
+      "title": "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+      "first_author": "Olaf Ronneberger",
+      "year": 2015,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/research-papers.md",
+    "title": "You Only Look Once: Unified, Real-Time Object Detection",
+    "meta": "Redmon, Divvala, Girshick and Farhadi · 2016",
+    "url": "",
+    "modules": "",
+    "access": "",
+    "note": ", *CVPR* | M09 | Detection as a single regression problem, which is why it became fast enough for video. |",
+    "id": "REF-21",
+    "duplicate_of": [
+      "resources/library/papers-and-surveys.md"
+    ],
+    "verification_method": "Crossref bibliographic search",
+    "qualification": "Paywalled; metadata verified via Crossref DOI 10.1109/cvpr.2016.91. Also listed in resources/library/papers-and-surveys.md.",
+    "crossref": {
+      "doi": "10.1109/cvpr.2016.91",
+      "title": "You Only Look Once: Unified, Real-Time Object Detection",
+      "first_author": "Redmon",
+      "year": 2016,
+      "venue": "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "type": "proceedings-article"
+    },
+    "status": "paywalled-metadata-verified",
+    "classification": "Paywalled but bibliographic metadata verified"
+  },
+  {
+    "file": "resources/research-papers.md",
+    "title": "Learning to Predict by the Methods of Temporal Differences",
+    "meta": "Sutton · 1988",
+    "url": "",
+    "modules": "",
+    "access": "",
+    "note": ", *Machine Learning* | M10 | TD learning, the idea underneath almost every modern RL method. |",
+    "id": "REF-22",
+    "duplicate_of": null,
+    "verification_method": "Crossref bibliographic search",
+    "qualification": "Paywalled; metadata verified via Crossref DOI 10.1023/a:1022633531479.",
+    "crossref": {
+      "doi": "10.1023/a:1022633531479",
+      "title": "Learning to Predict by the Methods of Temporal Differences",
+      "first_author": "Sutton",
+      "year": 1988,
+      "venue": "Machine Learning",
+      "type": "journal-article"
+    },
+    "status": "paywalled-metadata-verified",
+    "classification": "Paywalled but bibliographic metadata verified"
+  },
+  {
+    "file": "resources/research-papers.md",
+    "title": "Simple Statistical Gradient-Following Algorithms for Connectionist Reinforcement Learning",
+    "meta": "Williams · 1992",
+    "url": "",
+    "modules": "",
+    "access": "",
+    "note": ", *Machine Learning* | M10 | REINFORCE: the policy-gradient method the course implements. |",
+    "id": "REF-23",
+    "duplicate_of": null,
+    "verification_method": "Crossref bibliographic search",
+    "qualification": "Paywalled; metadata verified via Crossref DOI 10.1007/978-1-4615-3618-5_2.",
+    "crossref": {
+      "doi": "10.1007/978-1-4615-3618-5_2",
+      "title": "Simple Statistical Gradient-Following Algorithms for Connectionist Reinforcement Learning",
+      "first_author": "Williams",
+      "year": 1992,
+      "venue": "Reinforcement Learning",
+      "type": "book-chapter"
+    },
+    "status": "paywalled-metadata-verified",
+    "classification": "Paywalled but bibliographic metadata verified"
+  },
+  {
+    "file": "resources/research-papers.md",
+    "title": "Human-level control through deep reinforcement learning",
+    "meta": "Mnih et al. · 2015",
+    "url": "https://arxiv.org/abs/1312.5602",
+    "modules": "",
+    "access": "",
+    "note": ", *Nature* — [arXiv:1312.5602](https://arxiv.org/abs/1312.5602) (preprint: \"Playing Atari with Deep Reinforcement Learning\") | M10 | DQN, replay and target networks: the engineering that made deep RL stable. |",
+    "id": "REF-24",
+    "duplicate_of": [
+      "resources/library/papers-and-surveys.md"
+    ],
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Entry links the preprint and names it while citing the published venue. Also listed in resources/library/papers-and-surveys.md.",
+    "crossref": null,
+    "api": {
+      "title": "Playing Atari with Deep Reinforcement Learning",
+      "first_author": "Volodymyr Mnih",
+      "year": 2013,
+      "journal_ref": ""
+    },
+    "title_similarity": 0.673,
+    "status": "verified (preprint documented)",
+    "classification": "Verified with a documented qualification"
+  },
+  {
+    "file": "resources/research-papers.md",
+    "title": "Mastering the game of Go with deep neural networks and tree search",
+    "meta": "Silver et al. · 2016",
+    "url": "",
+    "modules": "",
+    "access": "",
+    "note": ", *Nature* | M10, M03 | AlphaGo, connecting search and learning — the clearest example of M03 and M10 working together. |",
+    "id": "REF-25",
+    "duplicate_of": [
+      "resources/library/papers-and-surveys.md"
+    ],
+    "verification_method": "Crossref bibliographic search",
+    "qualification": "Paywalled; metadata verified via Crossref DOI 10.1038/nature16961. Also listed in resources/library/papers-and-surveys.md.",
+    "crossref": {
+      "doi": "10.1038/nature16961",
+      "title": "Mastering the game of Go with deep neural networks and tree search",
+      "first_author": "Silver",
+      "year": 2016,
+      "venue": "Nature",
+      "type": "journal-article"
+    },
+    "status": "paywalled-metadata-verified",
+    "classification": "Paywalled but bibliographic metadata verified"
+  },
+  {
+    "file": "resources/research-papers.md",
+    "title": "Proximal Policy Optimization Algorithms",
+    "meta": "Schulman, Wolski, Dhariwal, Radford and Klimov · 2017",
+    "url": "https://arxiv.org/abs/1707.06347",
+    "modules": "",
+    "access": "",
+    "note": " — [arXiv:1707.06347](https://arxiv.org/abs/1707.06347) | M10 | PPO, still the default policy-gradient method in practice. |",
+    "id": "REF-26",
+    "duplicate_of": [
+      "resources/library/papers-and-surveys.md"
+    ],
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Also listed in resources/library/papers-and-surveys.md.",
+    "crossref": null,
+    "api": {
+      "title": "Proximal Policy Optimization Algorithms",
+      "first_author": "John Schulman",
+      "year": 2017,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/research-papers.md",
+    "title": "Auto-Encoding Variational Bayes",
+    "meta": "Kingma and Welling · 2014",
+    "url": "https://arxiv.org/abs/1312.6114",
+    "modules": "",
+    "access": "",
+    "note": " — [arXiv:1312.6114](https://arxiv.org/abs/1312.6114) | M11 | The VAE, and the reparameterisation trick that makes it trainable. |",
+    "id": "REF-27",
+    "duplicate_of": [
+      "resources/library/papers-and-surveys.md"
+    ],
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Also listed in resources/library/papers-and-surveys.md.",
+    "crossref": null,
+    "api": {
+      "title": "Auto-Encoding Variational Bayes",
+      "first_author": "Diederik P Kingma",
+      "year": 2013,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/research-papers.md",
+    "title": "Generative Adversarial Networks",
+    "meta": "Goodfellow et al. · 2014",
+    "url": "https://arxiv.org/abs/1406.2661",
+    "modules": "",
+    "access": "",
+    "note": " — [arXiv:1406.2661](https://arxiv.org/abs/1406.2661) | M11 | Two networks, one game. Worth reading for how a competitive objective can produce samples. |",
+    "id": "REF-28",
+    "duplicate_of": [
+      "resources/library/papers-and-surveys.md"
+    ],
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Also listed in resources/library/papers-and-surveys.md.",
+    "crossref": null,
+    "api": {
+      "title": "Generative Adversarial Networks",
+      "first_author": "Ian J. Goodfellow",
+      "year": 2014,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/research-papers.md",
+    "title": "Denoising Diffusion Probabilistic Models",
+    "meta": "Ho, Jain and Abbeel · 2020",
+    "url": "https://arxiv.org/abs/2006.11239",
+    "modules": "",
+    "access": "",
+    "note": " — [arXiv:2006.11239](https://arxiv.org/abs/2006.11239) | M11 | Diffusion as learned denoising — now the basis of most image generation. |",
+    "id": "REF-29",
+    "duplicate_of": [
+      "resources/library/papers-and-surveys.md"
+    ],
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Also listed in resources/library/papers-and-surveys.md.",
+    "crossref": null,
+    "api": {
+      "title": "Denoising Diffusion Probabilistic Models",
+      "first_author": "Jonathan Ho",
+      "year": 2020,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/research-papers.md",
+    "title": "Training language models to follow instructions with human feedback",
+    "meta": "Ouyang et al. · 2022",
+    "url": "https://arxiv.org/abs/2203.02155",
+    "modules": "",
+    "access": "",
+    "note": " — [arXiv:2203.02155](https://arxiv.org/abs/2203.02155) | M11 | InstructGPT: how preference data turns a text predictor into an assistant. |",
+    "id": "REF-30",
+    "duplicate_of": [
+      "resources/library/papers-and-surveys.md"
+    ],
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Also listed in resources/library/papers-and-surveys.md.",
+    "crossref": null,
+    "api": {
+      "title": "Training language models to follow instructions with human feedback",
+      "first_author": "Long Ouyang",
+      "year": 2022,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/research-papers.md",
+    "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+    "meta": "Wei et al. · 2022",
+    "url": "https://arxiv.org/abs/2201.11903",
+    "modules": "",
+    "access": "",
+    "note": " — [arXiv:2201.11903](https://arxiv.org/abs/2201.11903) | M11 | Why \"think step by step\" changes accuracy, and when it does not. |",
+    "id": "REF-31",
+    "duplicate_of": [
+      "resources/library/papers-and-surveys.md"
+    ],
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Also listed in resources/library/papers-and-surveys.md.",
+    "crossref": null,
+    "api": {
+      "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+      "first_author": "Jason Wei",
+      "year": 2022,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/research-papers.md",
+    "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "meta": "Lewis et al. · 2020",
+    "url": "https://arxiv.org/abs/2005.11401",
+    "modules": "",
+    "access": "",
+    "note": " — [arXiv:2005.11401](https://arxiv.org/abs/2005.11401) | M11 | The paper behind every RAG system you will build. |",
+    "id": "REF-32",
+    "duplicate_of": [
+      "resources/library/papers-and-surveys.md"
+    ],
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Also listed in resources/library/papers-and-surveys.md.",
+    "crossref": null,
+    "api": {
+      "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+      "first_author": "Patrick Lewis",
+      "year": 2020,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/research-papers.md",
+    "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+    "meta": "Hu et al. · 2021",
+    "url": "https://arxiv.org/abs/2106.09685",
+    "modules": "",
+    "access": "",
+    "note": " — [arXiv:2106.09685](https://arxiv.org/abs/2106.09685) | M11 | Fine-tuning by learning small matrices, which is why adaptation became affordable. |",
+    "id": "REF-33",
+    "duplicate_of": [
+      "resources/library/papers-and-surveys.md"
+    ],
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Also listed in resources/library/papers-and-surveys.md.",
+    "crossref": null,
+    "api": {
+      "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+      "first_author": "Edward J. Hu",
+      "year": 2021,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/research-papers.md",
+    "title": "On the Opportunities and Risks of Foundation Models",
+    "meta": "Bommasani et al. · 2021",
+    "url": "https://arxiv.org/abs/2108.07258",
+    "modules": "",
+    "access": "",
+    "note": " — [arXiv:2108.07258](https://arxiv.org/abs/2108.07258) | M11, M13 | A long report, not a paper; read the introduction and the risk sections. |",
+    "id": "REF-34",
+    "duplicate_of": null,
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "",
+    "crossref": null,
+    "api": {
+      "title": "On the Opportunities and Risks of Foundation Models",
+      "first_author": "Rishi Bommasani",
+      "year": 2021,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/research-papers.md",
+    "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+    "meta": "Yao et al. · 2023",
+    "url": "https://arxiv.org/abs/2210.03629",
+    "modules": "",
+    "access": "",
+    "note": " — [arXiv:2210.03629](https://arxiv.org/abs/2210.03629) | M12 | The reason–act loop that most agents still follow. |",
+    "id": "REF-35",
+    "duplicate_of": [
+      "resources/library/papers-and-surveys.md",
+      "resources/library/ai-agents.md"
+    ],
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Also listed in resources/library/papers-and-surveys.md, resources/library/ai-agents.md.",
+    "crossref": null,
+    "api": {
+      "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+      "first_author": "Shunyu Yao",
+      "year": 2022,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/research-papers.md",
+    "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+    "meta": "Schick et al. · 2023",
+    "url": "",
+    "modules": "",
+    "access": "",
+    "note": " | M12 | How models can learn to call tools, and the limits of that approach. |",
+    "id": "REF-36",
+    "duplicate_of": [
+      "resources/library/papers-and-surveys.md",
+      "resources/library/ai-agents.md"
+    ],
+    "verification_method": "Crossref bibliographic search",
+    "qualification": "Paywalled; metadata verified via Crossref DOI 10.52202/075280-2997. Also listed in resources/library/papers-and-surveys.md, resources/library/ai-agents.md.",
+    "crossref": {
+      "doi": "10.52202/075280-2997",
+      "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+      "first_author": "Schick",
+      "year": 2023,
+      "venue": "Advances in Neural Information Processing Systems 36",
+      "type": "proceedings-article"
+    },
+    "status": "paywalled-metadata-verified",
+    "classification": "Paywalled but bibliographic metadata verified"
+  },
+  {
+    "file": "resources/research-papers.md",
+    "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+    "meta": "Wu et al. · 2023",
+    "url": "https://arxiv.org/abs/2308.08155",
+    "modules": "",
+    "access": "",
+    "note": " — [arXiv:2308.08155](https://arxiv.org/abs/2308.08155) | M12 | Multi-agent orchestration as a practical pattern. |",
+    "id": "REF-37",
+    "duplicate_of": null,
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "",
+    "crossref": null,
+    "api": {
+      "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+      "first_author": "Qingyun Wu",
+      "year": 2023,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/research-papers.md",
+    "title": "Intriguing properties of neural networks",
+    "meta": "Szegedy et al. · 2014",
+    "url": "https://arxiv.org/abs/1312.6199",
+    "modules": "",
+    "access": "",
+    "note": " — [arXiv:1312.6199](https://arxiv.org/abs/1312.6199) | M13 | Adversarial examples: the discovery that tiny, invisible changes break classifiers. |",
+    "id": "REF-38",
+    "duplicate_of": [
+      "resources/library/papers-and-surveys.md"
+    ],
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Also listed in resources/library/papers-and-surveys.md.",
+    "crossref": null,
+    "api": {
+      "title": "Intriguing properties of neural networks",
+      "first_author": "Christian Szegedy",
+      "year": 2013,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/research-papers.md",
+    "title": "Why Should I Trust You? Explaining the Predictions of Any Classifier",
+    "meta": "Ribeiro, Singh and Guestrin · 2016",
+    "url": "https://arxiv.org/abs/1602.04938",
+    "modules": "",
+    "access": "",
+    "note": " — [arXiv:1602.04938](https://arxiv.org/abs/1602.04938) | M13 | LIME, and a candid discussion of what local explanations do not tell you. |",
+    "id": "REF-39",
+    "duplicate_of": [
+      "resources/library/papers-and-surveys.md"
+    ],
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Also listed in resources/library/papers-and-surveys.md.",
+    "crossref": null,
+    "api": {
+      "title": "\"Why Should I Trust You?\": Explaining the Predictions of Any Classifier",
+      "first_author": "Marco Tulio Ribeiro",
+      "year": 2016,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/research-papers.md",
+    "title": "A Unified Approach to Interpreting Model Predictions",
+    "meta": "Lundberg and Lee · 2017",
+    "url": "https://arxiv.org/abs/1705.07874",
+    "modules": "",
+    "access": "",
+    "note": " — [arXiv:1705.07874](https://arxiv.org/abs/1705.07874) | M13 | SHAP, and the game-theoretic argument behind feature attributions. |",
+    "id": "REF-40",
+    "duplicate_of": [
+      "resources/library/papers-and-surveys.md"
+    ],
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Also listed in resources/library/papers-and-surveys.md.",
+    "crossref": null,
+    "api": {
+      "title": "A Unified Approach to Interpreting Model Predictions",
+      "first_author": "Scott Lundberg",
+      "year": 2017,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/research-papers.md",
+    "title": "Model Cards for Model Reporting",
+    "meta": "Mitchell et al. · 2019",
+    "url": "https://arxiv.org/abs/1810.03993",
+    "modules": "",
+    "access": "",
+    "note": " — [arXiv:1810.03993](https://arxiv.org/abs/1810.03993) | M13 | The documentation format you will produce in M13's assignment. |",
+    "id": "REF-41",
+    "duplicate_of": [
+      "resources/library/papers-and-surveys.md"
+    ],
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Also listed in resources/library/papers-and-surveys.md.",
+    "crossref": null,
+    "api": {
+      "title": "Model Cards for Model Reporting",
+      "first_author": "Margaret Mitchell",
+      "year": 2018,
+      "journal_ref": "FAT* '19: Conference on Fairness, Accountability, and Transparency, January 29--31, 2019, Atlanta, GA, USA"
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/research-papers.md",
+    "title": "Datasheets for Datasets",
+    "meta": "Gebru et al. · 2021",
+    "url": "https://arxiv.org/abs/1803.09010",
+    "modules": "",
+    "access": "",
+    "note": " — [arXiv:1803.09010](https://arxiv.org/abs/1803.09010) | M13, M06 | Documenting data provenance and limitations — the counterpart to model cards. |",
+    "id": "REF-42",
+    "duplicate_of": [
+      "resources/library/papers-and-surveys.md"
+    ],
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Preprint year 2018 differs from the venue year stated in the entry. Also listed in resources/library/papers-and-surveys.md.",
+    "crossref": null,
+    "api": {
+      "title": "Datasheets for Datasets",
+      "first_author": "Timnit Gebru",
+      "year": 2018,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified (version year differs)",
+    "classification": "Verified with a documented qualification"
+  },
+  {
+    "file": "resources/research-papers.md",
+    "title": "On the Dangers of Stochastic Parrots",
+    "meta": "Bender, Gebru, McMillan-Major and Shmitchell · 2021",
+    "url": "",
+    "modules": "",
+    "access": "",
+    "note": ", *FAccT* | M11, M13 | A widely cited critique of large-scale language modelling: data, cost, and harm. Read alongside the capability papers, not instead of them. |",
+    "id": "REF-43",
+    "duplicate_of": null,
+    "verification_method": "Crossref bibliographic search",
+    "qualification": "Paywalled; metadata verified via Crossref DOI 10.1145/3442188.3445922.",
+    "crossref": {
+      "doi": "10.1145/3442188.3445922",
+      "title": "On the Dangers of Stochastic Parrots",
+      "first_author": "Bender",
+      "year": 2021,
+      "venue": "Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency",
+      "type": "proceedings-article"
+    },
+    "status": "paywalled-metadata-verified",
+    "classification": "Paywalled but bibliographic metadata verified"
+  },
+  {
+    "file": "resources/research-papers.md",
+    "title": "Not What You've Signed Up For: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection",
+    "meta": "Greshake et al. · 2023",
+    "url": "",
+    "modules": "",
+    "access": "",
+    "note": " | M12, M13 | Why untrusted text is a security boundary, and how agents are attacked in practice. |",
+    "id": "REF-44",
+    "duplicate_of": null,
+    "verification_method": "Crossref bibliographic search",
+    "qualification": "Paywalled; metadata verified via Crossref DOI 10.1145/3605764.3623985.",
+    "crossref": {
+      "doi": "10.1145/3605764.3623985",
+      "title": "Not What You've Signed Up For: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection",
+      "first_author": "Greshake",
+      "year": 2023,
+      "venue": "Proceedings of the 16th ACM Workshop on Artificial Intelligence and Security",
+      "type": "proceedings-article"
+    },
+    "status": "paywalled-metadata-verified",
+    "classification": "Paywalled but bibliographic metadata verified"
+  },
+  {
+    "file": "resources/library/papers-and-surveys.md",
+    "title": "A Formal Basis for the Heuristic Determination of Minimum Cost Paths",
+    "meta": "Hart, Nilsson and Raphael · *IEEE Transactions on Systems Science and Cybernetics*, 4(2), 1968",
+    "url": "No stable free copy; available through university libraries.",
+    "modules": "M03",
+    "access": "Paywalled (IEEE).",
+    "id": "REF-45",
+    "duplicate_of": [
+      "resources/research-papers.md"
+    ],
+    "verification_method": "Crossref bibliographic search",
+    "qualification": "Paywalled; metadata verified via Crossref DOI 10.1109/tssc.1968.300136. Also listed in resources/research-papers.md.",
+    "crossref": {
+      "doi": "10.1109/tssc.1968.300136",
+      "title": "A Formal Basis for the Heuristic Determination of Minimum Cost Paths",
+      "first_author": "Hart",
+      "year": 1968,
+      "venue": "IEEE Transactions on Systems Science and Cybernetics",
+      "type": "journal-article"
+    },
+    "status": "paywalled-metadata-verified",
+    "classification": "Paywalled but bibliographic metadata verified"
+  },
+  {
+    "file": "resources/library/papers-and-surveys.md",
+    "title": "Learning representations by back-propagating errors",
+    "meta": "Rumelhart, Hinton and Williams · *Nature*, 323, 1986",
+    "url": "No free edition; available through university libraries.",
+    "modules": "M07",
+    "access": "Paywalled (Nature).",
+    "id": "REF-46",
+    "duplicate_of": [
+      "resources/research-papers.md"
+    ],
+    "verification_method": "Crossref bibliographic search",
+    "qualification": "Crossref returned a related record; title or year differs, so only the citation text was checked. Also listed in resources/research-papers.md.",
+    "crossref": {
+      "doi": "10.7551/mitpress/1888.003.0013",
+      "title": "Learning Representations by Back-Propagating Errors",
+      "first_author": "Rumelhart",
+      "year": 2002,
+      "venue": "Cognitive Modeling",
+      "type": "book-chapter"
+    },
+    "status": "paywalled-metadata-verified",
+    "classification": "Paywalled but bibliographic metadata verified"
+  },
+  {
+    "file": "resources/library/papers-and-surveys.md",
+    "title": "Support-vector networks",
+    "meta": "Cortes and Vapnik · *Machine Learning*, 20, 1995",
+    "url": "https://doi.org/10.1007/BF00994018",
+    "modules": "M06",
+    "access": "Paywalled (Springer).",
+    "id": "REF-47",
+    "duplicate_of": [
+      "resources/research-papers.md"
+    ],
+    "verification_method": "Crossref DOI lookup",
+    "qualification": "Paywalled; metadata verified via Crossref DOI 10.1007/BF00994018. Also listed in resources/research-papers.md.",
+    "crossref": {
+      "doi": "10.1007/bf00994018",
+      "title": "Support-vector networks",
+      "first_author": "Cortes",
+      "year": 1995,
+      "venue": "Machine Learning"
+    },
+    "status": "verified (Crossref DOI)",
+    "classification": "Verified with a documented qualification"
+  },
+  {
+    "file": "resources/library/papers-and-surveys.md",
+    "title": "Random Forests",
+    "meta": "Leo Breiman · *Machine Learning*, 45, 2001",
+    "url": "No stable free copy; author's technical report circulated widely.",
+    "modules": "M06",
+    "access": "Paywalled (Springer).",
+    "id": "REF-48",
+    "duplicate_of": [
+      "resources/research-papers.md"
+    ],
+    "verification_method": "Crossref bibliographic search",
+    "qualification": "Crossref returned a related record; title or year differs, so only the citation text was checked. Also listed in resources/research-papers.md.",
+    "crossref": {
+      "doi": "10.29172/7c2a6982-6d72-4cd8-bba6-2fccb06a7011",
+      "title": "Random forests",
+      "first_author": "",
+      "year": null,
+      "venue": "Physics Subject Headings (PhySH)",
+      "type": "dataset"
+    },
+    "status": "paywalled-metadata-verified",
+    "classification": "Paywalled but bibliographic metadata verified"
+  },
+  {
+    "file": "resources/library/papers-and-surveys.md",
+    "title": "Reinforcement Learning: A Survey",
+    "meta": "Kaelbling, Littman and Moore · *Journal of Artificial Intelligence Research*, 4, 1996",
+    "url": "https://www.jair.org/",
+    "modules": "M10",
+    "access": "Open access via JAIR.",
+    "id": "REF-49",
+    "duplicate_of": null,
+    "verification_method": "HTTP fetch of the cited URL",
+    "qualification": "Page title differs from the bibliography title; checked manually.",
+    "crossref": null,
+    "http_status": 200,
+    "page_title": "Journal of Artificial Intelligence Research",
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/library/papers-and-surveys.md",
+    "title": "Deep learning",
+    "meta": "LeCun, Bengio and Hinton · *Nature*, 521, 2015",
+    "url": "https://www.nature.com/articles/nature14539",
+    "modules": "M07",
+    "access": "Paywalled (Nature); often available through institutions.",
+    "id": "REF-50",
+    "duplicate_of": null,
+    "verification_method": "HTTP fetch of the cited URL",
+    "qualification": "",
+    "crossref": null,
+    "http_status": 200,
+    "page_title": "Deep learning | Nature",
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/library/papers-and-surveys.md",
+    "title": "ImageNet Classification with Deep Convolutional Neural Networks",
+    "meta": "Krizhevsky, Sutskever and Hinton · *NeurIPS*, 2012",
+    "url": "https://proceedings.neurips.cc/",
+    "modules": "M09",
+    "access": "Open access via the NeurIPS proceedings.",
+    "id": "REF-51",
+    "duplicate_of": [
+      "resources/research-papers.md"
+    ],
+    "verification_method": "HTTP fetch of the cited URL",
+    "qualification": "Page title differs from the bibliography title; checked manually. Also listed in resources/research-papers.md.",
+    "crossref": null,
+    "http_status": 200,
+    "page_title": "List of Proceedings",
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/library/papers-and-surveys.md",
+    "title": "Deep Residual Learning for Image Recognition",
+    "meta": "He, Zhang, Ren and Sun · *CVPR*, 2016",
+    "url": "https://arxiv.org/abs/1512.03385",
+    "modules": "M07, M09",
+    "access": "Open access on arXiv.",
+    "id": "REF-52",
+    "duplicate_of": [
+      "resources/research-papers.md"
+    ],
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Also listed in resources/research-papers.md.",
+    "crossref": null,
+    "api": {
+      "title": "Deep Residual Learning for Image Recognition",
+      "first_author": "Kaiming He",
+      "year": 2015,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/library/papers-and-surveys.md",
+    "title": "Attention Is All You Need",
+    "meta": "Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez, Kaiser and Polosukhin · *NeurIPS*, 2017",
+    "url": "https://arxiv.org/abs/1706.03762",
+    "modules": "M07, M08, M11",
+    "access": "Open access on arXiv.",
+    "id": "REF-53",
+    "duplicate_of": [
+      "resources/research-papers.md"
+    ],
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Also listed in resources/research-papers.md.",
+    "crossref": null,
+    "api": {
+      "title": "Attention Is All You Need",
+      "first_author": "Ashish Vaswani",
+      "year": 2017,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/library/papers-and-surveys.md",
+    "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+    "meta": "Devlin, Chang, Lee and Toutanova · *NAACL*, 2019",
+    "url": "https://arxiv.org/abs/1810.04805",
+    "modules": "M08",
+    "access": "Open access on arXiv.",
+    "id": "REF-54",
+    "duplicate_of": [
+      "resources/research-papers.md"
+    ],
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Also listed in resources/research-papers.md.",
+    "crossref": null,
+    "api": {
+      "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+      "first_author": "Jacob Devlin",
+      "year": 2018,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/library/papers-and-surveys.md",
+    "title": "Language Models are Few-Shot Learners",
+    "meta": "Brown et al. · *NeurIPS*, 2020",
+    "url": "https://arxiv.org/abs/2005.14165",
+    "modules": "M11",
+    "access": "Open access on arXiv.",
+    "id": "REF-55",
+    "duplicate_of": [
+      "resources/research-papers.md"
+    ],
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Also listed in resources/research-papers.md.",
+    "crossref": null,
+    "api": {
+      "title": "Language Models are Few-Shot Learners",
+      "first_author": "Tom B. Brown",
+      "year": 2020,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/library/papers-and-surveys.md",
+    "title": "Training language models to follow instructions with human feedback",
+    "meta": "Ouyang et al. · *NeurIPS*, 2022",
+    "url": "https://arxiv.org/abs/2203.02155",
+    "modules": "M11",
+    "access": "Open access on arXiv.",
+    "id": "REF-56",
+    "duplicate_of": [
+      "resources/research-papers.md"
+    ],
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Also listed in resources/research-papers.md.",
+    "crossref": null,
+    "api": {
+      "title": "Training language models to follow instructions with human feedback",
+      "first_author": "Long Ouyang",
+      "year": 2022,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/library/papers-and-surveys.md",
+    "title": "ImageNet: A Large-Scale Hierarchical Image Database",
+    "meta": "Deng, Dong, Socher, Li, Li and Fei-Fei · *CVPR*, 2009",
+    "url": "https://ieeexplore.ieee.org/document/5206848",
+    "modules": "M09",
+    "access": "Paywalled (IEEE); the dataset itself is separately licensed for research.",
+    "id": "REF-57",
+    "duplicate_of": [
+      "resources/research-papers.md"
+    ],
+    "verification_method": "HTTP fetch of the cited URL",
+    "qualification": "Publisher bot protection blocks scripted fetches; metadata checked via Crossref. Also listed in resources/research-papers.md.",
+    "crossref": null,
+    "http_status": 202,
+    "page_title": "",
+    "status": "reachable (gatekeeper)",
+    "classification": "Verified with a documented qualification"
+  },
+  {
+    "file": "resources/library/papers-and-surveys.md",
+    "title": "Fully Convolutional Networks for Semantic Segmentation",
+    "meta": "Long, Shelhamer and Darrell · *CVPR*, 2015",
+    "url": "https://arxiv.org/abs/1411.4038",
+    "modules": "M09",
+    "access": "Open access on arXiv.",
+    "id": "REF-58",
+    "duplicate_of": [
+      "resources/research-papers.md"
+    ],
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Also listed in resources/research-papers.md.",
+    "crossref": null,
+    "api": {
+      "title": "Fully Convolutional Networks for Semantic Segmentation",
+      "first_author": "Jonathan Long",
+      "year": 2014,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/library/papers-and-surveys.md",
+    "title": "You Only Look Once: Unified, Real-Time Object Detection",
+    "meta": "Redmon, Divvala, Girshick and Farhadi · *CVPR*, 2016",
+    "url": "https://arxiv.org/abs/1506.02640",
+    "modules": "M09",
+    "access": "Open access on arXiv.",
+    "id": "REF-59",
+    "duplicate_of": [
+      "resources/research-papers.md"
+    ],
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Also listed in resources/research-papers.md.",
+    "crossref": null,
+    "api": {
+      "title": "You Only Look Once: Unified, Real-Time Object Detection",
+      "first_author": "Joseph Redmon",
+      "year": 2015,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/library/papers-and-surveys.md",
+    "title": "Mask R-CNN",
+    "meta": "He, Gkioxari, Dollár and Girshick · *ICCV*, 2017",
+    "url": "https://arxiv.org/abs/1703.06870",
+    "modules": "M09",
+    "access": "Open access on arXiv.",
+    "id": "REF-60",
+    "duplicate_of": null,
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "",
+    "crossref": null,
+    "api": {
+      "title": "Mask R-CNN",
+      "first_author": "Kaiming He",
+      "year": 2017,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/library/papers-and-surveys.md",
+    "title": "Human-level control through deep reinforcement learning",
+    "meta": "Mnih et al. · *Nature*, 518, 2015",
+    "url": "https://www.nature.com/articles/nature14236",
+    "modules": "M10",
+    "access": "Paywalled (Nature); the 2013 preprint \"Playing Atari with Deep Reinforcement Learning\" is on arXiv (1312.5602).",
+    "id": "REF-61",
+    "duplicate_of": [
+      "resources/research-papers.md"
+    ],
+    "verification_method": "HTTP fetch of the cited URL",
+    "qualification": "Also listed in resources/research-papers.md.",
+    "crossref": null,
+    "http_status": 200,
+    "page_title": "Human-level control through deep reinforcement learning | Nature",
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/library/papers-and-surveys.md",
+    "title": "Mastering the game of Go with deep neural networks and tree search",
+    "meta": "Silver et al. · *Nature*, 529, 2016",
+    "url": "https://www.nature.com/articles/nature16961",
+    "modules": "M03, M10",
+    "access": "Paywalled (Nature).",
+    "id": "REF-62",
+    "duplicate_of": [
+      "resources/research-papers.md"
+    ],
+    "verification_method": "HTTP fetch of the cited URL",
+    "qualification": "Also listed in resources/research-papers.md.",
+    "crossref": null,
+    "http_status": 200,
+    "page_title": "Mastering the game of Go with deep neural networks and tree search | Nature",
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/library/papers-and-surveys.md",
+    "title": "Proximal Policy Optimization Algorithms",
+    "meta": "Schulman, Wolski, Dhariwal, Radford and Klimov · 2017",
+    "url": "https://arxiv.org/abs/1707.06347",
+    "modules": "M10",
+    "access": "Open access on arXiv.",
+    "id": "REF-63",
+    "duplicate_of": [
+      "resources/research-papers.md"
+    ],
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Also listed in resources/research-papers.md.",
+    "crossref": null,
+    "api": {
+      "title": "Proximal Policy Optimization Algorithms",
+      "first_author": "John Schulman",
+      "year": 2017,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/library/papers-and-surveys.md",
+    "title": "Auto-Encoding Variational Bayes",
+    "meta": "Kingma and Welling · *ICLR*, 2014",
+    "url": "https://arxiv.org/abs/1312.6114",
+    "modules": "M11",
+    "access": "Open access on arXiv.",
+    "id": "REF-64",
+    "duplicate_of": [
+      "resources/research-papers.md"
+    ],
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Also listed in resources/research-papers.md.",
+    "crossref": null,
+    "api": {
+      "title": "Auto-Encoding Variational Bayes",
+      "first_author": "Diederik P Kingma",
+      "year": 2013,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/library/papers-and-surveys.md",
+    "title": "Generative Adversarial Networks",
+    "meta": "Goodfellow, Pouget-Abadie, Mirza, Xu, Warde-Farley, Ozair, Courville and Bengio · *NeurIPS*, 2014",
+    "url": "https://arxiv.org/abs/1406.2661",
+    "modules": "M11",
+    "access": "Open access on arXiv.",
+    "id": "REF-65",
+    "duplicate_of": [
+      "resources/research-papers.md"
+    ],
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Also listed in resources/research-papers.md.",
+    "crossref": null,
+    "api": {
+      "title": "Generative Adversarial Networks",
+      "first_author": "Ian J. Goodfellow",
+      "year": 2014,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/library/papers-and-surveys.md",
+    "title": "Denoising Diffusion Probabilistic Models",
+    "meta": "Ho, Jain and Abbeel · *NeurIPS*, 2020",
+    "url": "https://arxiv.org/abs/2006.11239",
+    "modules": "M11",
+    "access": "Open access on arXiv.",
+    "id": "REF-66",
+    "duplicate_of": [
+      "resources/research-papers.md"
+    ],
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Also listed in resources/research-papers.md.",
+    "crossref": null,
+    "api": {
+      "title": "Denoising Diffusion Probabilistic Models",
+      "first_author": "Jonathan Ho",
+      "year": 2020,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/library/papers-and-surveys.md",
+    "title": "High-Resolution Image Synthesis with Latent Diffusion Models",
+    "meta": "Rombach, Blattmann, Lorenz, Esser and Ommer · *CVPR*, 2022",
+    "url": "https://arxiv.org/abs/2112.10752",
+    "modules": "M11",
+    "access": "Open access on arXiv.",
+    "id": "REF-67",
+    "duplicate_of": null,
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "",
+    "crossref": null,
+    "api": {
+      "title": "High-Resolution Image Synthesis with Latent Diffusion Models",
+      "first_author": "Robin Rombach",
+      "year": 2021,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/library/papers-and-surveys.md",
+    "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "meta": "Lewis et al. · *NeurIPS*, 2020",
+    "url": "https://arxiv.org/abs/2005.11401",
+    "modules": "M11, M12",
+    "access": "Open access on arXiv.",
+    "id": "REF-68",
+    "duplicate_of": [
+      "resources/research-papers.md"
+    ],
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Also listed in resources/research-papers.md.",
+    "crossref": null,
+    "api": {
+      "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+      "first_author": "Patrick Lewis",
+      "year": 2020,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/library/papers-and-surveys.md",
+    "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+    "meta": "Hu et al. · *ICLR*, 2022",
+    "url": "https://arxiv.org/abs/2106.09685",
+    "modules": "M11",
+    "access": "Open access on arXiv.",
+    "id": "REF-69",
+    "duplicate_of": [
+      "resources/research-papers.md"
+    ],
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Also listed in resources/research-papers.md.",
+    "crossref": null,
+    "api": {
+      "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+      "first_author": "Edward J. Hu",
+      "year": 2021,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/library/papers-and-surveys.md",
+    "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+    "meta": "Wei et al. · *NeurIPS*, 2022",
+    "url": "https://arxiv.org/abs/2201.11903",
+    "modules": "M11",
+    "access": "Open access on arXiv.",
+    "id": "REF-70",
+    "duplicate_of": [
+      "resources/research-papers.md"
+    ],
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Also listed in resources/research-papers.md.",
+    "crossref": null,
+    "api": {
+      "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+      "first_author": "Jason Wei",
+      "year": 2022,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/library/papers-and-surveys.md",
+    "title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+    "meta": "Rafailov, Sharma, Mitchell, Ermon, Manning and Finn · *NeurIPS*, 2023",
+    "url": "https://arxiv.org/abs/2305.18290",
+    "modules": "M11",
+    "access": "Open access on arXiv.",
+    "id": "REF-71",
+    "duplicate_of": null,
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "",
+    "crossref": null,
+    "api": {
+      "title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+      "first_author": "Rafael Rafailov",
+      "year": 2023,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/library/papers-and-surveys.md",
+    "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+    "meta": "Yao et al. · *ICLR*, 2023",
+    "url": "https://arxiv.org/abs/2210.03629",
+    "modules": "M12",
+    "access": "Open access on arXiv.",
+    "id": "REF-72",
+    "duplicate_of": [
+      "resources/research-papers.md",
+      "resources/library/ai-agents.md"
+    ],
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Also listed in resources/research-papers.md, resources/library/ai-agents.md.",
+    "crossref": null,
+    "api": {
+      "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+      "first_author": "Shunyu Yao",
+      "year": 2022,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/library/papers-and-surveys.md",
+    "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+    "meta": "Schick et al. · *NeurIPS*, 2023",
+    "url": "https://arxiv.org/abs/2302.04761",
+    "modules": "M12",
+    "access": "Open access on arXiv.",
+    "id": "REF-73",
+    "duplicate_of": [
+      "resources/research-papers.md",
+      "resources/library/ai-agents.md"
+    ],
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Also listed in resources/research-papers.md, resources/library/ai-agents.md.",
+    "crossref": null,
+    "api": {
+      "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+      "first_author": "Timo Schick",
+      "year": 2023,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/library/papers-and-surveys.md",
+    "title": "A Survey on Large Language Model based Autonomous Agents",
+    "meta": "Wang, Ma, Feng, et al. · 2023, revised 2025",
+    "url": "https://arxiv.org/abs/2308.11432",
+    "modules": "M12",
+    "access": "Open access on arXiv.",
+    "id": "REF-74",
+    "duplicate_of": [
+      "resources/library/ai-agents.md"
+    ],
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Also listed in resources/library/ai-agents.md.",
+    "crossref": null,
+    "api": {
+      "title": "A Survey on Large Language Model based Autonomous Agents",
+      "first_author": "Lei Wang",
+      "year": 2023,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/library/papers-and-surveys.md",
+    "title": "Intriguing properties of neural networks",
+    "meta": "Szegedy et al. · *ICLR*, 2014",
+    "url": "https://arxiv.org/abs/1312.6199",
+    "modules": "M13",
+    "access": "Open access on arXiv.",
+    "id": "REF-75",
+    "duplicate_of": [
+      "resources/research-papers.md"
+    ],
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Also listed in resources/research-papers.md.",
+    "crossref": null,
+    "api": {
+      "title": "Intriguing properties of neural networks",
+      "first_author": "Christian Szegedy",
+      "year": 2013,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/library/papers-and-surveys.md",
+    "title": "Explaining and Harnessing Adversarial Examples",
+    "meta": "Goodfellow, Shlens and Szegedy · *ICLR*, 2015",
+    "url": "https://arxiv.org/abs/1412.6572",
+    "modules": "M13",
+    "access": "Open access on arXiv.",
+    "id": "REF-76",
+    "duplicate_of": null,
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "",
+    "crossref": null,
+    "api": {
+      "title": "Explaining and Harnessing Adversarial Examples",
+      "first_author": "Ian J. Goodfellow",
+      "year": 2014,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/library/papers-and-surveys.md",
+    "title": "\"Why Should I Trust You?\" Explaining the Predictions of Any Classifier",
+    "meta": "Ribeiro, Singh and Guestrin · *KDD*, 2016",
+    "url": "https://arxiv.org/abs/1602.04938",
+    "modules": "M13",
+    "access": "Open access on arXiv.",
+    "id": "REF-77",
+    "duplicate_of": [
+      "resources/research-papers.md"
+    ],
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Also listed in resources/research-papers.md.",
+    "crossref": null,
+    "api": {
+      "title": "\"Why Should I Trust You?\": Explaining the Predictions of Any Classifier",
+      "first_author": "Marco Tulio Ribeiro",
+      "year": 2016,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/library/papers-and-surveys.md",
+    "title": "A Unified Approach to Interpreting Model Predictions",
+    "meta": "Lundberg and Lee · *NeurIPS*, 2017",
+    "url": "https://arxiv.org/abs/1705.07874",
+    "modules": "M13",
+    "access": "Open access on arXiv.",
+    "id": "REF-78",
+    "duplicate_of": [
+      "resources/research-papers.md"
+    ],
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Also listed in resources/research-papers.md.",
+    "crossref": null,
+    "api": {
+      "title": "A Unified Approach to Interpreting Model Predictions",
+      "first_author": "Scott Lundberg",
+      "year": 2017,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/library/papers-and-surveys.md",
+    "title": "Model Cards for Model Reporting",
+    "meta": "Mitchell, Wu, Zaldivar, Barnes, Vasserman, Hutchinson, Spitzer, Raji and Gebru · *FAT\\**, 2019",
+    "url": "https://arxiv.org/abs/1810.03993",
+    "modules": "M13, M14",
+    "access": "Open access on arXiv.",
+    "id": "REF-79",
+    "duplicate_of": [
+      "resources/research-papers.md"
+    ],
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Also listed in resources/research-papers.md.",
+    "crossref": null,
+    "api": {
+      "title": "Model Cards for Model Reporting",
+      "first_author": "Margaret Mitchell",
+      "year": 2018,
+      "journal_ref": "FAT* '19: Conference on Fairness, Accountability, and Transparency, January 29--31, 2019, Atlanta, GA, USA"
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/library/papers-and-surveys.md",
+    "title": "Datasheets for Datasets",
+    "meta": "Gebru, Morgenstern, Vecchione, Wortman Vaughan, Wallach, Daumé III and Crawford · *Communications of the ACM*, 2021",
+    "url": "https://arxiv.org/abs/1803.09010",
+    "modules": "M06, M13",
+    "access": "Open access on arXiv.",
+    "id": "REF-80",
+    "duplicate_of": [
+      "resources/research-papers.md"
+    ],
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Preprint year 2018 differs from the venue year stated in the entry. Also listed in resources/research-papers.md.",
+    "crossref": null,
+    "api": {
+      "title": "Datasheets for Datasets",
+      "first_author": "Timnit Gebru",
+      "year": 2018,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified (version year differs)",
+    "classification": "Verified with a documented qualification"
+  },
+  {
+    "file": "resources/library/papers-and-surveys.md",
+    "title": "Deep Learning with Differential Privacy",
+    "meta": "Abadi, Chu, Goodfellow, McMahan, Mironov, Talwar and Zhang · *ACM CCS*, 2016",
+    "url": "https://arxiv.org/abs/1607.00133",
+    "modules": "M13",
+    "access": "Open access on arXiv.",
+    "id": "REF-81",
+    "duplicate_of": null,
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "",
+    "crossref": null,
+    "api": {
+      "title": "Deep Learning with Differential Privacy",
+      "first_author": "Martín Abadi",
+      "year": 2016,
+      "journal_ref": "Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security (ACM CCS), pp. 308-318, 2016"
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/library/papers-and-surveys.md",
+    "title": "Membership Inference Attacks Against Machine Learning Models",
+    "meta": "Shokri, Stronati, Song and Shmatikov · *IEEE Symposium on Security and Privacy*, 2017",
+    "url": "https://arxiv.org/abs/1610.05820",
+    "modules": "M13",
+    "access": "Open access on arXiv.",
+    "id": "REF-82",
+    "duplicate_of": null,
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "",
+    "crossref": null,
+    "api": {
+      "title": "Membership Inference Attacks against Machine Learning Models",
+      "first_author": "Reza Shokri",
+      "year": 2016,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/library/papers-and-surveys.md",
+    "title": "Counterfactual Fairness",
+    "meta": "Kusner, Loftus, Russell and Silva · *NeurIPS*, 2017",
+    "url": "https://arxiv.org/abs/1703.06856",
+    "modules": "M13",
+    "access": "Open access on arXiv.",
+    "id": "REF-83",
+    "duplicate_of": null,
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "",
+    "crossref": null,
+    "api": {
+      "title": "Counterfactual Fairness",
+      "first_author": "Matt J. Kusner",
+      "year": 2017,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/library/papers-and-surveys.md",
+    "title": "Fairness in Machine Learning: A Survey",
+    "meta": "Caton and Haas · *ACM Computing Surveys*, 56(7), 2024",
+    "url": "https://arxiv.org/abs/2010.04053",
+    "modules": "M13",
+    "access": "Open access on arXiv.",
+    "id": "REF-84",
+    "duplicate_of": null,
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Preprint year 2020 differs from the venue year stated in the entry.",
+    "crossref": null,
+    "api": {
+      "title": "Fairness in Machine Learning: A Survey",
+      "first_author": "Simon Caton",
+      "year": 2020,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified (version year differs)",
+    "classification": "Verified with a documented qualification"
+  },
+  {
+    "file": "resources/library/papers-and-surveys.md",
+    "title": "Explainable Artificial Intelligence (XAI): Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI",
+    "meta": "Barredo Arrieta et al. · *Information Fusion*, 58, 2020",
+    "url": "https://arxiv.org/abs/1910.10045",
+    "modules": "M13",
+    "access": "Open access on arXiv.",
+    "id": "REF-85",
+    "duplicate_of": null,
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "",
+    "crossref": null,
+    "api": {
+      "title": "Explainable Artificial Intelligence (XAI): Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI",
+      "first_author": "Alejandro Barredo Arrieta",
+      "year": 2019,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/library/papers-and-surveys.md",
+    "title": "Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead",
+    "meta": "Cynthia Rudin · *Nature Machine Intelligence*, 1, 2019",
+    "url": "No free edition; available through university libraries.",
+    "modules": "M13",
+    "access": "Paywalled (Nature).",
+    "id": "REF-86",
+    "duplicate_of": null,
+    "verification_method": "Crossref bibliographic search",
+    "qualification": "Paywalled; metadata verified via Crossref DOI 10.1038/s42256-019-0048-x.",
+    "crossref": {
+      "doi": "10.1038/s42256-019-0048-x",
+      "title": "Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead",
+      "first_author": "Rudin",
+      "year": 2019,
+      "venue": "Nature Machine Intelligence",
+      "type": "journal-article"
+    },
+    "status": "paywalled-metadata-verified",
+    "classification": "Paywalled but bibliographic metadata verified"
+  },
+  {
+    "file": "resources/library/papers-and-surveys.md",
+    "title": "NIST AI 100-2: Adversarial Machine Learning — Taxonomy and Terminology",
+    "meta": "Vassilev, Oprea, Fordyce and Anderson · NIST, 2025",
+    "url": "https://csrc.nist.gov/pubs/ai/100/2/e2025/final",
+    "modules": "M13, M14",
+    "access": "Free from NIST.",
+    "id": "REF-87",
+    "duplicate_of": null,
+    "verification_method": "HTTP fetch of the cited URL",
+    "qualification": "",
+    "crossref": null,
+    "http_status": 200,
+    "page_title": "AI 100-2 E2025, Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations | CSRC",
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/library/ai-agents.md",
+    "title": "LLM Powered Autonomous Agents",
+    "meta": "**Lilian Weng** · 2023",
+    "url": "https://lilianweng.github.io/posts/2023-06-23-agent/",
+    "modules": "M12",
+    "access": "Free to read on the author's site.",
+    "id": "REF-88",
+    "duplicate_of": null,
+    "verification_method": "HTTP fetch of the cited URL",
+    "qualification": "",
+    "crossref": null,
+    "http_status": 200,
+    "page_title": "LLM Powered Autonomous Agents | Lil&#39;Log",
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/library/ai-agents.md",
+    "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+    "meta": "**Yao et al.** · ICLR 2023",
+    "url": "https://arxiv.org/abs/2210.03629",
+    "modules": "M12",
+    "access": "Open access on arXiv.",
+    "id": "REF-89",
+    "duplicate_of": [
+      "resources/research-papers.md",
+      "resources/library/papers-and-surveys.md"
+    ],
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Also listed in resources/research-papers.md, resources/library/papers-and-surveys.md.",
+    "crossref": null,
+    "api": {
+      "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+      "first_author": "Shunyu Yao",
+      "year": 2022,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/library/ai-agents.md",
+    "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+    "meta": "**Schick et al.** · NeurIPS 2023",
+    "url": "https://arxiv.org/abs/2302.04761",
+    "modules": "M12",
+    "access": "Open access on arXiv.",
+    "id": "REF-90",
+    "duplicate_of": [
+      "resources/research-papers.md",
+      "resources/library/papers-and-surveys.md"
+    ],
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Also listed in resources/research-papers.md, resources/library/papers-and-surveys.md.",
+    "crossref": null,
+    "api": {
+      "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+      "first_author": "Timo Schick",
+      "year": 2023,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/library/ai-agents.md",
+    "title": "A Survey on Large Language Model based Autonomous Agents",
+    "meta": "**Wang, Ma, Feng, et al.** · 2023, revised 2025",
+    "url": "https://arxiv.org/abs/2308.11432",
+    "modules": "M12",
+    "access": "Open access on arXiv.",
+    "id": "REF-91",
+    "duplicate_of": [
+      "resources/library/papers-and-surveys.md"
+    ],
+    "verification_method": "arXiv API (export.arxiv.org)",
+    "qualification": "Also listed in resources/library/papers-and-surveys.md.",
+    "crossref": null,
+    "api": {
+      "title": "A Survey on Large Language Model based Autonomous Agents",
+      "first_author": "Lei Wang",
+      "year": 2023,
+      "journal_ref": ""
+    },
+    "title_similarity": 1.0,
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/library/ai-agents.md",
+    "title": "OpenAI Cookbook — function calling and agents",
+    "meta": "**OpenAI** · open-source repository",
+    "url": "https://github.com/openai/openai-cookbook",
+    "modules": "M12",
+    "access": "Open source on GitHub under the repository's MIT licence.",
+    "id": "REF-92",
+    "duplicate_of": null,
+    "verification_method": "HTTP fetch of the cited URL",
+    "qualification": "Page title differs from the bibliography title; checked manually.",
+    "crossref": null,
+    "http_status": 200,
+    "page_title": "GitHub - openai/openai-cookbook: Examples and guides for using the OpenAI API · GitHub",
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/library/ai-agents.md",
+    "title": "LangGraph documentation",
+    "meta": "**LangChain** · current release",
+    "url": "https://langchain-ai.github.io/langgraph/",
+    "modules": "M12",
+    "access": "Free; MIT licensed.",
+    "id": "REF-93",
+    "duplicate_of": null,
+    "verification_method": "HTTP fetch of the cited URL",
+    "qualification": "",
+    "crossref": null,
+    "http_status": 200,
+    "page_title": "Redirecting to LangGraph Documentation",
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/library/ai-agents.md",
+    "title": "Model Context Protocol — specification",
+    "meta": "**Anthropic and contributors** · open standard",
+    "url": "https://modelcontextprotocol.io/",
+    "modules": "M12, M14",
+    "access": "Free, open specification.",
+    "id": "REF-94",
+    "duplicate_of": null,
+    "verification_method": "HTTP fetch of the cited URL",
+    "qualification": "Page title differs from the bibliography title; checked manually.",
+    "crossref": null,
+    "http_status": 200,
+    "page_title": "What is the Model Context Protocol (MCP)? - Model Context Protocol",
+    "status": "verified",
+    "classification": "Verified"
+  },
+  {
+    "file": "resources/library/ai-agents.md",
+    "title": "AgentBench / evaluation harnesses",
+    "meta": "**THUDM** · open-source benchmark",
+    "url": "https://github.com/THUDM/AgentBench",
+    "modules": "M12",
+    "access": "Open source under the repository's licence.",
+    "id": "REF-95",
+    "duplicate_of": null,
+    "verification_method": "HTTP fetch of the cited URL",
+    "qualification": "Page title differs from the bibliography title; checked manually.",
+    "crossref": null,
+    "http_status": 200,
+    "page_title": "GitHub - THUDM/AgentBench: A Comprehensive Benchmark to Evaluate LLMs as Agents (ICLR&#39;24) · GitHub",
+    "status": "verified",
+    "classification": "Verified"
+  }
+]

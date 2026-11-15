@@ -1,6 +1,6 @@
 # L11-07 — Evaluating LLM Systems: Quality, Hallucination, Cost and Safety
 
-[← Previous: ? Lesson](L11-06-fine-tuning-and-parameter-efficient-adaptation.md) · [Module end](../README.md)
+[← Previous: L11-06](L11-06-fine-tuning-and-parameter-efficient-adaptation.md) · [Module end](../README.md)
 
 ## On this page
 
@@ -290,4 +290,4 @@ interval**.
 
 ---
 
-**Navigation:** [← Previous: ? Lesson](L11-06-fine-tuning-and-parameter-efficient-adaptation.md) · [Module end](../README.md)
+**Navigation:** [← Previous: L11-06](L11-06-fine-tuning-and-parameter-efficient-adaptation.md) · [Module end](../README.md)

@@ -8,9 +8,7 @@
 | Covers | agent loop, tools, planning, memory, multi-agent, guardrails, evaluation |
 | Pass mark | 12 / 20 |
 
-> **Availability.** M12 (AI Agents) — reference code only in this repository, so this paper cannot be attempted
-> yet. It is included so the assessment set is complete, and it is a preview
-> rather than an assessment until the module's lessons are published.
+> **Availability.** This module's lessons, notebook and lab are published in this repository; sit this paper after finishing them.
 
 [Assessment index](../README.md) · [Solutions](../solutions/quiz-m12.md)
 

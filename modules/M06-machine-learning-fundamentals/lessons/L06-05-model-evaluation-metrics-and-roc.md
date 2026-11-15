@@ -1,6 +1,6 @@
 # L06-05 — Model Evaluation: Metrics, Confusion Matrices and ROC
 
-[← Previous: ? Lesson](L06-04-classification-with-logistic-regression.md) · [Module home](../README.md) · [Next: ? Lesson →](L06-06-bias-variance-and-regularisation.md)
+[← Previous: L06-04](L06-04-classification-with-logistic-regression.md) · [Module home](../README.md) · [Next: L06-06 →](L06-06-bias-variance-and-regularisation.md)
 
 ## On this page
 
@@ -447,4 +447,4 @@ precision**, **threshold**, **base rate**, **PPV**, **calibration**, **bootstrap
 
 ---
 
-**Navigation:** [← Previous: ? Lesson](L06-04-classification-with-logistic-regression.md) · [Module home](../README.md) · [Next: ? Lesson →](L06-06-bias-variance-and-regularisation.md)
+**Navigation:** [← Previous: L06-04](L06-04-classification-with-logistic-regression.md) · [Module home](../README.md) · [Next: L06-06 →](L06-06-bias-variance-and-regularisation.md)

@@ -158,3 +158,25 @@ model.
 
 [Module home](../README.md) · [Lab 13-01](lab-13-01-fairness-audit.md) ·
 [Assignment](../assignments/asg-13-model-card-and-audit-report.md)
+
+## Starter material
+
+A runnable starter is provided: [`starters/lab-13-02_starter.py`](starters/lab-13-02_starter.py).
+It loads the lab's data, prints a baseline you can compare against, and
+marks the parts left for you with `TODO`. Run it before you write anything.
+
+Module reference code: [`../code/`](../code/).
+
+## Extension challenges (optional)
+
+Optional, unmarked, and deliberately open-ended.
+
+1. **Indirect injection.** Make the attack arrive only inside a retrieved document, never
+   in the user turn. Then add a defence that quotes document text as data. Measure whether
+   the defence still blocks the direct attack.
+2. **Defence precision.** Build a small labelled set of 20 benign and 20 malicious prompts
+   and report precision and recall for your defence. A filter that blocks everything has
+   perfect recall and no value; show the trade-off numerically.
+3. **Tool allow-list.** Restrict the agent to read-only tools and re-run the suite. Which
+   attacks stop working because the capability is gone rather than because the model
+   refused? This is the cheapest defence and the one most often skipped.

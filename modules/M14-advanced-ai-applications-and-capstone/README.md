@@ -2,7 +2,7 @@
 
 | Level | 400 |
 | :--- | :--- |
-| Study time | 30 hours (about 14 of them capstone work) |
+| Study time | 32.9 hours — guided 7.5 · practical 5.5 · assessment 5.9 · project 14.0 |
 | Lessons | 5 |
 | Course outcome | CLO8 — integrate the course in one scoped, evaluated, honestly reported system |
 | Prerequisites | M13, plus the modules named by your chosen capstone brief |
@@ -25,8 +25,10 @@ are deliberately counter-intuitive, because they are the ones people get wrong:
 - a **rules-only** baseline beat the neural model (0.972 vs 0.877) and the **hybrid** was the only
   deployable design, at the cost of 100 additional refusals;
 - a distilled student **gained nothing** over training without a teacher (−0.004);
-- 8-bit quantisation made inference **2.62× slower** while shrinking the model to 27.7% of its size;
-- a graph network **lost** 0.210 accuracy to a feature-only model when homophily was low.
+- 8-bit quantisation made inference **1.6–2.4× slower** in five release-validation runs while shrinking the model to 27.7% of its size;
+- a graph network **lost** 0.131 accuracy to a feature-only model when homophily was low, in
+  both a random-mix and a stochastic-block-model graph, while retaining its advantage under an
+  inductive split.
 
 ## Advanced topics and where each is taught
 
@@ -41,11 +43,11 @@ are deliberately counter-intuitive, because they are the ones people get wrong:
 | Text-to-speech | L14-04 | mechanism + MOS/RTF evaluation (no demo) |
 | Multimodal LLMs | L14-04, L14-05 | retrieval and grounding evaluation |
 | Time-series intelligence | L14-03 | backtest, intervals, coverage 0.66 vs 0.80 |
-| Graph neural networks | L14-04 | GCN vs MLP, homophily sweep |
+| Graph neural networks | L14-04 | GCN vs MLP, two families, transductive + inductive, homophily/noise sweeps |
 | Federated learning | L14-04 | FedAvg 0.898 vs central 0.917 |
 | Edge AI | L14-02 | memory/latency/power constraints |
 | Model compression | L14-02 | distillation, pruning |
-| Quantisation | L14-02 | int8, size 27.7%, latency 2.62× |
+| Quantisation | L14-02 | int8, size 27.7%, latency 1.6–2.4× slower |
 | Knowledge distillation | L14-02 | temperature sweep |
 | Model optimisation | L14-02 | operator fusion, batching, caching |
 | AI inference optimisation | L14-02 | throughput vs latency measurement |
@@ -83,7 +85,7 @@ extensions.
 
 | Asset | Licence | Note |
 | :--- | :--- | :--- |
-| scikit-learn `load_digits` | public-domain UCI data | 1,797 8×8 images, bundled |
+| scikit-learn `load_digits` | **CC BY 4.0** (UCI dataset); BSD-3-Clause loader | 1,797 8×8 images, loaded at runtime; not redistributed |
 | Synthetic eligibility data | **CC0-1.0** | generated in `neurosymbolic.py` |
 | Synthetic graphs | **CC0-1.0** | generated in `graphs.py` |
 | Synthetic daily series | **CC0-1.0** | generated in `timeseries_monitor.py` |
@@ -124,8 +126,10 @@ pip install numpy scikit-learn torch
 | QUIZ-14 | Module self-check | Quiz | 30 m | [Take](quizzes/quiz-14.md) |
 | CAP-14 | Capstone project (brief + milestones + rubric + report) | Project | 14 h | [Studio](capstone/README.md) |
 
-Total: 7.5 h lessons + 1 h notebook + 5 h labs + 2 h proposal + 0.5 h quiz + 14 h capstone =
-**30 hours**.
+Total: 7.5 h guided study + 5.5 h practical + 5.9 h assessment + 14 h capstone =
+**32.9 hours**. The per-artifact estimates above are rounded planning values and sum to 30;
+the module total uses the category figures that every other module page and the curriculum map
+report.
 
 Supporting code lives in [`code/`](code/):
 
@@ -134,7 +138,7 @@ Supporting code lives in [`code/`](code/):
 | `neurosymbolic.py` | policy, MLP, integrated gradients, rules/model/hybrid comparison |
 | `multimodal.py` | two-tower contrastive model, retrieval metrics, zero-shot evaluation |
 | `efficiency.py` | teacher/student distillation, int8 quantisation, pruning, latency harness |
-| `graphs.py` | synthetic homophilous graph, GCN, MLP baseline, homophily sweep |
+| `graphs.py` | random-mix and SBM graphs, GCN, MLP, transductive + inductive protocols, homophily/depth/noise sweeps, accuracy/macro-F1/confusion matrix |
 | `federated.py` | non-IID client split, FedAvg, DP noise, per-client accuracy |
 | `timeseries_monitor.py` | rolling-origin backtest, interval coverage, PSI drift monitor |
 | `build_notebooks.py` | regenerates and executes NB-14-01 |

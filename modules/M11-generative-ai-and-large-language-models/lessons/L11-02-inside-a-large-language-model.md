@@ -1,6 +1,6 @@
 # L11-02 — Inside a Large Language Model: Tokens, Attention, Next-Token Prediction
 
-[← Previous: ? Lesson](L11-01-the-generative-modelling-landscape.md) · [Module home](../README.md) · [Next: ? Lesson →](L11-03-pretraining-instruction-tuning-and-alignment.md)
+[← Previous: L11-01](L11-01-the-generative-modelling-landscape.md) · [Module home](../README.md) · [Next: L11-03 →](L11-03-pretraining-instruction-tuning-and-alignment.md)
 
 ## On this page
 
@@ -380,4 +380,4 @@ encoding**, **encoder**, **decoder**, **encoder–decoder**, **cross-attention**
 
 ---
 
-**Navigation:** [← Previous: ? Lesson](L11-01-the-generative-modelling-landscape.md) · [Module home](../README.md) · [Next: ? Lesson →](L11-03-pretraining-instruction-tuning-and-alignment.md)
+**Navigation:** [← Previous: L11-01](L11-01-the-generative-modelling-landscape.md) · [Module home](../README.md) · [Next: L11-03 →](L11-03-pretraining-instruction-tuning-and-alignment.md)

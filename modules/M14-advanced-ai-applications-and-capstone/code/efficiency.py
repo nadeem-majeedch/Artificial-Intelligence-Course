@@ -15,6 +15,7 @@ Run ``python efficiency.py``.
 from __future__ import annotations
 
 import copy
+import platform
 import time
 
 import numpy as np
@@ -111,15 +112,19 @@ def size_kb(model):
             + sum(b.numel() * b.element_size() for b in model.buffers())) / 1024
 
 
-def latency_us(model, x_single, reps=300):
+def latency_us(model, x_single, reps=300, trials=3):
+    """Median single-example CPU latency over independent timed trials."""
     model.eval()
     with torch.no_grad():
         for _ in range(20):
             model(x_single)
-        t0 = time.perf_counter()
-        for _ in range(reps):
-            model(x_single)
-        return (time.perf_counter() - t0) / reps * 1e6
+        timings = []
+        for _ in range(trials):
+            t0 = time.perf_counter()
+            for _ in range(reps):
+                model(x_single)
+            timings.append((time.perf_counter() - t0) / reps * 1e6)
+    return float(np.median(timings))
 
 
 def main():
@@ -142,16 +147,25 @@ def main():
     print("=" * 84)
     print("1. Accuracy, size, parameters and latency")
     print("=" * 84)
+    print(f"environment: Python {platform.python_version()}, PyTorch {torch.__version__}, "
+          f"threads {torch.get_num_threads()}, {platform.platform()}")
+    print("latency: one test example, eval/no_grad, 20 warm-up calls, then the median")
+    print("         of 3 trials x 300 forward calls; CPU wall clock, not a target-device claim")
     print(f"{'model':22s} {'accuracy':>9} {'size KB':>9} {'params':>9} {'us/example':>12}")
+    measured = []
     for name, m in rows:
-        print(f"{name:22s} {accuracy(m, Xte, yte):9.3f} {size_kb(m):9.1f} "
-              f"{n_params(m):9d} {latency_us(m, xs):12.1f}")
+        measured.append((name, accuracy(m, Xte, yte), size_kb(m), n_params(m),
+                         latency_us(m, xs)))
+        print(f"{name:22s} {measured[-1][1]:9.3f} {measured[-1][2]:9.1f} "
+              f"{measured[-1][3]:9d} {measured[-1][4]:12.1f}")
 
-    t_acc, t_kb, t_us = accuracy(teacher, Xte, yte), size_kb(teacher), latency_us(teacher, xs)
-    d_acc, d_kb, d_us = accuracy(distilled, Xte, yte), size_kb(distilled), latency_us(distilled, xs)
-    s_acc = accuracy(student, Xte, yte)
-    q_acc, q_kb, q_us = accuracy(q8, Xte, yte), size_kb(q8), latency_us(q8, xs)
-    p_acc, p_kb, p_us = accuracy(pruned, Xte, yte), size_kb(pruned), latency_us(pruned, xs)
+    # Reuse the exact timings shown in the table; re-timing only the baselines made
+    # the printed ratios disagree with the printed table on a noisy CPU.
+    _, t_acc, t_kb, _, t_us = measured[0]
+    _, s_acc, _, _, _ = measured[1]
+    _, d_acc, d_kb, _, d_us = measured[2]
+    _, q_acc, q_kb, _, q_us = measured[3]
+    _, p_acc, p_kb, _, p_us = measured[4]
 
     print()
     print(f"  distillation gain over scratch: {d_acc - s_acc:+.3f}")

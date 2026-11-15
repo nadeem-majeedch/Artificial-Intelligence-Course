@@ -341,3 +341,11 @@ Never accuracy.
 
 Next: [QUIZ-06](../quizzes/quiz-06.md), then [ASG-06](../assignments/asg-06-complete-ml-pipeline.md) and
 [MP-06](../projects/mp-06-prediction-challenge.md).
+
+## Starter material
+
+The guided notebook [`nb-06-04-clustering-pca-and-anomalies.ipynb`](../notebooks/nb-06-04-clustering-pca-and-anomalies.ipynb) works through the
+same pipeline end to end; use it when you are stuck, and cite what you
+changed rather than copying its outputs.
+
+Module reference code: [`../code/`](../code/).

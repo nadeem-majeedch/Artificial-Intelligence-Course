@@ -108,3 +108,13 @@ Fraud, Mahalanobis top 30        : precision ~0.85, recall ~0.67
 Submit the three files in one folder named `mp-06-<yourname>`. The marker runs
 `python submission.py`, diffs `validation.json`, and reads the writeup. Late submissions are
 accepted for seven days at a 10% penalty per day.
+
+## Evaluation criteria
+
+| Criterion | Weight | What earns full marks |
+| :--- | ---: | :--- |
+| Validation discipline | 30% | `validation.json` reproduces from a clean run; no test leakage |
+| Model quality | 25% | Beats the stated baseline on the held-out split, with the metric justified |
+| Error analysis | 20% | Numbers, not adjectives; failures grouped and explained |
+| Reporting | 15% | Seed spread and limits stated; claims match the artefacts |
+| Reproducibility | 10% | One command reproduces every number in the writeup |

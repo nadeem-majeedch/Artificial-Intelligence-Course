@@ -121,9 +121,10 @@ def summarize(y_true, y_pred, group, names=None) -> dict:
 # ---------------------------------------------------------------------------
 
 def reweighing_weights(y, group) -> np.ndarray:
-    """Kamiran-Calders weights so each (label, group) cell has equal mass.
+    """Kamiran-Calders weights that make label and group independent.
 
-    w(y, g) = P(y) * P(g) / P(y, g). Mean-normalised to 1.
+    w(y, g) = P(y) * P(g) / P(y, g). This equalises P(g | y) across groups, not the
+    raw cell mass. Mean-normalised to 1.
     """
     y, group = np.asarray(y), np.asarray(group)
     n = len(y)

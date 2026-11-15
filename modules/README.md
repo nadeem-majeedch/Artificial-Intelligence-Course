@@ -2,9 +2,8 @@
 
 Fourteen modules, from "what is AI" to a defended capstone project. This page is the index: each
 module has its own section below describing what it covers, what you will be able to do afterwards,
-and what it assumes you already know. When a module's lessons are published, its section links to
-the module's own landing page, which lists every lesson, notebook, lab and assessment in reading
-order.
+and what it assumes you already know. Every section links to the module's own landing page, which
+lists every lesson, notebook, lab and assessment in reading order.
 
 **Course home:** [README](../README.md) · **Prerequisites:** [P01–P04](../prerequisites/README.md) ·
 **Sequence:** [learning paths](../docs/learning-path.md) · [roadmap](../docs/course-roadmap.md)
@@ -13,34 +12,31 @@ order.
 
 | Module | Title | Level | Hours | Course outcome |
 | :--- | :--- | :--- | ---: | :--- |
-| [M01](#m01) | Introduction and Foundations of Artificial Intelligence | 100 | 10 | CLO1 |
-| [M02](#m02) | Intelligent Agents and Environments | 200 | 18 | CLO1 |
-| [M03](#m03) | Problem Solving and Search Algorithms | 200 | 26 | CLO2 |
-| [M04](#m04) | Knowledge Representation and Logical Reasoning | 200 | 21 | CLO3 |
-| [M05](#m05) | Uncertainty, Bayesian Reasoning and Fuzzy Logic | 300 | 24 | CLO4 |
-| [M06](#m06) | Machine Learning Fundamentals and Algorithms | 300 | 31 | CLO5 |
-| [M07](#m07) | Artificial Neural Networks and Deep Learning | 300 | 27 | CLO6 |
-| [M08](#m08) | Natural Language Processing | 300 | 22 | CLO6, CLO7 |
-| [M09](#m09) | Computer Vision | 300 | 22 | CLO6 |
-| [M10](#m10) | Reinforcement Learning | 400 | 25 | CLO7 |
-| [M11](#m11) | Generative AI and Large Language Models | 400 | 24 | CLO7 |
-| [M12](#m12) | AI Agents and Agentic AI Systems | 400 | 19 | CLO7 |
-| [M13](#m13) | Responsible, Explainable and Secure AI | 300 | 19 | CLO8 |
-| [M14](#m14) | Advanced AI Applications and Capstone Projects | 400 | 30 | CLO8 |
+| [M01](#m01) | Introduction and Foundations of Artificial Intelligence | 100 | 12.8 | CLO1 |
+| [M02](#m02) | Intelligent Agents and Environments | 200 | 17.9 | CLO1 |
+| [M03](#m03) | Problem Solving and Search Algorithms | 200 | 19.9 | CLO2 |
+| [M04](#m04) | Knowledge Representation and Logical Reasoning | 200 | 31.6 | CLO3 |
+| [M05](#m05) | Uncertainty, Bayesian Reasoning and Fuzzy Logic | 300 | 20.6 | CLO4 |
+| [M06](#m06) | Machine Learning Fundamentals and Algorithms | 300 | 31.4 | CLO5 |
+| [M07](#m07) | Artificial Neural Networks and Deep Learning | 300 | 24.9 | CLO6 |
+| [M08](#m08) | Natural Language Processing | 300 | 24.3 | CLO6, CLO7 |
+| [M09](#m09) | Computer Vision | 300 | 26.8 | CLO6 |
+| [M10](#m10) | Reinforcement Learning | 400 | 34.1 | CLO7 |
+| [M11](#m11) | Generative AI and Large Language Models | 400 | 23.3 | CLO7 |
+| [M12](#m12) | AI Agents and Agentic AI Systems | 400 | 27.8 | CLO7 |
+| [M13](#m13) | Responsible, Explainable and Secure AI | 300 | 22.4 | CLO8 |
+| [M14](#m14) | Advanced AI Applications and Capstone Projects | 400 | 32.9 | CLO8 |
 
 **Levels.** 100 assumes no AI background; 200 assumes programming and basic mathematics; 300
 assumes linear algebra and probability; 400 assumes the modules named in its prerequisites.
 **Hours** are total study effort: lessons, notebooks, labs, assignments, quizzes and mini-projects.
 
-**How each module page is organised** (once published): overview, learning outcomes, prerequisites
-with a readiness self-check, a table of every lesson, notebook, lab, assignment, quiz and
-mini-project with links and time estimates, a suggested seven-day study plan, and navigation to
-the neighbouring modules.
+**How each module page is organised:** overview, learning outcomes, prerequisites with a readiness
+self-check, a table of every lesson, notebook, lab, assignment, quiz and mini-project with links
+and time estimates, a suggested seven-day study plan, and navigation to the neighbouring modules.
 
-**Content status.** Lessons, notebooks and labs are written and published module by module. Where a
-section below says the content is in preparation, treat this page as the syllabus for that module
-and use the [roadmap](../docs/course-roadmap.md) for sequencing. Nothing is linked until it exists,
-so every link on this page works today.
+**Content status.** All fourteen modules are complete. Every module page states its current
+inventory, and every relative link on this page resolves to a file in the repository.
 
 ---
 
@@ -50,7 +46,7 @@ so every link on this page works today.
 | | |
 | :--- | :--- |
 | **Level** | 100 |
-| **Study time** | 10 hours |
+| **Study time** | 12.8 hours |
 | **Course outcome** | CLO1 — explain what AI is, how the field evolved, and how agents act in an environment |
 | **Prerequisites** | None |
 
@@ -79,7 +75,7 @@ your study environment and run your first notebook.
 | | |
 | :--- | :--- |
 | **Level** | 200 |
-| **Study time** | 18 hours |
+| **Study time** | 17.9 hours |
 | **Course outcome** | CLO1 |
 | **Prerequisites** | P01 (Python) |
 
@@ -96,7 +92,7 @@ standard rather than a fixed rule.
 
 **Planned components.** 5 lessons · 2 notebooks · 2 labs · 1 assignment · 1 quiz · 1 mini-project.
 
-**Content status:** in progress — 1 of 5 lessons published (L02-01), plus reference code for agents and environments. Remaining lessons, notebooks and labs are being written.
+**Content status:** complete — 5 lessons, 1 executed notebook, 2 labs and a quiz are published.
 
 **Start here:** [M02 module page](M02-intelligent-agents-and-environments/README.md) · [L02-01 Agents, Percepts, Actions](M02-intelligent-agents-and-environments/lessons/L02-01-agents-percepts-actions.md)
 
@@ -108,7 +104,7 @@ standard rather than a fixed rule.
 | | |
 | :--- | :--- |
 | **Level** | 200 |
-| **Study time** | 26 hours |
+| **Study time** | 19.9 hours |
 | **Course outcome** | CLO2 |
 | **Prerequisites** | P01 (Python), P02 (vectors and matrices) |
 
@@ -126,7 +122,7 @@ constraint satisfaction problem and solve it.
 
 **Planned components.** 8 lessons · 3 notebooks · 3 labs · 1 assignment · 1 quiz · 1 mini-project.
 
-**Content status:** in preparation. This module is the prerequisite for M10 and frequently the
+**Content status:** complete — 7 lessons, 1 executed notebook, 2 labs and a quiz are published.
 point at which self-study stalls; the labs are designed to prevent that.
 
 ---
@@ -137,7 +133,7 @@ point at which self-study stalls; the labs are designed to prevent that.
 | | |
 | :--- | :--- |
 | **Level** | 200 |
-| **Study time** | 21 hours |
+| **Study time** | 31.6 hours |
 | **Course outcome** | CLO3 |
 | **Prerequisites** | P02 (vectors and matrices) |
 
@@ -154,7 +150,7 @@ of rule-based systems, including where uncertainty forces a different approach.
 
 **Planned components.** 7 lessons · 2 notebooks · 2 labs · 1 assignment · 1 quiz · 1 mini-project.
 
-**Content status:** in progress — all 7 lessons and both notebooks published, plus reference code. Labs, assignment, quiz and mini-project are being written.
+**Content status:** complete — 7 lessons, 2 executed notebooks, 3 labs, a mini-project and a quiz are published.
 
 **Start here:** [M04 module page](M04-knowledge-representation-and-logical-reasoning/README.md) · [L04-01 Knowledge Representation](M04-knowledge-representation-and-logical-reasoning/lessons/L04-01-knowledge-representation-fundamentals.md)
 
@@ -166,7 +162,7 @@ of rule-based systems, including where uncertainty forces a different approach.
 | | |
 | :--- | :--- |
 | **Level** | 300 |
-| **Study time** | 24 hours |
+| **Study time** | 20.6 hours |
 | **Course outcome** | CLO4 |
 | **Prerequisites** | P03 (probability) |
 
@@ -183,7 +179,7 @@ between probabilistic and fuzzy representations for a given problem.
 
 **Planned components.** 7 lessons · 3 notebooks · 3 labs · 1 assignment · 1 quiz · 1 mini-project.
 
-**Content status:** in preparation. The Markov decision process material here is the formal
+**Content status:** complete — 6 lessons, 2 executed notebooks, 2 labs and a quiz are published.
 foundation for M10.
 
 ---
@@ -194,7 +190,7 @@ foundation for M10.
 | | |
 | :--- | :--- |
 | **Level** | 300 |
-| **Study time** | 31 hours |
+| **Study time** | 31.4 hours |
 | **Course outcome** | CLO5 |
 | **Prerequisites** | P02 (matrices and gradients), P03 (probability), P04 (data preparation) |
 
@@ -230,7 +226,7 @@ This module is the hard prerequisite for everything from M07 onwards; do not com
 | | |
 | :--- | :--- |
 | **Level** | 300 |
-| **Study time** | 27 hours |
+| **Study time** | 24.9 hours |
 | **Course outcome** | CLO6 |
 | **Prerequisites** | M06, P02 (gradients) |
 
@@ -266,7 +262,7 @@ TensorFlow is required — TensorFlow/Keras appears only as annotated comparativ
 | | |
 | :--- | :--- |
 | **Level** | 300 |
-| **Study time** | 22 hours |
+| **Study time** | 24.3 hours |
 | **Course outcome** | CLO6, CLO7 |
 | **Prerequisites** | M07 |
 
@@ -283,7 +279,7 @@ length and domain; audit a text pipeline for bias.
 
 **Planned components.** 6 lessons · 2 notebooks · 2 labs · 1 assignment · 1 quiz · 1 mini-project.
 
-**Content status:** in preparation — reference code for the text pipeline is published; lessons, notebooks and labs are not yet written.
+**Content status:** complete — 6 lessons, 3 executed notebooks, 3 labs and a quiz are published.
 
 **Start here:** [M08 code overview](M08-natural-language-processing/README.md)
 
@@ -295,7 +291,7 @@ length and domain; audit a text pipeline for bias.
 | | |
 | :--- | :--- |
 | **Level** | 300 |
-| **Study time** | 22 hours |
+| **Study time** | 26.8 hours |
 | **Course outcome** | CLO6 |
 | **Prerequisites** | M07 |
 
@@ -312,7 +308,7 @@ robustness study and report what you find.
 
 **Planned components.** 6 lessons · 2 notebooks · 2 labs · 1 assignment · 1 quiz · 1 mini-project.
 
-**Content status:** in preparation.
+**Content status:** complete — 6 lessons, 4 executed notebooks, 4 labs, a quiz and an assignment are published.
 
 ---
 
@@ -322,7 +318,7 @@ robustness study and report what you find.
 | | |
 | :--- | :--- |
 | **Level** | 400 |
-| **Study time** | 25 hours |
+| **Study time** | 34.1 hours |
 | **Course outcome** | CLO7 |
 | **Prerequisites** | M06, M05 (MDP section), P02, P03 |
 
@@ -339,7 +335,7 @@ learning curves.
 
 **Planned components.** 7 lessons · 3 notebooks · 3 labs · 1 assignment · 1 quiz · 1 mini-project.
 
-**Content status:** in preparation — reference code for environments, tabular methods, dynamic programming and DQN is published; lessons and notebooks are not yet written.
+**Content status:** complete — 5 lessons, 3 executed notebooks, 4 labs, a mini-project and a quiz are published.
 
 **Start here:** [M10 code overview](M10-reinforcement-learning/README.md)
 
@@ -351,7 +347,7 @@ learning curves.
 | | |
 | :--- | :--- |
 | **Level** | 400 |
-| **Study time** | 24 hours |
+| **Study time** | 23.3 hours |
 | **Course outcome** | CLO7 |
 | **Prerequisites** | M07 (attention), M08 |
 
@@ -391,7 +387,7 @@ answer, grounding, refusal, latency and cost separately.
 | | |
 | :--- | :--- |
 | **Level** | 400 |
-| **Study time** | 19 hours |
+| **Study time** | 27.8 hours |
 | **Course outcome** | CLO7 |
 | **Prerequisites** | M11, M02 |
 
@@ -408,7 +404,7 @@ evaluate an agent on tasks rather than on vibes.
 
 **Planned components.** 6 lessons · 1 notebook · 2 labs · 1 assignment · 1 quiz · 1 mini-project.
 
-**Content status:** in preparation — reference code for the agent loop, tools, guardrails, protocols and multi-agent orchestration is published; lessons and notebooks are not yet written.
+**Content status:** complete — 6 lessons, 1 executed notebook, 2 labs, an integrated project and a quiz are published.
 
 **Start here:** [M12 code overview](M12-ai-agents-and-agentic-systems/README.md)
 
@@ -420,7 +416,7 @@ evaluate an agent on tasks rather than on vibes.
 | | |
 | :--- | :--- |
 | **Level** | 300 |
-| **Study time** | 19 hours |
+| **Study time** | 22.4 hours |
 | **Course outcome** | CLO8 |
 | **Prerequisites** | M06 |
 
@@ -459,7 +455,7 @@ accuracy than the baseline; membership inference failed at AUC 0.513).
 | | |
 | :--- | :--- |
 | **Level** | 400 |
-| **Study time** | 30 hours (about 22 of them project work) |
+| **Study time** | 32.9 hours (14.0 of them project work) |
 | **Course outcome** | CLO8 |
 | **Prerequisites** | M13, plus the modules named by your chosen brief |
 
@@ -485,8 +481,8 @@ for the timetable, the code map and the capstone studio.
 [summary](M14-advanced-ai-applications-and-capstone/summary.md)
 
 The module is measurement-first like M13: every number comes from `code/`, including results that
-contradict standard advice (distillation gained nothing, int8 was 2.62x slower, a GNN lost 0.210
-accuracy at low homophily).
+contradict standard advice (distillation gained nothing, int8 was 1.6–2.4x slower in release
+validation, a GNN lost 0.131 accuracy at low homophily).
 
 ---
 
@@ -498,7 +494,7 @@ accuracy at low homophily).
    [roadmap](../docs/course-roadmap.md); it always beats curiosity-driven jumping in the early
    stages.
 3. **Short on time?** The [learning paths](../docs/learning-path.md) page defines a core path that
-   covers the essential lessons of each module in about 165 hours.
+   covers the essential lessons of each module in about 169 hours.
 
 **Navigation:** [Course home](../README.md) · [Prerequisites](../prerequisites/README.md) ·
 [Learning paths](../docs/learning-path.md) · [Course roadmap](../docs/course-roadmap.md) ·

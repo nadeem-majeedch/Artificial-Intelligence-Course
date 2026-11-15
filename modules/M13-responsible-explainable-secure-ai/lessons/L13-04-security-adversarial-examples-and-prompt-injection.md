@@ -26,6 +26,23 @@
 - [Key terms](#key-terms)
 - [Further reading](#further-reading)
 
+## What you will be able to do
+
+By the end you can:
+
+1. **Classify** an attack as evasion, poisoning, backdoor, prompt injection, tool abuse or
+   supply-chain risk, using the attacker's access and goal.
+2. **Implement** FGSM and PGD perturbations and measure the accuracy drop, explaining why high
+   clean accuracy is not evidence of robustness.
+3. **Reproduce** a label-poisoning and backdoor experiment, and explain why clean-data
+   evaluation cannot detect a targeted backdoor.
+4. **Compare** prompt-injection success with and without structural controls, and identify which
+   control fails when the attack is content rather than action.
+5. **Apply** document-level access control before retrieval and output redaction after
+   generation, justifying why filtering after retrieval is too late.
+6. **Report** a security evaluation with a threat model, attack strength, metric, defence cost
+   and residual risk.
+
 ## Why this lesson exists
 
 Machine learning systems have an attack surface that traditional software does not: the

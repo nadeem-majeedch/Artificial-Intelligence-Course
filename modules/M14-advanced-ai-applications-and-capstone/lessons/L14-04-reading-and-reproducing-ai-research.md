@@ -129,33 +129,57 @@ carefully. That is a scope decision, stated rather than hidden.
 **The claim.** Message passing over a graph improves node classification over feature-only
 models when neighbours are informative.
 
-**Measured** (200 nodes, 5 classes, 12 noisy features, measured edge homophily **0.825**):
+**Measured** (200 nodes, 5 classes, 12 noisy features, measured edge homophily **0.773**,
+20% of nodes labelled for the transductive run, 10% of training labels flipped, mean ± sd over
+five seeds):
 
 ```text
-  MLP (features only)      0.600
-  GCN, 2 layers            1.000
-  GCN, 4 layers            1.000
-  GCN, 8 layers            0.250
+  transductive, random-mix     inductive, random-mix
+    MLP (features only)  0.399 ± 0.042        MLP  0.370 ± 0.091
+    GCN, 2 layers        0.866 ± 0.020        GCN  0.945 ± 0.029
+    GCN, 4 layers        0.821 ± 0.028
+    GCN, 8 layers        0.273 ± 0.186
 ```
 
-The graph gain is +0.400. The 8-layer collapse to 0.250 is **oversmoothing**: repeated
-neighbour averaging converges every node's representation toward the same vector, and the
-classifier loses the ability to separate classes. Depth in a GNN is not free.
+The transductive graph gain is +0.467 accuracy, and macro-F1 tracks it (0.394 → 0.865). The
+8-layer collapse toward chance (0.2) is **oversmoothing**: repeated neighbour averaging
+converges every node's representation toward the same vector. GCN-4 is also worse than GCN-2
+here by more than a standard deviation, a milder version of the same effect. Under a strict
+inductive split — 60/20/20 train/validation/test, the test subgraph hidden during training and
+validation selecting the epoch — the advantage remains: MLP 0.370, GCN 0.945 (+0.575). The test
+set is evaluated once, and is never used to pick the epoch in either protocol.
 
-**The assumption, tested.** Homophily sweep, same generator, five graphs:
+**Second family.** A stochastic block model (p_in 0.12, p_out 0.01, same features and seeds)
+reproduces the direction: transductive MLP 0.399 vs GCN 0.794 (+0.395); inductive 0.370 vs
+0.835 (+0.465). Absolute numbers differ because the two generators produce different edge noise.
+A matched control holds the train/test nodes fixed and leaves test-test edges visible in the
+transductive run: MLP 0.405, GCN 0.855 (random-mix) and 0.830 (SBM). Protocol changes the
+transductive/inductive gap; it does not remove the graph advantage.
+
+**The assumption, tested.** Homophily sweeps, five seeds per row, reported by measured edge
+homophily:
 
 ```text
-   homophily     MLP   GCN-2    gain
-         0.1   0.550   0.340  -0.210
-         0.3   0.550   0.500  -0.050
-         0.5   0.550   0.880  +0.330
-         0.7   0.550   1.000  +0.450
-         0.9   0.550   1.000  +0.450
+  random-mix                     SBM
+   h      MLP   GCN   gain        h      MLP   GCN   gain
+  0.187  0.399 0.268 -0.131      0.127  0.399 0.279 -0.120
+  0.385  0.399 0.424 +0.025      0.325  0.399 0.407 +0.009
+  0.586  0.399 0.691 +0.293      0.590  0.399 0.672 +0.274
+  0.773  0.399 0.866 +0.467      0.747  0.399 0.794 +0.395
+  1.000  0.399 0.906 +0.508      1.000  0.399 0.844 +0.445
 ```
 
-Below roughly 0.5 the GNN is *worse* than ignoring the graph, because averaging over neighbours
-mixes classes. The paper's claim is conditional on homophily; the condition is measurable, and
-you should measure it before choosing the architecture.
+Below roughly 0.4 in both families the GNN is *worse* than ignoring the graph, because averaging
+over neighbours mixes classes. The paper's claim is conditional on homophily; the condition is
+measurable, and you should measure it before choosing the architecture. The ~0.9 at perfect
+homophily is a property of a graph where every neighbour shares the class, not evidence that the
+method is generally excellent. Label noise matters too: as flipped labels rise from 0% to 20%,
+the random-mix GCN falls 0.984 → 0.866 → 0.760, and the gain narrows from +0.554 to +0.410.
+
+**Limitations.** Both families are synthetic, the SBM's edges are independent given the blocks,
+the features are deliberately weak, and five seeds give only a coarse estimate of variance.
+These results do not establish that a GCN will beat an MLP on a real citation or fraud graph;
+they establish that the advantage is not an artefact of one generator or one transductive split.
 
 ## 4. Reproduction three: federated averaging
 
@@ -215,7 +239,7 @@ marketing.
 | :--- | :--- | :--- |
 | Reproducing the headline number only | misses the conditional claims | reproduce the ablation too |
 | Trusting a metric whose ceiling is ambiguous | calls a working model broken | check the chance level |
-| Assuming a GNN helps | measured −0.210 at low homophily | measure homophily first |
+| Assuming a GNN helps | measured −0.131 at 0.187 homophily (both families) | measure homophily first |
 | Reporting only the federated average | hides a 0.36 per-class spread | report per-client results |
 | Claiming DP without epsilon | unfalsifiable privacy claim | use an accountant |
 | Reproducing at toy scale and generalising | overclaiming | state what the scale licenses |

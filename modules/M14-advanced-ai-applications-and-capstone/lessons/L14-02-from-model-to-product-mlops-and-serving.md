@@ -64,13 +64,25 @@ requirement.
 `efficiency.py` trains a teacher and a student on 8×8 digits, then compresses:
 
 ```text
-model                   accuracy   size KB    params   us/example
-teacher                    0.967     332.0     85002         66.3
-student (scratch)          0.902      18.8      4810         38.1
-student (distilled)        0.898      18.8      4810         56.5
-distilled int8             0.898       5.2        74        116.0
-distilled 50% pruned       0.865      18.8      4810         64.1
+model                   accuracy   size KB    params   us/example (5 runs)
+teacher                    0.967     332.0     85002     130.6–149.8
+student (scratch)          0.902      18.8      4810      60.3–90.9
+student (distilled)        0.898      18.8      4810      68.6–93.0
+distilled int8             0.898       5.2        74     118.1–161.5
+distilled 50% pruned       0.865      18.8      4810      59.3–90.3
 ```
+
+Accuracy and size are deterministic under the fixed seed. Latency is a single-example CPU wall-clock
+measurement and varies between runs, so the table reports the observed range.
+
+**Measurement record.** Five independent runs on 15 November 2026: Windows 11
+(`Windows-11-10.0.26300-SP0`), Intel64 Family 6 Model 142, Python 3.14.7, PyTorch 2.14.1+cpu,
+NumPy 2.5.3, 4 PyTorch threads, CPU only. Model: the 4,810-parameter student trained for 40 epochs
+on scikit-learn's 8×8 digits (`load_digits`, 1,797 examples, 70/30 stratified split, seed 0). The
+harness warms up for 20 calls and reports the median of three trials of 300 single-example forward
+passes, in eval mode and `torch.no_grad()`. Threads were not pinned and background load was not
+controlled, which is why a range is reported. This is a desktop-CPU observation, not a target-device
+or universal claim.
 
 Read the columns in pairs, because each compression trades one for another.
 
@@ -93,19 +105,21 @@ alone, so there is nothing for the teacher to add; and too high a temperature di
 relative to the task, or when soft labels carry structure the hard label hides (class
 similarity, label noise). **Measure it; do not assume it.**
 
-The 0.902 student also beats the distilled one on accuracy while being faster (38.1 µs vs
-56.5 µs) — the distillation run costs nothing at inference, since the extra time is noise in
-this measurement, but the accuracy claim has no support here.
+The 0.902 student also beats the distilled one on accuracy; their latency ranges overlap, because
+distillation changes training, not the inference graph, so any timing difference is measurement
+noise.
 
 ### Quantisation
 
 Symmetric per-output-channel int8 cuts the student from 18.8 KB to 5.2 KB (27.7%) at identical
-accuracy (0.898; no class changed by more than 0.0005). And it is **2.62× slower**: 116.0 µs
-against 56.5 µs.
+accuracy (0.898; no class changed by more than 0.0005). In release validation it was **1.61–2.35×
+slower** across five runs (median 1.68×). The earlier text reported 2.62× from one run on an
+unrecorded machine; that value should be treated as a historical observation, not a reproducible
+constant.
 
-That is not a bug. This implementation dequantises weights on every forward pass — multiply the
-int8 tensor by the scale, then run a float matmul. The arithmetic saved is smaller than the
-conversion cost, so the model gets smaller and slower.
+That slowdown is not a bug. This implementation dequantises weights on every forward pass —
+multiply the int8 tensor by the scale, then run a float matmul. The arithmetic saved is smaller
+than the conversion cost, so the model gets smaller and can be slower.
 
 Quantisation pays when one of these is true:
 
@@ -118,9 +132,11 @@ parameter count is meaningless for a quantised model. **Report bytes, not parame
 
 ### Pruning
 
-50% of weights set to zero: accuracy 0.865 (−0.033), size unchanged (18.8 KB), latency 1.45×
-*worse*. Dense storage and dense arithmetic do not care that a value is zero. Pruning without a
-sparse kernel, a sparse format, or hardware support buys nothing at inference.
+50% of weights set to zero: accuracy 0.865 (−0.033), size unchanged (18.8 KB), latency ratio
+0.80–1.30× across five runs (median 1.01×). That is no reliable speed change, not a demonstrated
+slowdown; the earlier text's single-run 1.45× is historical. Dense storage and dense arithmetic do
+not care that a value is zero. Pruning without a sparse kernel, a sparse format, or hardware
+support buys nothing at inference.
 
 Where pruning does pay: structured pruning (removing whole channels) with a smaller dense
 matrix as the result, or unstructured pruning followed by sparse-aware hardware. Both need to be
@@ -130,11 +146,12 @@ measured on the target.
 
 | Method | Accuracy | Size | Latency | Verdict here |
 | :--- | ---: | ---: | ---: | :--- |
-| Distillation | −0.004 vs scratch | 5.7% of teacher | 0.53× teacher | no gain at this capacity |
-| int8 | ±0.000 | 27.7% of float | 2.62× slower | size win, speed loss |
-| Pruning 50% | −0.033 | 100% | 1.45× slower | storage claim only |
+| Distillation | −0.004 vs scratch | 5.7% of teacher | no inference change | no gain at this capacity |
+| int8 | ±0.000 | 27.7% of float | 1.6–2.4× slower (median 1.7×) | size win, speed loss |
+| Pruning 50% | −0.033 | 100% | 0.8–1.3× (median 1.0×) | storage claim only |
 
-Every row is a trade, and none of them is "free efficiency".
+Every row is a trade, and none of them is "free efficiency". The ranges are five-run desktop-CPU
+observations, not guarantees for another CPU, a mobile NPU or a serving runtime with int8 kernels.
 
 ## 3. Edge AI
 
@@ -184,7 +201,7 @@ reproduced, so nobody can tell whether the new version is better.
 | Mistake | Why it is wrong | Do instead |
 | :--- | :--- | :--- |
 | Reporting only accuracy for a compressed model | hides size/latency trade | report all four columns |
-| Assuming quantisation is faster | measured 2.62× slower on CPU float kernels | benchmark on the target |
+| Assuming quantisation is faster | measured 1.6–2.4× slower on CPU float kernels | benchmark on the target |
 | Assuming distillation always helps | measured −0.004 | compare against training without the teacher |
 | Reporting parameter counts for int8 | weights are buffers | report bytes |
 | Measuring latency on the dev laptop | not the deployment target | measure on target hardware |

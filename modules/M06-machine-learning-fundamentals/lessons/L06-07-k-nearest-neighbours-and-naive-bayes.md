@@ -1,6 +1,6 @@
 # L06-07 — k-Nearest Neighbours and Naïve Bayes
 
-[← Previous: ? Lesson](L06-06-bias-variance-and-regularisation.md) · [Module home](../README.md) · [Next: ? Lesson →](L06-08-trees-forests-boosting-and-svm.md)
+[← Previous: L06-06](L06-06-bias-variance-and-regularisation.md) · [Module home](../README.md) · [Next: L06-08 →](L06-08-trees-forests-boosting-and-svm.md)
 
 ## On this page
 
@@ -380,4 +380,4 @@ print("first row, log P(x|spam) + log P(spam):", round(float(ll + log_prior), 2)
 
 ---
 
-**Navigation:** [← Previous: ? Lesson](L06-06-bias-variance-and-regularisation.md) · [Module home](../README.md) · [Next: ? Lesson →](L06-08-trees-forests-boosting-and-svm.md)
+**Navigation:** [← Previous: L06-06](L06-06-bias-variance-and-regularisation.md) · [Module home](../README.md) · [Next: L06-08 →](L06-08-trees-forests-boosting-and-svm.md)

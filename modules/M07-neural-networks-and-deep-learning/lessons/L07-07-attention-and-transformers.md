@@ -1,6 +1,6 @@
 # L07-07 — Attention Mechanisms and the Transformer
 
-[← Previous: ? Lesson](L07-06-sequence-models-rnn-lstm-gru.md) · [Module home](../README.md) · [Next: ? Lesson →](L07-08-transfer-learning-and-autoencoders.md)
+[← Previous: L07-06](L07-06-sequence-models-rnn-lstm-gru.md) · [Module home](../README.md) · [Next: L07-08 →](L07-08-transfer-learning-and-autoencoders.md)
 
 ## On this page
 
@@ -351,4 +351,4 @@ attention**, **causal mask**, **padding mask**, **positional encoding**, **trans
 
 ---
 
-**Navigation:** [← Previous: ? Lesson](L07-06-sequence-models-rnn-lstm-gru.md) · [Module home](../README.md) · [Next: ? Lesson →](L07-08-transfer-learning-and-autoencoders.md)
+**Navigation:** [← Previous: L07-06](L07-06-sequence-models-rnn-lstm-gru.md) · [Module home](../README.md) · [Next: L07-08 →](L07-08-transfer-learning-and-autoencoders.md)

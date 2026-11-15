@@ -2,7 +2,7 @@
 
 | Level | 100 |
 | :--- | :--- |
-| Study time | 10 hours |
+| Study time | 12.8 hours — guided 4.5 · practical 2.5 · assessment 3.8 · project 2.0 |
 | Lessons | 5 |
 | Course outcome | CLO1 — explain what AI is, how the field evolved, and how agents act in an environment |
 | Prerequisites | None (P01 recommended if you have never programmed) |
@@ -65,7 +65,7 @@ You need no AI background, but you do need to be able to read and modify a short
 | QUIZ-01 | Module self-check | Quiz | 30 m | [Take](quizzes/quiz-01.md) |
 | MP-01 | AI-in-Your-Field Use-Case Audit | Mini-project | 2 h | [Start](projects/mp-01-ai-in-your-field-audit.md) |
 
-Total: 4.5 h lessons + 1 h notebook + 2 h labs + 0.5 h quiz + 2 h mini-project = **10 hours**.
+**Total published:** 4.5 h guided study + 2.5 h practical + 3.8 h assessment + 2.0 h mini-project = **12.8 hours**.
 
 Supporting code: [`code/capability_check.py`](code/capability_check.py) (capability scoring) and
 [`code/eliza_lite.py`](code/eliza_lite.py) (the conversational system used in LAB-01-02). Both are
@@ -122,3 +122,7 @@ All are defined in the [glossary](../../resources/glossary.md). The module's one
 [Course home](../../README.md) · [All modules](../README.md) ·
 [Prerequisites](../../prerequisites/README.md) ·
 [Next module: M02 Intelligent Agents →](../M02-intelligent-agents-and-environments/README.md)
+
+## Assignment
+
+[PA-01 — Student Results Analysis with Python and NumPy](../../assessments/programming/pa-01-python-and-numpy.md)

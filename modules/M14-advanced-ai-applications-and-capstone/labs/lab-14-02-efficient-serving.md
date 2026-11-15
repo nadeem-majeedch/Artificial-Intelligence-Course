@@ -24,7 +24,7 @@ budget, and a monitoring plan with thresholds and an owner.
 
 ```bash
 cd modules/M14-advanced-ai-applications-and-capstone/code
-python efficiency.py          # ~40 s
+python efficiency.py          # ~30–60 s on the audit machine
 python timeseries_monitor.py  # ~20 s
 ```
 
@@ -39,7 +39,9 @@ Record accuracy, size, parameters and latency for all five rows. Then:
 
 ### A2. Why int8 was slower
 
-The quantised model is 2.62× slower than the float student, and 5.2 KB vs 18.8 KB.
+In release validation the quantised model was 1.61–2.35× slower than the float student (median
+1.68×) and 5.2 KB vs 18.8 KB. An earlier single unrecorded run reported 2.62×; your own ratio will
+depend on CPU, thread count, load and whether int8 kernels are available.
 
 - Look at `Int8Linear.forward`. Which operation costs time on every call?
 - Precompute the dequantised weight once and cache it. Re-measure. Report the change and explain
@@ -58,7 +60,8 @@ The gain over scratch training is −0.004.
 
 ### A4. Pruning
 
-50% of weights are zero, size unchanged, latency 1.45× worse.
+50% of weights are zero, size unchanged, latency ratio 0.80–1.30× across release-validation runs
+(median 1.01×) — no reliable speed change. An earlier single run reported 1.45× worse.
 
 - Explain why dense arithmetic does not benefit from zero weights.
 - What would make pruning pay? Name the structural change.
@@ -143,3 +146,24 @@ Then state the one alert you would delete as noise, and why.
 
 [Module home](../README.md) · [Lab 14-01](lab-14-01-multimodal-and-graph-systems.md) ·
 [Summary](../summary.md)
+
+## Starter material
+
+A runnable starter is provided: [`starters/lab-14-02_starter.py`](starters/lab-14-02_starter.py).
+It loads the lab's data, prints a baseline you can compare against, and
+marks the parts left for you with `TODO`. Run it before you write anything.
+
+Module reference code: [`../code/`](../code/).
+
+## Extension challenges (optional)
+
+Optional, and closer to production engineering than the rest of M14.
+
+1. **Latency budget.** Derive the p95 latency budget from a stated user requirement (for
+   example 200 ms end to end with 50 ms for the model), then measure whether your serving
+   path meets it at the target batch size. Report the gap, not just the mean.
+2. **Quantisation sweep.** Compare float32, int8 dynamic and int8 static quantisation on
+   accuracy, model size and p95 latency. Which combination would you ship, and what
+   monitoring would tell you it had gone wrong?
+3. **Rollback drill.** Write the rollback runbook: trigger metric, threshold, who is
+   paged, what is reverted, and how you verify the rollback worked. Keep it under one page.

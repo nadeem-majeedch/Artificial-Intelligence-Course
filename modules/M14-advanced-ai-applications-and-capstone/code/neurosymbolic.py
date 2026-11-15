@@ -37,7 +37,7 @@ def policy(income, savings, size, owns_property):
     """The published rule. Boolean, auditable, and the authority on eligibility."""
     income_ok = income < INCOME_CAP + PER_PERSON * size
     savings_ok = savings < SAVINGS_CAP
-    property_ok = ~((owns_property > 0.5) & (income > 18_000))
+    property_ok = np.logical_not((owns_property > 0.5) & (income > 18_000))
     return income_ok & savings_ok & property_ok
 
 

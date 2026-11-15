@@ -1,6 +1,6 @@
 # L07-01 — From the Perceptron to the Multilayer Perceptron
 
-[← Module start](../README.md) · [Next: ? Lesson →](L07-02-backpropagation-the-mathematics-of-learning.md)
+[← Module start](../README.md) · [Next: L07-02 →](L07-02-backpropagation-the-mathematics-of-learning.md)
 
 ## On this page
 
@@ -362,4 +362,4 @@ pipeline, not the score.
 
 ---
 
-**Navigation:** [← Module start](../README.md) · [Next: ? Lesson →](L07-02-backpropagation-the-mathematics-of-learning.md)
+**Navigation:** [← Module start](../README.md) · [Next: L07-02 →](L07-02-backpropagation-the-mathematics-of-learning.md)

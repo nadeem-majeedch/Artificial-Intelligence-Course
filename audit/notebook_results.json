@@ -1,0 +1,642 @@
+[
+  {
+    "path": "modules/M01-introduction-and-foundations/notebooks/nb-01-01-capability-test-bench.ipynb",
+    "status": "PASS",
+    "seconds": 4.1,
+    "errors": [],
+    "warnings": [],
+    "imports": [
+      "dataclasses",
+      "matplotlib",
+      "numpy",
+      "platform",
+      "sys"
+    ],
+    "network": [],
+    "cells": 32,
+    "code_cells": 13,
+    "note": "outputs refreshed"
+  },
+  {
+    "path": "modules/M02-intelligent-agents-and-environments/notebooks/nb-02-01-agent-loop-gridworld.ipynb",
+    "status": "PASS",
+    "seconds": 1.9,
+    "errors": [],
+    "warnings": [],
+    "imports": [
+      "agents",
+      "environments",
+      "pathlib,"
+    ],
+    "network": [],
+    "cells": 15,
+    "code_cells": 7,
+    "note": "outputs refreshed"
+  },
+  {
+    "path": "modules/M03-problem-solving-and-search-algorithms/notebooks/nb-03-01-search-workbench.ipynb",
+    "status": "PASS",
+    "seconds": 3.0,
+    "errors": [],
+    "warnings": [],
+    "imports": [
+      "importlib,",
+      "matplotlib",
+      "search_algorithms",
+      "sys,"
+    ],
+    "network": [],
+    "cells": 18,
+    "code_cells": 9,
+    "note": "outputs refreshed"
+  },
+  {
+    "path": "modules/M04-knowledge-representation-and-logical-reasoning/notebooks/nb-04-01-propositional-logic-workbench.ipynb",
+    "status": "PASS",
+    "seconds": 2.0,
+    "errors": [],
+    "warnings": [],
+    "imports": [
+      "pathlib",
+      "prop_logic",
+      "sys"
+    ],
+    "network": [],
+    "cells": 27,
+    "code_cells": 11,
+    "note": "outputs refreshed"
+  },
+  {
+    "path": "modules/M04-knowledge-representation-and-logical-reasoning/notebooks/nb-04-02-first-order-inference-and-unification.ipynb",
+    "status": "PASS",
+    "seconds": 1.9,
+    "errors": [],
+    "warnings": [],
+    "imports": [
+      "fol_core",
+      "knowledge_bases",
+      "pathlib",
+      "sys"
+    ],
+    "network": [],
+    "cells": 23,
+    "code_cells": 9,
+    "note": "outputs refreshed"
+  },
+  {
+    "path": "modules/M05-uncertainty-bayesian-reasoning-and-fuzzy-logic/notebooks/nb-05-01-uncertainty-workbench.ipynb",
+    "status": "PASS",
+    "seconds": 1.9,
+    "errors": [],
+    "warnings": [],
+    "imports": [
+      "alarm_network",
+      "collections",
+      "math,"
+    ],
+    "network": [],
+    "cells": 19,
+    "code_cells": 9,
+    "note": "outputs refreshed"
+  },
+  {
+    "path": "modules/M05-uncertainty-bayesian-reasoning-and-fuzzy-logic/notebooks/nb-05-02-variable-elimination.ipynb",
+    "status": "PASS",
+    "seconds": 2.1,
+    "errors": [],
+    "warnings": [],
+    "imports": [
+      "alarm_network",
+      "numpy",
+      "pathlib,",
+      "variable_elimination"
+    ],
+    "network": [],
+    "cells": 17,
+    "code_cells": 8,
+    "note": "outputs refreshed"
+  },
+  {
+    "path": "modules/M06-machine-learning-fundamentals/notebooks/nb-06-01-data-preparation-workbench.ipynb",
+    "status": "PASS",
+    "seconds": 3.2,
+    "errors": [],
+    "warnings": [],
+    "imports": [
+      "classifiers",
+      "datasets",
+      "evaluation",
+      "linreg",
+      "numpy",
+      "pandas",
+      "pathlib",
+      "prep",
+      "sys"
+    ],
+    "network": [],
+    "cells": 26,
+    "code_cells": 11,
+    "note": "outputs refreshed"
+  },
+  {
+    "path": "modules/M06-machine-learning-fundamentals/notebooks/nb-06-02-regression-and-classification-workbench.ipynb",
+    "status": "PASS",
+    "seconds": 3.2,
+    "errors": [],
+    "warnings": [],
+    "imports": [
+      "classifiers",
+      "datasets",
+      "evaluation",
+      "linreg",
+      "numpy",
+      "pathlib",
+      "prep",
+      "sys"
+    ],
+    "network": [],
+    "cells": 20,
+    "code_cells": 9,
+    "note": "outputs refreshed"
+  },
+  {
+    "path": "modules/M06-machine-learning-fundamentals/notebooks/nb-06-03-model-comparison-and-ensembles.ipynb",
+    "status": "PASS",
+    "seconds": 8.5,
+    "errors": [],
+    "warnings": [],
+    "imports": [
+      "classifiers",
+      "datasets",
+      "evaluation",
+      "numpy",
+      "pathlib",
+      "prep",
+      "sys"
+    ],
+    "network": [],
+    "cells": 16,
+    "code_cells": 7,
+    "note": "outputs refreshed"
+  },
+  {
+    "path": "modules/M06-machine-learning-fundamentals/notebooks/nb-06-04-clustering-pca-and-anomalies.ipynb",
+    "status": "PASS",
+    "seconds": 8.9,
+    "errors": [],
+    "warnings": [],
+    "imports": [
+      "datasets",
+      "numpy",
+      "pathlib",
+      "prep",
+      "sys",
+      "unsupervised"
+    ],
+    "network": [],
+    "cells": 18,
+    "code_cells": 8,
+    "note": "outputs refreshed"
+  },
+  {
+    "path": "modules/M07-neural-networks-and-deep-learning/notebooks/nb-07-01-neural-network-fundamentals.ipynb",
+    "status": "PASS",
+    "seconds": 7.5,
+    "errors": [],
+    "warnings": [],
+    "imports": [
+      "deep_data",
+      "matplotlib",
+      "nn_numpy",
+      "numpy",
+      "os,",
+      "torch",
+      "torch_utils",
+      "transfer"
+    ],
+    "network": [],
+    "cells": 17,
+    "code_cells": 6,
+    "note": "outputs refreshed"
+  },
+  {
+    "path": "modules/M07-neural-networks-and-deep-learning/notebooks/nb-07-02-pytorch-image-classification.ipynb",
+    "status": "PASS",
+    "seconds": 11.8,
+    "errors": [],
+    "warnings": [],
+    "imports": [
+      "deep_data",
+      "matplotlib",
+      "nn_numpy",
+      "numpy",
+      "os,",
+      "torch",
+      "torch_utils",
+      "transfer"
+    ],
+    "network": [],
+    "cells": 16,
+    "code_cells": 8,
+    "note": "outputs refreshed"
+  },
+  {
+    "path": "modules/M07-neural-networks-and-deep-learning/notebooks/nb-07-03-sequences-attention-transfer.ipynb",
+    "status": "PASS WITH WARNINGS",
+    "seconds": 43.2,
+    "errors": [],
+    "warnings": [
+      "C:\\Users\\Nadeem\\AppData\\Roaming\\Python\\Python314\\site-packages\\torch\\nn\\modules\\transformer.py:533: UserWarning: The PyTorch API of nested tensors is in prototy"
+    ],
+    "imports": [
+      "deep_data",
+      "matplotlib",
+      "nn_numpy",
+      "numpy",
+      "os,",
+      "sklearn",
+      "torch",
+      "torch_utils",
+      "transfer"
+    ],
+    "network": [],
+    "cells": 17,
+    "code_cells": 7,
+    "note": "outputs refreshed"
+  },
+  {
+    "path": "modules/M08-natural-language-processing/notebooks/nb-08-01-tokenisation-and-features.ipynb",
+    "status": "PASS",
+    "seconds": 5.8,
+    "errors": [],
+    "warnings": [],
+    "imports": [
+      "collections",
+      "math,",
+      "sklearn"
+    ],
+    "network": [],
+    "cells": 15,
+    "code_cells": 7,
+    "note": "outputs refreshed"
+  },
+  {
+    "path": "modules/M08-natural-language-processing/notebooks/nb-08-02-classification-and-ner.ipynb",
+    "status": "PASS",
+    "seconds": 5.4,
+    "errors": [],
+    "warnings": [],
+    "imports": [
+      "re",
+      "sklearn"
+    ],
+    "network": [],
+    "cells": 15,
+    "code_cells": 7,
+    "note": "outputs refreshed"
+  },
+  {
+    "path": "modules/M08-natural-language-processing/notebooks/nb-08-03-attention-and-sequences.ipynb",
+    "status": "PASS",
+    "seconds": 2.6,
+    "errors": [],
+    "warnings": [],
+    "imports": [
+      "numpy"
+    ],
+    "network": [],
+    "cells": 13,
+    "code_cells": 6,
+    "note": "outputs refreshed"
+  },
+  {
+    "path": "modules/M09-computer-vision/notebooks/nb-09-01-image-processing.ipynb",
+    "status": "PASS",
+    "seconds": 11.1,
+    "errors": [],
+    "warnings": [],
+    "imports": [
+      "matplotlib",
+      "numpy",
+      "sys",
+      "vision_core"
+    ],
+    "network": [],
+    "cells": 20,
+    "code_cells": 9,
+    "note": "outputs refreshed"
+  },
+  {
+    "path": "modules/M09-computer-vision/notebooks/nb-09-02-cnn-classification.ipynb",
+    "status": "PASS",
+    "seconds": 15.2,
+    "errors": [],
+    "warnings": [],
+    "imports": [
+      "matplotlib",
+      "numpy",
+      "sklearn",
+      "sys",
+      "vision_core"
+    ],
+    "network": [],
+    "cells": 17,
+    "code_cells": 8,
+    "note": "outputs refreshed"
+  },
+  {
+    "path": "modules/M09-computer-vision/notebooks/nb-09-03-object-detection.ipynb",
+    "status": "PASS",
+    "seconds": 11.2,
+    "errors": [],
+    "warnings": [],
+    "imports": [
+      "matplotlib",
+      "numpy",
+      "sys",
+      "vision_core"
+    ],
+    "network": [],
+    "cells": 15,
+    "code_cells": 7,
+    "note": "outputs refreshed"
+  },
+  {
+    "path": "modules/M09-computer-vision/notebooks/nb-09-04-image-segmentation.ipynb",
+    "status": "PASS",
+    "seconds": 22.9,
+    "errors": [],
+    "warnings": [],
+    "imports": [
+      "matplotlib",
+      "numpy",
+      "sys",
+      "vision_core"
+    ],
+    "network": [],
+    "cells": 15,
+    "code_cells": 7,
+    "note": "outputs refreshed"
+  },
+  {
+    "path": "modules/M10-reinforcement-learning/notebooks/nb-10-01-mdps-and-dynamic-programming.ipynb",
+    "status": "PASS",
+    "seconds": 7.6,
+    "errors": [],
+    "warnings": [],
+    "imports": [
+      "matplotlib",
+      "numpy",
+      "rl_envs,",
+      "sys"
+    ],
+    "network": [],
+    "cells": 13,
+    "code_cells": 6,
+    "note": "outputs refreshed"
+  },
+  {
+    "path": "modules/M10-reinforcement-learning/notebooks/nb-10-02-tabular-control-sarsa-and-q-learning.ipynb",
+    "status": "PASS WITH WARNINGS",
+    "seconds": 10.7,
+    "errors": [],
+    "warnings": [
+      "C:\\Users\\Nadeem\\AppData\\Local\\Temp\\ipykernel_7660\\520285934.py:6: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown"
+    ],
+    "imports": [
+      "matplotlib",
+      "numpy",
+      "rl_envs,",
+      "sys"
+    ],
+    "network": [],
+    "cells": 13,
+    "code_cells": 6,
+    "note": "outputs refreshed"
+  },
+  {
+    "path": "modules/M10-reinforcement-learning/notebooks/nb-10-03-deep-reinforcement-learning.ipynb",
+    "status": "PASS",
+    "seconds": 16.5,
+    "errors": [],
+    "warnings": [],
+    "imports": [
+      "dqn",
+      "gymnasium",
+      "matplotlib",
+      "numpy",
+      "rl_envs,",
+      "sys"
+    ],
+    "network": [],
+    "cells": 13,
+    "code_cells": 6,
+    "note": "outputs refreshed"
+  },
+  {
+    "path": "modules/M11-generative-ai-and-large-language-models/notebooks/nb-11-01-tokens-attention-and-generative-models.ipynb",
+    "status": "PASS WITH WARNINGS",
+    "seconds": 99.8,
+    "errors": [],
+    "warnings": [
+      "C:\\Users\\Nadeem\\AppData\\Roaming\\Python\\Python314\\site-packages\\tqdm\\auto.py:21: TqdmWarning: IProgress not found. Please update jupyter and ipywidgets. See http",
+      "Loading weights:   0%|          | 0/76 [00:00<?, ?it/s]",
+      "Loading weights:  30%|\u2588\u2588\u2588       | 23/76 [00:00<00:00, 179.98it/s]",
+      "Loading weights:  54%|\u2588\u2588\u2588\u2588\u2588\u258d    | 41/76 [00:00<00:00, 86.88it/s]",
+      "Loading weights: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 76/76 [00:00<00:00, 173.67it/s]"
+    ],
+    "imports": [
+      "attention_lab",
+      "gen_data",
+      "llm_gen",
+      "matplotlib",
+      "numpy",
+      "sys,",
+      "tokenizers_lab"
+    ],
+    "network": [],
+    "cells": 14,
+    "code_cells": 7,
+    "note": "outputs refreshed"
+  },
+  {
+    "path": "modules/M11-generative-ai-and-large-language-models/notebooks/nb-11-02-retrieval-prompting-and-evaluation.ipynb",
+    "status": "PASS WITH WARNINGS",
+    "seconds": 73.6,
+    "errors": [],
+    "warnings": [
+      "C:\\Users\\Nadeem\\AppData\\Roaming\\Python\\Python314\\site-packages\\tqdm\\auto.py:21: TqdmWarning: IProgress not found. Please update jupyter and ipywidgets. See http",
+      "Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.",
+      "Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]",
+      "Loading weights: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 103/103 [00:00<00:00, 3154.83it/s]",
+      "Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]"
+    ],
+    "imports": [
+      "gen_data",
+      "llm_eval",
+      "numpy",
+      "prompts",
+      "rag",
+      "sys",
+      "sys,"
+    ],
+    "network": [],
+    "cells": 14,
+    "code_cells": 7,
+    "note": "outputs refreshed"
+  },
+  {
+    "path": "modules/M12-ai-agents-and-agentic-systems/notebooks/nb-12-01-agentic-ai-workbench.ipynb",
+    "status": "PASS",
+    "seconds": 2.4,
+    "errors": [],
+    "warnings": [],
+    "imports": [
+      "agent_core",
+      "agent_data",
+      "guardrails",
+      "multi_agent",
+      "pathlib,"
+    ],
+    "network": [],
+    "cells": 31,
+    "code_cells": 15,
+    "note": "outputs refreshed"
+  },
+  {
+    "path": "modules/M13-responsible-explainable-secure-ai/notebooks/nb-13-01-explainability-toolkit.ipynb",
+    "status": "PASS",
+    "seconds": 10.0,
+    "errors": [],
+    "warnings": [],
+    "imports": [
+      "explain",
+      "numpy",
+      "rai_data",
+      "sklearn",
+      "sys,"
+    ],
+    "network": [],
+    "cells": 18,
+    "code_cells": 9,
+    "note": "outputs refreshed"
+  },
+  {
+    "path": "modules/M14-advanced-ai-applications-and-capstone/notebooks/nb-14-01-capstone-starter-kit.ipynb",
+    "status": "PASS",
+    "seconds": 46.2,
+    "errors": [],
+    "warnings": [],
+    "imports": [
+      "numpy",
+      "sklearn",
+      "time"
+    ],
+    "network": [],
+    "cells": 15,
+    "code_cells": 7,
+    "note": "outputs refreshed"
+  },
+  {
+    "path": "prerequisites/P01-python-programming/notebooks/nb-p01-01-python-fundamentals.ipynb",
+    "status": "PASS",
+    "seconds": 3.3,
+    "errors": [],
+    "warnings": [],
+    "imports": [
+      "collections",
+      "json",
+      "math",
+      "numpy",
+      "pandas",
+      "pathlib",
+      "platform",
+      "sys",
+      "tempfile"
+    ],
+    "network": [],
+    "cells": 33,
+    "code_cells": 18,
+    "note": "outputs refreshed"
+  },
+  {
+    "path": "prerequisites/P01-python-programming/notebooks/nb-p01-02-numpy-pandas-plotting.ipynb",
+    "status": "PASS",
+    "seconds": 7.0,
+    "errors": [],
+    "warnings": [],
+    "imports": [
+      "matplotlib",
+      "numpy",
+      "pandas",
+      "seaborn"
+    ],
+    "network": [],
+    "cells": 28,
+    "code_cells": 16,
+    "note": "outputs refreshed"
+  },
+  {
+    "path": "prerequisites/P02-mathematics-for-ai/notebooks/nb-p02-01-linear-algebra.ipynb",
+    "status": "PASS",
+    "seconds": 3.7,
+    "errors": [],
+    "warnings": [],
+    "imports": [
+      "matplotlib",
+      "numpy"
+    ],
+    "network": [],
+    "cells": 27,
+    "code_cells": 15,
+    "note": "outputs refreshed"
+  },
+  {
+    "path": "prerequisites/P02-mathematics-for-ai/notebooks/nb-p02-02-calculus-and-optimization.ipynb",
+    "status": "PASS",
+    "seconds": 4.4,
+    "errors": [],
+    "warnings": [],
+    "imports": [
+      "matplotlib",
+      "numpy"
+    ],
+    "network": [],
+    "cells": 25,
+    "code_cells": 13,
+    "note": "outputs refreshed"
+  },
+  {
+    "path": "prerequisites/P03-probability-and-statistics/notebooks/nb-p03-01-probability-and-statistics.ipynb",
+    "status": "PASS",
+    "seconds": 7.8,
+    "errors": [],
+    "warnings": [],
+    "imports": [
+      "math",
+      "matplotlib",
+      "numpy",
+      "pandas"
+    ],
+    "network": [],
+    "cells": 30,
+    "code_cells": 17,
+    "note": "outputs refreshed"
+  },
+  {
+    "path": "prerequisites/P04-data-preparation-and-visualization/notebooks/nb-p04-01-data-preparation.ipynb",
+    "status": "PASS",
+    "seconds": 7.5,
+    "errors": [],
+    "warnings": [],
+    "imports": [
+      "matplotlib",
+      "numpy",
+      "pandas"
+    ],
+    "network": [],
+    "cells": 26,
+    "code_cells": 14,
+    "note": "outputs refreshed"
+  }
+]

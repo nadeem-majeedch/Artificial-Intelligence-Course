@@ -1,6 +1,6 @@
 # L07-05 — Convolutional Neural Networks
 
-[← Previous: ? Lesson](L07-04-regularisation-and-diagnosis.md) · [Module home](../README.md) · [Next: ? Lesson →](L07-06-sequence-models-rnn-lstm-gru.md)
+[← Previous: L07-04](L07-04-regularisation-and-diagnosis.md) · [Module home](../README.md) · [Next: L07-06 →](L07-06-sequence-models-rnn-lstm-gru.md)
 
 ## On this page
 
@@ -348,4 +348,4 @@ connection**, **1×1 convolution**, **global average pooling**, **LeNet**, **VGG
 
 ---
 
-**Navigation:** [← Previous: ? Lesson](L07-04-regularisation-and-diagnosis.md) · [Module home](../README.md) · [Next: ? Lesson →](L07-06-sequence-models-rnn-lstm-gru.md)
+**Navigation:** [← Previous: L07-04](L07-04-regularisation-and-diagnosis.md) · [Module home](../README.md) · [Next: L07-06 →](L07-06-sequence-models-rnn-lstm-gru.md)

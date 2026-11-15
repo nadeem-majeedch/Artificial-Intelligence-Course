@@ -1,6 +1,6 @@
 # L06-04 — Classification with Logistic Regression
 
-[← Previous: ? Lesson](L06-03-linear-regression-from-first-principles.md) · [Module home](../README.md) · [Next: ? Lesson →](L06-05-model-evaluation-metrics-and-roc.md)
+[← Previous: L06-03](L06-03-linear-regression-from-first-principles.md) · [Module home](../README.md) · [Next: L06-05 →](L06-05-model-evaluation-metrics-and-roc.md)
 
 ## On this page
 
@@ -381,4 +381,4 @@ boundary**, **binary cross-entropy**, **log-loss**, **maximum likelihood**, **cl
 
 ---
 
-**Navigation:** [← Previous: ? Lesson](L06-03-linear-regression-from-first-principles.md) · [Module home](../README.md) · [Next: ? Lesson →](L06-05-model-evaluation-metrics-and-roc.md)
+**Navigation:** [← Previous: L06-03](L06-03-linear-regression-from-first-principles.md) · [Module home](../README.md) · [Next: L06-05 →](L06-05-model-evaluation-metrics-and-roc.md)

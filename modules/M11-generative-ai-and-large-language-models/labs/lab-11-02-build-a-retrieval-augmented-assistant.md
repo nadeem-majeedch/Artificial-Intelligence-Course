@@ -157,3 +157,11 @@ corpus properties, not universal constants. Report your values with the corpus d
 | Chunk and fusion ablations with interpretation | 20% |
 | Refusal experiment and threshold calibration | 20% |
 | Error analysis and report | 20% |
+
+## Starter material
+
+The guided notebook [`nb-11-02-retrieval-prompting-and-evaluation.ipynb`](../notebooks/nb-11-02-retrieval-prompting-and-evaluation.ipynb) works through the
+same pipeline end to end; use it when you are stuck, and cite what you
+changed rather than copying its outputs.
+
+Module reference code: [`../code/`](../code/).

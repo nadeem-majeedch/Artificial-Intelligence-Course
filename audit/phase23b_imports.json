@@ -1,0 +1,332 @@
+[
+  {
+    "path": "modules\\M01-introduction-and-foundations\\code\\capability_check.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M01-introduction-and-foundations\\code\\eliza_lite.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M02-intelligent-agents-and-environments\\code\\agents.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M02-intelligent-agents-and-environments\\code\\environments.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M03-problem-solving-and-search-algorithms\\code\\search_algorithms.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M04-knowledge-representation-and-logical-reasoning\\code\\expert_system.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M04-knowledge-representation-and-logical-reasoning\\code\\fol_core.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M04-knowledge-representation-and-logical-reasoning\\code\\knowledge_bases.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M04-knowledge-representation-and-logical-reasoning\\code\\prop_logic.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M05-uncertainty-bayesian-reasoning-and-fuzzy-logic\\code\\alarm_network.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M05-uncertainty-bayesian-reasoning-and-fuzzy-logic\\code\\variable_elimination.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M06-machine-learning-fundamentals\\code\\classifiers.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M06-machine-learning-fundamentals\\code\\datasets.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M06-machine-learning-fundamentals\\code\\evaluation.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M06-machine-learning-fundamentals\\code\\linreg.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M06-machine-learning-fundamentals\\code\\prep.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M06-machine-learning-fundamentals\\code\\sklearn_compare.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M06-machine-learning-fundamentals\\code\\unsupervised.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M07-neural-networks-and-deep-learning\\code\\deep_data.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M07-neural-networks-and-deep-learning\\code\\nn_numpy.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M07-neural-networks-and-deep-learning\\code\\torch_utils.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M07-neural-networks-and-deep-learning\\code\\transfer.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M08-natural-language-processing\\code\\classify.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M08-natural-language-processing\\code\\embeddings.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M08-natural-language-processing\\code\\seq_models.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M08-natural-language-processing\\code\\text_data.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M08-natural-language-processing\\code\\text_pipeline.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M09-computer-vision\\code\\vision_core.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M10-reinforcement-learning\\code\\dp.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M10-reinforcement-learning\\code\\dqn.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M10-reinforcement-learning\\code\\experiments.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M10-reinforcement-learning\\code\\rl_envs.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M10-reinforcement-learning\\code\\tabular.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M11-generative-ai-and-large-language-models\\code\\app.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M11-generative-ai-and-large-language-models\\code\\attention_lab.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M11-generative-ai-and-large-language-models\\code\\build_notebooks.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M11-generative-ai-and-large-language-models\\code\\gen_data.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M11-generative-ai-and-large-language-models\\code\\gen_models.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M11-generative-ai-and-large-language-models\\code\\llm_eval.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M11-generative-ai-and-large-language-models\\code\\llm_gen.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M11-generative-ai-and-large-language-models\\code\\lora.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M11-generative-ai-and-large-language-models\\code\\prompts.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M11-generative-ai-and-large-language-models\\code\\rag.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M11-generative-ai-and-large-language-models\\code\\tokenizers_lab.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M12-ai-agents-and-agentic-systems\\code\\agent_core.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M12-ai-agents-and-agentic-systems\\code\\agent_data.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M12-ai-agents-and-agentic-systems\\code\\guardrails.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M12-ai-agents-and-agentic-systems\\code\\multi_agent.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M12-ai-agents-and-agentic-systems\\code\\protocols.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M12-ai-agents-and-agentic-systems\\code\\tools.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M12-ai-agents-and-agentic-systems\\code\\workflows.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M13-responsible-explainable-secure-ai\\code\\build_notebooks.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M13-responsible-explainable-secure-ai\\code\\explain.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M13-responsible-explainable-secure-ai\\code\\fairness.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M13-responsible-explainable-secure-ai\\code\\governance.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M13-responsible-explainable-secure-ai\\code\\guardrails_m13.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M13-responsible-explainable-secure-ai\\code\\llm_security.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M13-responsible-explainable-secure-ai\\code\\rai_data.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M13-responsible-explainable-secure-ai\\code\\security.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M14-advanced-ai-applications-and-capstone\\code\\build_notebooks.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M14-advanced-ai-applications-and-capstone\\code\\efficiency.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M14-advanced-ai-applications-and-capstone\\code\\federated.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M14-advanced-ai-applications-and-capstone\\code\\graphs.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M14-advanced-ai-applications-and-capstone\\code\\multimodal.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M14-advanced-ai-applications-and-capstone\\code\\neurosymbolic.py",
+    "status": "OK",
+    "detail": ""
+  },
+  {
+    "path": "modules\\M14-advanced-ai-applications-and-capstone\\code\\timeseries_monitor.py",
+    "status": "OK",
+    "detail": ""
+  }
+]

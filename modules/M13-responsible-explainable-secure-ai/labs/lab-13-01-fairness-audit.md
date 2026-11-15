@@ -152,3 +152,30 @@ Answer in a paragraph each.
 
 [Module home](../README.md) · [Lab 13-02](lab-13-02-security-and-prompt-injection-testing.md) ·
 [Quiz](../quizzes/quiz-13.md)
+
+## Starter material
+
+A runnable starter is provided: [`starters/lab-13-01_starter.py`](starters/lab-13-01_starter.py).
+It loads the lab's data, prints a baseline you can compare against, and
+marks the parts left for you with `TODO`. Run it before you write anything.
+
+The guided notebook [`nb-13-01-explainability-toolkit.ipynb`](../notebooks/nb-13-01-explainability-toolkit.ipynb) works through the
+same pipeline end to end; use it when you are stuck, and cite what you
+changed rather than copying its outputs.
+
+Module reference code: [`../code/`](../code/).
+
+## Extension challenges (optional)
+
+These are optional and not marked. Each asks you to test a claim the lab makes rather
+than restate it.
+
+1. **Threshold versus boundary.** Hold the model fixed and sweep the decision threshold
+   over the observed score range. Plot DP gap, equal-opportunity gap and accuracy against
+   the threshold. Is there a threshold that satisfies both gaps simultaneously? If not,
+   say which constraint you would relax and who bears the cost.
+2. **Proxy leakage.** Add a feature that is correlated with the group but not used for
+   the decision (for example a postcode-like column). Retrain and measure how much of the
+   gap returns. This is the difference between "fair model" and "fair system".
+3. **Uncertainty.** Bootstrap the test set 200 times and report a 95% interval for the
+   disparate-impact ratio. Is the gap you reported distinguishable from sampling noise?

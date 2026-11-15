@@ -281,3 +281,11 @@ by decile. Accuracy is reported only next to the baseline, and AUC as a secondar
 | Write-up | 20 min |
 
 Next: [LAB-06-04 — Intrusion, Fraud and the Leakage Hunt](lab-06-04-intrusion-fraud-and-leakage.md).
+
+## Starter material
+
+The guided notebook [`nb-06-03-model-comparison-and-ensembles.ipynb`](../notebooks/nb-06-03-model-comparison-and-ensembles.ipynb) works through the
+same pipeline end to end; use it when you are stuck, and cite what you
+changed rather than copying its outputs.
+
+Module reference code: [`../code/`](../code/).

@@ -1,6 +1,6 @@
 # L07-08 — Transfer Learning, Fine-Tuning and Autoencoders
 
-[← Previous: ? Lesson](L07-07-attention-and-transformers.md) · [Module end](../README.md)
+[← Previous: L07-07](L07-07-attention-and-transformers.md) · [Module end](../README.md)
 
 ## On this page
 
@@ -361,4 +361,4 @@ parameters**, **discriminative learning rate**, **negative transfer**, **catastr
 
 ---
 
-**Navigation:** [← Previous: ? Lesson](L07-07-attention-and-transformers.md) · [Module end](../README.md)
+**Navigation:** [← Previous: L07-07](L07-07-attention-and-transformers.md) · [Module end](../README.md)

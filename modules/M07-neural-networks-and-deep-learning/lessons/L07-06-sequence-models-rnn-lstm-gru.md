@@ -1,6 +1,6 @@
 # L07-06 — Sequence Models: RNN, LSTM and GRU
 
-[← Previous: ? Lesson](L07-05-convolutional-neural-networks.md) · [Module home](../README.md) · [Next: ? Lesson →](L07-07-attention-and-transformers.md)
+[← Previous: L07-05](L07-05-convolutional-neural-networks.md) · [Module home](../README.md) · [Next: L07-07 →](L07-07-attention-and-transformers.md)
 
 ## On this page
 
@@ -340,4 +340,4 @@ print("repeat-last baseline MSE:", round(float(np.mean((y[640:] - X[640:, -1, 0]
 
 ---
 
-**Navigation:** [← Previous: ? Lesson](L07-05-convolutional-neural-networks.md) · [Module home](../README.md) · [Next: ? Lesson →](L07-07-attention-and-transformers.md)
+**Navigation:** [← Previous: L07-05](L07-05-convolutional-neural-networks.md) · [Module home](../README.md) · [Next: L07-07 →](L07-07-attention-and-transformers.md)

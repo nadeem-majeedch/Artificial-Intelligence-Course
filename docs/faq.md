@@ -25,8 +25,8 @@ lesson three, because it assumes linear algebra, probability and calculus withou
 If you must skip, at least read P02's first three lessons and P03's first three.
 
 **How much time does the course take?**
-About 165 hours for the core path (foundations through machine learning), 192 hours with deep
-learning, and about 374 hours for the complete programme including the capstone. Pacing options are
+About 169 hours for the core path (foundations through machine learning), 194 hours with deep
+learning, and about 407 hours for the complete programme including the capstone. Pacing options are
 in [learning paths §7](learning-path.md#7-pacing-options).
 
 **Can I study only one module, for a specific need?**
@@ -38,7 +38,7 @@ first, then the module is self-contained.
 **How should I read a lesson?**
 Objectives, prerequisites, concept, then worked examples with the solutions covered. Run the code,
 break it deliberately, and answer the self-assessment before opening the answers. The full routine
-is in [README §11](../README.md#11-how-to-study-each-lesson).
+is in [README §7](../README.md#7-how-to-use-the-course).
 
 **I understand the lessons but cannot solve the exercises. Is something wrong?**
 No — that gap is the normal experience of learning. Understanding an explanation is recognition;
@@ -77,8 +77,9 @@ keeps A\* optimal. You are not expected to produce original proofs.
 ## Tools and notebooks
 
 **Do I need a GPU?**
-No. Every notebook runs on a CPU in under a minute. A GPU helps only if you choose to scale up an
-experiment in M07 or M11 beyond what the course asks.
+No. Every notebook runs on a CPU; most finish in seconds, and the longest take about 1–1.5 minutes
+on the release-audit machine. A GPU helps only if you choose to scale up an experiment in M07 or
+M11 beyond what the course asks.
 
 **Which Python version?**
 3.11 or 3.12 is the safest choice. Newer releases sometimes lack pre-built versions of the
@@ -99,8 +100,11 @@ cell. If it still fails, check that you installed the libraries the module lists
 from the bottom up; the last line names the problem.
 
 **Do I need internet access?**
-No. Datasets ship with the course and no notebook requires a download. M11 and M12 include optional
-hosted-API exercises; every one of them has an offline alternative.
+Only for the first run of the two M11 notebooks that download small pretrained weights
+(`distilgpt2` and `all-MiniLM-L6-v2`); they run offline once the models are cached. Optional M08
+pretrained-model demonstrations may also download weights. Other datasets ship with the course or
+are generated locally. M11 and M12 include optional hosted-API exercises, and every one has an
+offline alternative.
 
 **Do I need to pay for anything?**
 No. No paid account is required for any lesson, lab, assignment or project.
@@ -126,8 +130,13 @@ The classical modules (M03–M05) are stable. The applied modules (M08–M12) mo
 durable concepts and pin specific tools inside labs, with dates, so you can tell what has drifted.
 
 **Can I use this material for my own course?**
-Ask the instructor. The structure, labs and rubrics were designed to be adapted, but the material
-is not offered here under an open licence, so permission is required.
+Yes, under the licence that covers the part you reuse. Original source code is licensed under MIT;
+lessons, labs, rubrics and other original educational content are licensed under CC BY 4.0 (reuse
+and adaptation are allowed, including commercial use, with attribution and a note of any changes);
+original synthetic datasets are dedicated to the public domain under CC0 1.0. Third-party material —
+software, external datasets, model weights and cited papers — keeps its own licence and is not
+covered by these grants. The full terms and attribution format are in
+[README §9](../README.md#9-licensing-and-attribution); if you only need the citation, use [CITATION.cff](../CITATION.cff).
 
 ## Projects and careers
 

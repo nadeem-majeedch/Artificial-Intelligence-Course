@@ -300,7 +300,8 @@ class Coordinator:
 # ---------------------------------------------------------------------------
 
 def build_team(ctx: dict):
-    bus, board = MessageBus(max_depth=3)
+    bus = MessageBus(max_depth=3)
+    board = Blackboard()
     for name in ("planner", "researcher", "calculator", "writer", "critic"):
         bus.register(name)
     agents = {

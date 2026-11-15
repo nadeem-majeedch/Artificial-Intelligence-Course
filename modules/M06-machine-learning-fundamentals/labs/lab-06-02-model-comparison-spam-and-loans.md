@@ -273,3 +273,11 @@ the same folds and reports mean ± std.
 | Write-up | 20 min |
 
 Next: [LAB-06-03 — Customer Segmentation and Employee Attrition](lab-06-03-customer-segmentation-and-attrition.md).
+
+## Starter material
+
+The guided notebook [`nb-06-02-regression-and-classification-workbench.ipynb`](../notebooks/nb-06-02-regression-and-classification-workbench.ipynb) works through the
+same pipeline end to end; use it when you are stuck, and cite what you
+changed rather than copying its outputs.
+
+Module reference code: [`../code/`](../code/).

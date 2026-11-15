@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this course or its code in teaching, research or a derived work, please cite it as below. The MIT licence in this file applies only to original source code; educational content is CC BY 4.0 and original synthetic datasets are CC0 1.0."
+title: "Artificial Intelligence — A Comprehensive Course"
+abstract: >-
+  A university-level, self-study course in artificial intelligence: fourteen modules covering
+  search, knowledge representation and reasoning, uncertainty, machine learning, neural
+  networks, NLP, computer vision, reinforcement learning, generative models, agents, responsible
+  and secure AI, and applied systems, with guided laboratories, runnable notebooks, assessments
+  and a capstone project. Original source code is MIT-licensed, educational content is CC BY 4.0,
+  and original synthetic datasets are dedicated to the public domain under CC0 1.0.
+type: software
+license: MIT
+authors:
+  - family-names: Majeed
+    given-names: Muhammad Nadeem
+    affiliation: "Department of Data Science (PUCIT), University of the Punjab, Lahore, Pakistan"
+repository-code: "https://github.com/nadeem-majeedch/Artificial-Intelligence-Course"
+url: "https://github.com/nadeem-majeedch/Artificial-Intelligence-Course"
+keywords:
+  - artificial intelligence
+  - machine learning
+  - deep learning
+  - education
+  - curriculum
+  - Python

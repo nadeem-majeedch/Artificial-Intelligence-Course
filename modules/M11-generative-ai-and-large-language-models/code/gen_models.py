@@ -10,7 +10,7 @@ and judged with the same metrics, so the comparison is honest.
     DDPM       denoising diffusion: predict the noise added at step t
 
 Data: scikit-learn's `load_digits` (8x8 grayscale, 1797 images, 10 classes),
-a public-domain UCI dataset bundled with scikit-learn, so no download is needed.
+the UCI digits dataset (CC BY 4.0) loaded through scikit-learn; no download is needed.
 Every random component is seeded.
 
 Run ``python gen_models.py`` for the numbers quoted in L11-01 and NB-11-01.

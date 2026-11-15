@@ -29,7 +29,8 @@ that is simply too shallow.
 
 ### Dataset source and licence
 
-- **In this lab:** the four-point XOR truth table, constructed in code. No licence, no download.
+- **In this lab:** the four-point XOR truth table, constructed in code. Synthetic, dedicated to
+  CC0 1.0; no download.
 - **Real counterpart:** none needed. If you want a real binary toy dataset later, the UCI *Iris*
   subset (two classes, two features) is CC BY 4.0.
 

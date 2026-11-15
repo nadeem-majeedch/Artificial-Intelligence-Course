@@ -8,9 +8,7 @@
 | Covers | L10-01 … L10-07 |
 | Pass mark | 12 / 20 |
 
-> **Availability.** M10 (Reinforcement Learning) — reference code only in this repository, so this paper cannot be attempted
-> yet. It is included so the assessment set is complete, and it is a preview
-> rather than an assessment until the module's lessons are published.
+> **Availability.** This module's lessons, notebooks and labs are published in this repository; sit this paper after finishing them.
 
 [Assessment index](../README.md) · [Solutions](../solutions/quiz-m10.md)
 

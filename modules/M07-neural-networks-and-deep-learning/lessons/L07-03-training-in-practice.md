@@ -1,6 +1,6 @@
 # L07-03 — Training in Practice: Frameworks, Optimisers and Learning Rates
 
-[← Previous: ? Lesson](L07-02-backpropagation-the-mathematics-of-learning.md) · [Module home](../README.md) · [Next: ? Lesson →](L07-04-regularisation-and-diagnosis.md)
+[← Previous: L07-02](L07-02-backpropagation-the-mathematics-of-learning.md) · [Module home](../README.md) · [Next: L07-04 →](L07-04-regularisation-and-diagnosis.md)
 
 ## On this page
 
@@ -424,4 +424,4 @@ same predictions: True
 
 ---
 
-**Navigation:** [← Previous: ? Lesson](L07-02-backpropagation-the-mathematics-of-learning.md) · [Module home](../README.md) · [Next: ? Lesson →](L07-04-regularisation-and-diagnosis.md)
+**Navigation:** [← Previous: L07-02](L07-02-backpropagation-the-mathematics-of-learning.md) · [Module home](../README.md) · [Next: L07-04 →](L07-04-regularisation-and-diagnosis.md)

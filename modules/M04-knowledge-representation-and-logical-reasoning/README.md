@@ -2,7 +2,7 @@
 
 | Level | 200 |
 | :--- | :--- |
-| Study time | 21 hours (module total) |
+| Study time | 31.6 hours — guided 8.8 · practical 9.0 · assessment 4.8 · project 9.0 |
 | Lessons published | 7 of 7 |
 | Course outcome | CLO3 — represent knowledge in logic and derive conclusions by sound inference |
 | Prerequisites | [P02 Mathematics for AI](../../prerequisites/P02-mathematics-for-ai/README.md) |
@@ -10,9 +10,8 @@
 [← Previous module: M03](../README.md#m03) · [Course home](../../README.md) ·
 [Next module: M05](../README.md#m05)
 
-> **Note** — all seven lessons and both notebooks are published. The labs and mini-project are
-> still being written. The quiz, the programming assignment and the self-assessment sheet are
-> available now: [QUIZ-M04](../../assessments/quizzes/quiz-m04.md),
+> **Status** — complete: seven lessons, two notebooks, three labs, a mini-project and the
+> assessments are published. [QUIZ-M04](../../assessments/quizzes/quiz-m04.md),
 > [PA-04](../../assessments/programming/pa-04-knowledge-based-systems.md),
 > [SA-M04](../../assessments/self-assessment/sa-m04.md).
 
@@ -75,11 +74,16 @@ with the systems built on them and the limits that push the next module towards 
 | L04-07 | Semantic Networks, Frames, Ontologies and Expert Systems | Lesson | 75 m | [Read](lessons/L04-07-rule-based-and-expert-systems.md) |
 | NB-04-01 | Propositional logic workbench | Notebook | 45 m | [Open](notebooks/nb-04-01-propositional-logic-workbench.ipynb) |
 | NB-04-02 | First-order inference and unification | Notebook | 45 m | [Open](notebooks/nb-04-02-first-order-inference-and-unification.ipynb) |
+| LAB-04-01 | Rule-Based Expert System | Lab | 2.5 h | [Start](labs/lab-04-01-rule-based-expert-system.md) |
+| LAB-04-02 | Logic-Based Reasoning and Inference | Lab | 2.5 h | [Start](labs/lab-04-02-logic-based-reasoning-and-inference.md) |
+| LAB-04-03 | Bayesian and Knowledge-Based Decision Support | Lab | 3 h | [Start](labs/lab-04-03-bayesian-and-knowledge-based-decision-support.md) |
+| PROJECT-04-01 | Intelligent University Advisory Expert System | Project | 8–10 h | [Start](projects/project-04-01-intelligent-university-advisory-expert-system.md) |
 | CODE | `prop_logic.py`, `fol_core.py`, `knowledge_bases.py` | Reference code | 30 m | [Open](code/) |
 
-**Total published:** about 8.8 hours of lessons, 1.5 hours of notebooks and 0.5 hours of code
-reading. The syllabus allots 21 hours; the balance is labs, assignment, quiz and mini-project, which
-are in preparation.
+**Total published:** 8.8 hours of lessons, 1.5 hours of notebooks, 9 hours of labs, a mini-project of
+8–10 hours, and the quiz, assignment and self-assessment. The syllabus allots 21 hours for the module as
+originally designed; the measured published material is 31.6 hours including the project, which is stated
+here rather than absorbed by shrinking the estimates.
 
 ## Suggested study plan
 

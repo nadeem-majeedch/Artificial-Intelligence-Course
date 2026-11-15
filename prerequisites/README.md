@@ -8,7 +8,8 @@ This is not gatekeeping. Each idea here reappears within the first ten minutes o
 it, and the course would rather spend an hour on it now than lose you in M06.
 
 **Course home:** [README](../README.md) · **Learning paths:** [learning-path.md](../docs/learning-path.md) ·
-**Modules:** [modules/README.md](../modules/README.md) · **Diagnostic:** [diagnostic.md](diagnostic.md)
+**Modules:** [modules/README.md](../modules/README.md) · **Diagnostic:** [diagnostic.md](diagnostic.md) ·
+**Practice exercises:** [EXERCISES.md](EXERCISES.md)
 
 ## The four sections
 

@@ -1,6 +1,6 @@
 # L06-02 — Data Preparation, Splitting and Leakage
 
-[← Previous: ? Lesson](L06-01-what-machine-learning-is.md) · [Module home](../README.md) · [Next: ? Lesson →](L06-03-linear-regression-from-first-principles.md)
+[← Previous: L06-01](L06-01-what-machine-learning-is.md) · [Module home](../README.md) · [Next: L06-03 →](L06-03-linear-regression-from-first-principles.md)
 
 ## On this page
 
@@ -385,4 +385,4 @@ but useful uncertainty estimate; for a proper interval, bootstrap the metric (L0
 
 ---
 
-**Navigation:** [← Previous: ? Lesson](L06-01-what-machine-learning-is.md) · [Module home](../README.md) · [Next: ? Lesson →](L06-03-linear-regression-from-first-principles.md)
+**Navigation:** [← Previous: L06-01](L06-01-what-machine-learning-is.md) · [Module home](../README.md) · [Next: L06-03 →](L06-03-linear-regression-from-first-principles.md)

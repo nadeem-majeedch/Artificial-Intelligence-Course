@@ -1,6 +1,6 @@
 # L06-01 — What Machine Learning Is, and What It Is Not
 
-[← Module start](../README.md) · [Next: ? Lesson →](L06-02-data-splitting-leakage-and-cross-validation.md)
+[← Module start](../README.md) · [Next: L06-02 →](L06-02-data-splitting-leakage-and-cross-validation.md)
 
 ## On this page
 
@@ -356,4 +356,4 @@ All are defined in the [glossary](../../../resources/glossary.md).
 
 ---
 
-**Navigation:** [← Module start](../README.md) · [Next: ? Lesson →](L06-02-data-splitting-leakage-and-cross-validation.md)
+**Navigation:** [← Module start](../README.md) · [Next: L06-02 →](L06-02-data-splitting-leakage-and-cross-validation.md)

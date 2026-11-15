@@ -1,6 +1,6 @@
 # L06-10 — Building a Reproducible Machine-Learning Pipeline
 
-[← Previous: ? Lesson](L06-09-unsupervised-learning-and-dimensionality-reduction.md) · [Module end](../README.md)
+[← Previous: L06-09](L06-09-unsupervised-learning-and-dimensionality-reduction.md) · [Module end](../README.md)
 
 ## On this page
 
@@ -447,4 +447,4 @@ log**, **model card**, **error analysis**, **slice**, **batch scoring**, **onlin
 
 ---
 
-**Navigation:** [← Previous: ? Lesson](L06-09-unsupervised-learning-and-dimensionality-reduction.md) · [Module end](../README.md)
+**Navigation:** [← Previous: L06-09](L06-09-unsupervised-learning-and-dimensionality-reduction.md) · [Module end](../README.md)

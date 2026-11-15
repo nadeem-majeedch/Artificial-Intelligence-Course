@@ -117,3 +117,13 @@ claims of improvement from a 12-question comparison.
 3. What is your refusal rate on unanswerable questions, and is it where you want it?
 4. What is the p95 latency, and what dominates it?
 5. What would you measure first if users reported hallucinations next week?
+
+## Evaluation criteria
+
+| Criterion | Weight | What earns full marks |
+| :--- | ---: | :--- |
+| Retrieval quality | 25% | Recall@k measured on a held-out question set |
+| Answer quality | 25% | Faithfulness and answerability measured, not asserted |
+| Refusal behaviour | 20% | Unanswerable questions refused at a stated rate |
+| Cost and latency | 15% | p95 latency and token cost reported per query |
+| Reporting | 15% | Error analysis by pipeline stage; limits named |

@@ -28,6 +28,19 @@ ignore the rest until you need them.
 | [Learning resource library](../resources/README.md) | Curated books, courses, documentation and papers, organised by module |
 | [About the course](about.md) | What this course is, how it was designed, and who wrote it |
 
+## Licensing and reuse
+
+| Page | What it covers |
+| :--- | :--- |
+| [README §9 — Licensing and attribution](../README.md#9-licensing-and-attribution) | The four-layer summary: MIT code, CC BY 4.0 content, CC0 data and third-party terms |
+| [LICENSE](../LICENSE) | MIT licence for original source code |
+| [CONTENT-LICENSE.md](../CONTENT-LICENSE.md) | CC BY 4.0 scope and attribution requirements for lessons, labs and documentation |
+| [DATASET-LICENSE.md](../DATASET-LICENSE.md) | CC0 1.0 dedication and the synthetic dataset catalogue |
+| [THIRD-PARTY-ATTRIBUTIONS.md](../THIRD-PARTY-ATTRIBUTIONS.md) | Dependencies, external datasets, models and references that are **not** covered by the course licences |
+| [LICENSING-INVENTORY.md](../LICENSING-INVENTORY.md) | Per-category ownership and licence audit |
+| [Ownership review checklist](../OWNERSHIP-REVIEW-CHECKLIST.md) | Chain-of-title, contribution and sign-off checklist for the owner |
+| [CITATION.cff](../CITATION.cff) | How to cite the course |
+
 ## Course design documents
 
 These describe how the course is built. They are written for instructors, reviewers and future

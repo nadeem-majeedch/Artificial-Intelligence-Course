@@ -250,7 +250,7 @@ def main() -> None:
 
     card = model_card(
         name="Synthetic student pass predictor",
-        version="1.0.0", owner="Teaching team", licence="CC0-1.0 (code), synthetic data",
+        version="1.0.0", owner="Teaching team", licence="MIT (code), CC0-1.0 (synthetic data)",
         intended_use="Teaching explainability and fairness measurement",
         out_of_scope="Any real admission, progression or funding decision",
         data_summary="3,000 synthetic students; four features; label generated from a "

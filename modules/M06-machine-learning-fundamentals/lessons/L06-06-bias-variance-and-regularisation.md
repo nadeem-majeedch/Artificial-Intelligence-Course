@@ -1,6 +1,6 @@
 # L06-06 — Bias, Variance, Regularisation and Generalisation
 
-[← Previous: ? Lesson](L06-05-model-evaluation-metrics-and-roc.md) · [Module home](../README.md) · [Next: ? Lesson →](L06-07-k-nearest-neighbours-and-naive-bayes.md)
+[← Previous: L06-05](L06-05-model-evaluation-metrics-and-roc.md) · [Module home](../README.md) · [Next: L06-07 →](L06-07-k-nearest-neighbours-and-naive-bayes.md)
 
 ## On this page
 
@@ -397,4 +397,4 @@ curve**, **regularisation**, **ridge (L2)**, **lasso (L1)**, **shrinkage**, **sp
 
 ---
 
-**Navigation:** [← Previous: ? Lesson](L06-05-model-evaluation-metrics-and-roc.md) · [Module home](../README.md) · [Next: ? Lesson →](L06-07-k-nearest-neighbours-and-naive-bayes.md)
+**Navigation:** [← Previous: L06-05](L06-05-model-evaluation-metrics-and-roc.md) · [Module home](../README.md) · [Next: L06-07 →](L06-07-k-nearest-neighbours-and-naive-bayes.md)

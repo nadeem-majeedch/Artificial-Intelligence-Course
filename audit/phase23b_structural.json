@@ -1,0 +1,1216 @@
+{
+  "findings": [
+    [
+      "LESSON SECTIONS",
+      "modules\\M13-responsible-explainable-secure-ai\\lessons\\L13-03-privacy-memorisation-and-model-attacks.md",
+      "objectives"
+    ],
+    [
+      "LESSON OBJECTIVES",
+      "modules\\M13-responsible-explainable-secure-ai\\lessons\\L13-03-privacy-memorisation-and-model-attacks.md",
+      "0 items"
+    ],
+    [
+      "LESSON SECTIONS",
+      "modules\\M13-responsible-explainable-secure-ai\\lessons\\L13-04-security-adversarial-examples-and-prompt-injection.md",
+      "objectives"
+    ],
+    [
+      "LESSON OBJECTIVES",
+      "modules\\M13-responsible-explainable-secure-ai\\lessons\\L13-04-security-adversarial-examples-and-prompt-injection.md",
+      "0 items"
+    ],
+    [
+      "LAB SECTIONS",
+      "modules\\M05-uncertainty-bayesian-reasoning-and-fuzzy-logic\\labs\\lab-05-02-bayesian-network-inference-and-diagnosis.md",
+      "deliverable"
+    ]
+  ],
+  "summary": {
+    "lessons": {
+      "modules\\M01-introduction-and-foundations\\lessons\\L01-01-what-is-artificial-intelligence.md": {
+        "words": 3086,
+        "missing": [],
+        "exercises": 5,
+        "objectives": 4,
+        "code_blocks": 3,
+        "placeholders": []
+      },
+      "modules\\M01-introduction-and-foundations\\lessons\\L01-02-history-and-ai-winters.md": {
+        "words": 3143,
+        "missing": [],
+        "exercises": 5,
+        "objectives": 4,
+        "code_blocks": 3,
+        "placeholders": []
+      },
+      "modules\\M01-introduction-and-foundations\\lessons\\L01-03-symbolic-statistical-generative.md": {
+        "words": 3244,
+        "missing": [],
+        "exercises": 5,
+        "objectives": 4,
+        "code_blocks": 4,
+        "placeholders": []
+      },
+      "modules\\M01-introduction-and-foundations\\lessons\\L01-04-ai-capabilities-and-limitations.md": {
+        "words": 2974,
+        "missing": [],
+        "exercises": 5,
+        "objectives": 4,
+        "code_blocks": 3,
+        "placeholders": []
+      },
+      "modules\\M01-introduction-and-foundations\\lessons\\L01-05-course-workflow-and-study-habits.md": {
+        "words": 3032,
+        "missing": [],
+        "exercises": 5,
+        "objectives": 4,
+        "code_blocks": 6,
+        "placeholders": []
+      },
+      "modules\\M02-intelligent-agents-and-environments\\lessons\\L02-01-agents-percepts-actions.md": {
+        "words": 3183,
+        "missing": [],
+        "exercises": 5,
+        "objectives": 4,
+        "code_blocks": 6,
+        "placeholders": []
+      },
+      "modules\\M02-intelligent-agents-and-environments\\lessons\\L02-02-rational-agents-and-peas.md": {
+        "words": 1149,
+        "missing": [],
+        "exercises": 4,
+        "objectives": 4,
+        "code_blocks": 3,
+        "placeholders": []
+      },
+      "modules\\M02-intelligent-agents-and-environments\\lessons\\L02-03-task-environments-and-properties.md": {
+        "words": 1013,
+        "missing": [],
+        "exercises": 4,
+        "objectives": 4,
+        "code_blocks": 2,
+        "placeholders": []
+      },
+      "modules\\M02-intelligent-agents-and-environments\\lessons\\L02-04-simple-reflex-and-model-based-agents.md": {
+        "words": 1130,
+        "missing": [],
+        "exercises": 4,
+        "objectives": 4,
+        "code_blocks": 5,
+        "placeholders": []
+      },
+      "modules\\M02-intelligent-agents-and-environments\\lessons\\L02-05-goal-utility-and-learning-agents.md": {
+        "words": 1348,
+        "missing": [],
+        "exercises": 4,
+        "objectives": 4,
+        "code_blocks": 2,
+        "placeholders": []
+      },
+      "modules\\M03-problem-solving-and-search-algorithms\\lessons\\L03-01-problem-formulation-and-state-spaces.md": {
+        "words": 1517,
+        "missing": [],
+        "exercises": 4,
+        "objectives": 4,
+        "code_blocks": 3,
+        "placeholders": []
+      },
+      "modules\\M03-problem-solving-and-search-algorithms\\lessons\\L03-02-uninformed-search-bfs-dfs-ucs-dls-ids.md": {
+        "words": 1355,
+        "missing": [],
+        "exercises": 4,
+        "objectives": 4,
+        "code_blocks": 3,
+        "placeholders": []
+      },
+      "modules\\M03-problem-solving-and-search-algorithms\\lessons\\L03-03-informed-search-greedy-and-a-star.md": {
+        "words": 1266,
+        "missing": [],
+        "exercises": 4,
+        "objectives": 4,
+        "code_blocks": 3,
+        "placeholders": []
+      },
+      "modules\\M03-problem-solving-and-search-algorithms\\lessons\\L03-04-local-search-hill-climbing-annealing-genetic.md": {
+        "words": 1136,
+        "missing": [],
+        "exercises": 4,
+        "objectives": 4,
+        "code_blocks": 3,
+        "placeholders": []
+      },
+      "modules\\M03-problem-solving-and-search-algorithms\\lessons\\L03-05-adversarial-search-minimax-and-alpha-beta.md": {
+        "words": 1264,
+        "missing": [],
+        "exercises": 4,
+        "objectives": 4,
+        "code_blocks": 2,
+        "placeholders": []
+      },
+      "modules\\M03-problem-solving-and-search-algorithms\\lessons\\L03-06-constraint-satisfaction-problems.md": {
+        "words": 1131,
+        "missing": [],
+        "exercises": 4,
+        "objectives": 4,
+        "code_blocks": 3,
+        "placeholders": []
+      },
+      "modules\\M03-problem-solving-and-search-algorithms\\lessons\\L03-07-choosing-and-combining-search-strategies.md": {
+        "words": 919,
+        "missing": [],
+        "exercises": 4,
+        "objectives": 4,
+        "code_blocks": 2,
+        "placeholders": []
+      },
+      "modules\\M04-knowledge-representation-and-logical-reasoning\\lessons\\L04-01-knowledge-representation-fundamentals.md": {
+        "words": 2897,
+        "missing": [],
+        "exercises": 5,
+        "objectives": 4,
+        "code_blocks": 6,
+        "placeholders": []
+      },
+      "modules\\M04-knowledge-representation-and-logical-reasoning\\lessons\\L04-02-propositional-logic.md": {
+        "words": 2604,
+        "missing": [],
+        "exercises": 5,
+        "objectives": 5,
+        "code_blocks": 7,
+        "placeholders": []
+      },
+      "modules\\M04-knowledge-representation-and-logical-reasoning\\lessons\\L04-03-inference-rules-and-equivalence.md": {
+        "words": 2483,
+        "missing": [],
+        "exercises": 5,
+        "objectives": 5,
+        "code_blocks": 6,
+        "placeholders": []
+      },
+      "modules\\M04-knowledge-representation-and-logical-reasoning\\lessons\\L04-04-first-order-logic-and-quantifiers.md": {
+        "words": 2664,
+        "missing": [],
+        "exercises": 5,
+        "objectives": 5,
+        "code_blocks": 10,
+        "placeholders": []
+      },
+      "modules\\M04-knowledge-representation-and-logical-reasoning\\lessons\\L04-05-unification-and-chaining.md": {
+        "words": 3018,
+        "missing": [],
+        "exercises": 5,
+        "objectives": 5,
+        "code_blocks": 10,
+        "placeholders": []
+      },
+      "modules\\M04-knowledge-representation-and-logical-reasoning\\lessons\\L04-06-resolution-and-automated-reasoning.md": {
+        "words": 2700,
+        "missing": [],
+        "exercises": 5,
+        "objectives": 5,
+        "code_blocks": 9,
+        "placeholders": []
+      },
+      "modules\\M04-knowledge-representation-and-logical-reasoning\\lessons\\L04-07-rule-based-and-expert-systems.md": {
+        "words": 3395,
+        "missing": [],
+        "exercises": 5,
+        "objectives": 5,
+        "code_blocks": 9,
+        "placeholders": []
+      },
+      "modules\\M05-uncertainty-bayesian-reasoning-and-fuzzy-logic\\lessons\\L05-01-probability-conditional-probability-and-bayes-theorem.md": {
+        "words": 872,
+        "missing": [],
+        "exercises": 4,
+        "objectives": 4,
+        "code_blocks": 1,
+        "placeholders": []
+      },
+      "modules\\M05-uncertainty-bayesian-reasoning-and-fuzzy-logic\\lessons\\L05-02-bayesian-networks-independence-and-inference.md": {
+        "words": 2045,
+        "missing": [],
+        "exercises": 5,
+        "objectives": 5,
+        "code_blocks": 3,
+        "placeholders": []
+      },
+      "modules\\M05-uncertainty-bayesian-reasoning-and-fuzzy-logic\\lessons\\L05-03-naive-bayes-and-text-classification.md": {
+        "words": 816,
+        "missing": [],
+        "exercises": 4,
+        "objectives": 4,
+        "code_blocks": 1,
+        "placeholders": []
+      },
+      "modules\\M05-uncertainty-bayesian-reasoning-and-fuzzy-logic\\lessons\\L05-04-fuzzy-sets-membership-functions-and-operations.md": {
+        "words": 867,
+        "missing": [],
+        "exercises": 4,
+        "objectives": 4,
+        "code_blocks": 1,
+        "placeholders": []
+      },
+      "modules\\M05-uncertainty-bayesian-reasoning-and-fuzzy-logic\\lessons\\L05-05-fuzzy-inference-mamdani-sugeno-and-defuzzification.md": {
+        "words": 894,
+        "missing": [],
+        "exercises": 4,
+        "objectives": 4,
+        "code_blocks": 2,
+        "placeholders": []
+      },
+      "modules\\M05-uncertainty-bayesian-reasoning-and-fuzzy-logic\\lessons\\L05-06-variable-elimination-and-factor-algebra.md": {
+        "words": 1749,
+        "missing": [],
+        "exercises": 5,
+        "objectives": 5,
+        "code_blocks": 2,
+        "placeholders": []
+      },
+      "modules\\M06-machine-learning-fundamentals\\lessons\\L06-01-what-machine-learning-is.md": {
+        "words": 2658,
+        "missing": [],
+        "exercises": 5,
+        "objectives": 5,
+        "code_blocks": 8,
+        "placeholders": []
+      },
+      "modules\\M06-machine-learning-fundamentals\\lessons\\L06-02-data-splitting-leakage-and-cross-validation.md": {
+        "words": 2708,
+        "missing": [],
+        "exercises": 5,
+        "objectives": 8,
+        "code_blocks": 7,
+        "placeholders": []
+      },
+      "modules\\M06-machine-learning-fundamentals\\lessons\\L06-03-linear-regression-from-first-principles.md": {
+        "words": 2826,
+        "missing": [],
+        "exercises": 5,
+        "objectives": 6,
+        "code_blocks": 7,
+        "placeholders": []
+      },
+      "modules\\M06-machine-learning-fundamentals\\lessons\\L06-04-classification-with-logistic-regression.md": {
+        "words": 2487,
+        "missing": [],
+        "exercises": 5,
+        "objectives": 6,
+        "code_blocks": 8,
+        "placeholders": []
+      },
+      "modules\\M06-machine-learning-fundamentals\\lessons\\L06-05-model-evaluation-metrics-and-roc.md": {
+        "words": 2808,
+        "missing": [],
+        "exercises": 5,
+        "objectives": 8,
+        "code_blocks": 9,
+        "placeholders": []
+      },
+      "modules\\M06-machine-learning-fundamentals\\lessons\\L06-06-bias-variance-and-regularisation.md": {
+        "words": 2637,
+        "missing": [],
+        "exercises": 5,
+        "objectives": 6,
+        "code_blocks": 7,
+        "placeholders": []
+      },
+      "modules\\M06-machine-learning-fundamentals\\lessons\\L06-07-k-nearest-neighbours-and-naive-bayes.md": {
+        "words": 2608,
+        "missing": [],
+        "exercises": 5,
+        "objectives": 6,
+        "code_blocks": 6,
+        "placeholders": []
+      },
+      "modules\\M06-machine-learning-fundamentals\\lessons\\L06-08-trees-forests-boosting-and-svm.md": {
+        "words": 2896,
+        "missing": [],
+        "exercises": 5,
+        "objectives": 6,
+        "code_blocks": 7,
+        "placeholders": []
+      },
+      "modules\\M06-machine-learning-fundamentals\\lessons\\L06-09-unsupervised-learning-and-dimensionality-reduction.md": {
+        "words": 2875,
+        "missing": [],
+        "exercises": 5,
+        "objectives": 6,
+        "code_blocks": 11,
+        "placeholders": []
+      },
+      "modules\\M06-machine-learning-fundamentals\\lessons\\L06-10-reproducible-ml-pipelines.md": {
+        "words": 2881,
+        "missing": [],
+        "exercises": 5,
+        "objectives": 6,
+        "code_blocks": 8,
+        "placeholders": []
+      },
+      "modules\\M07-neural-networks-and-deep-learning\\lessons\\L07-01-from-perceptron-to-mlp.md": {
+        "words": 2396,
+        "missing": [],
+        "exercises": 5,
+        "objectives": 6,
+        "code_blocks": 6,
+        "placeholders": []
+      },
+      "modules\\M07-neural-networks-and-deep-learning\\lessons\\L07-02-backpropagation-the-mathematics-of-learning.md": {
+        "words": 2291,
+        "missing": [],
+        "exercises": 5,
+        "objectives": 6,
+        "code_blocks": 6,
+        "placeholders": []
+      },
+      "modules\\M07-neural-networks-and-deep-learning\\lessons\\L07-03-training-in-practice.md": {
+        "words": 2462,
+        "missing": [],
+        "exercises": 5,
+        "objectives": 7,
+        "code_blocks": 14,
+        "placeholders": []
+      },
+      "modules\\M07-neural-networks-and-deep-learning\\lessons\\L07-04-regularisation-and-diagnosis.md": {
+        "words": 2290,
+        "missing": [],
+        "exercises": 5,
+        "objectives": 6,
+        "code_blocks": 5,
+        "placeholders": []
+      },
+      "modules\\M07-neural-networks-and-deep-learning\\lessons\\L07-05-convolutional-neural-networks.md": {
+        "words": 2279,
+        "missing": [],
+        "exercises": 6,
+        "objectives": 7,
+        "code_blocks": 5,
+        "placeholders": []
+      },
+      "modules\\M07-neural-networks-and-deep-learning\\lessons\\L07-06-sequence-models-rnn-lstm-gru.md": {
+        "words": 2185,
+        "missing": [],
+        "exercises": 6,
+        "objectives": 7,
+        "code_blocks": 5,
+        "placeholders": []
+      },
+      "modules\\M07-neural-networks-and-deep-learning\\lessons\\L07-07-attention-and-transformers.md": {
+        "words": 2284,
+        "missing": [],
+        "exercises": 6,
+        "objectives": 7,
+        "code_blocks": 6,
+        "placeholders": []
+      },
+      "modules\\M07-neural-networks-and-deep-learning\\lessons\\L07-08-transfer-learning-and-autoencoders.md": {
+        "words": 2517,
+        "missing": [],
+        "exercises": 6,
+        "objectives": 7,
+        "code_blocks": 7,
+        "placeholders": []
+      },
+      "modules\\M08-natural-language-processing\\lessons\\L08-01-introduction-to-nlp-and-the-text-pipeline.md": {
+        "words": 933,
+        "missing": [],
+        "exercises": 4,
+        "objectives": 4,
+        "code_blocks": 4,
+        "placeholders": []
+      },
+      "modules\\M08-natural-language-processing\\lessons\\L08-02-preprocessing-tokenization-stemming-lemmatization.md": {
+        "words": 1241,
+        "missing": [],
+        "exercises": 4,
+        "objectives": 4,
+        "code_blocks": 4,
+        "placeholders": []
+      },
+      "modules\\M08-natural-language-processing\\lessons\\L08-03-bag-of-words-ngrams-and-tfidf.md": {
+        "words": 1062,
+        "missing": [],
+        "exercises": 4,
+        "objectives": 4,
+        "code_blocks": 4,
+        "placeholders": []
+      },
+      "modules\\M08-natural-language-processing\\lessons\\L08-04-word-embeddings-word2vec-and-similarity.md": {
+        "words": 1273,
+        "missing": [],
+        "exercises": 4,
+        "objectives": 4,
+        "code_blocks": 2,
+        "placeholders": []
+      },
+      "modules\\M08-natural-language-processing\\lessons\\L08-05-text-classification-sentiment-and-ner.md": {
+        "words": 1100,
+        "missing": [],
+        "exercises": 4,
+        "objectives": 4,
+        "code_blocks": 4,
+        "placeholders": []
+      },
+      "modules\\M08-natural-language-processing\\lessons\\L08-06-sequence-models-attention-and-transformers.md": {
+        "words": 1183,
+        "missing": [],
+        "exercises": 4,
+        "objectives": 4,
+        "code_blocks": 3,
+        "placeholders": []
+      },
+      "modules\\M09-computer-vision\\lessons\\L09-01-introduction-to-computer-vision.md": {
+        "words": 1365,
+        "missing": [],
+        "exercises": 4,
+        "objectives": 5,
+        "code_blocks": 3,
+        "placeholders": []
+      },
+      "modules\\M09-computer-vision\\lessons\\L09-02-image-processing-and-feature-extraction.md": {
+        "words": 1358,
+        "missing": [],
+        "exercises": 4,
+        "objectives": 5,
+        "code_blocks": 2,
+        "placeholders": []
+      },
+      "modules\\M09-computer-vision\\lessons\\L09-03-image-classification-and-cnns.md": {
+        "words": 1334,
+        "missing": [],
+        "exercises": 4,
+        "objectives": 5,
+        "code_blocks": 4,
+        "placeholders": []
+      },
+      "modules\\M09-computer-vision\\lessons\\L09-04-object-detection.md": {
+        "words": 1400,
+        "missing": [],
+        "exercises": 4,
+        "objectives": 5,
+        "code_blocks": 3,
+        "placeholders": []
+      },
+      "modules\\M09-computer-vision\\lessons\\L09-05-image-segmentation.md": {
+        "words": 1209,
+        "missing": [],
+        "exercises": 4,
+        "objectives": 5,
+        "code_blocks": 3,
+        "placeholders": []
+      },
+      "modules\\M09-computer-vision\\lessons\\L09-06-advanced-computer-vision.md": {
+        "words": 1304,
+        "missing": [],
+        "exercises": 4,
+        "objectives": 5,
+        "code_blocks": 3,
+        "placeholders": []
+      },
+      "modules\\M10-reinforcement-learning\\lessons\\L10-01-foundations-of-reinforcement-learning.md": {
+        "words": 1144,
+        "missing": [],
+        "exercises": 4,
+        "objectives": 5,
+        "code_blocks": 4,
+        "placeholders": []
+      },
+      "modules\\M10-reinforcement-learning\\lessons\\L10-02-value-based-reinforcement-learning.md": {
+        "words": 1220,
+        "missing": [],
+        "exercises": 4,
+        "objectives": 5,
+        "code_blocks": 3,
+        "placeholders": []
+      },
+      "modules\\M10-reinforcement-learning\\lessons\\L10-03-temporal-difference-learning.md": {
+        "words": 1286,
+        "missing": [],
+        "exercises": 4,
+        "objectives": 5,
+        "code_blocks": 3,
+        "placeholders": []
+      },
+      "modules\\M10-reinforcement-learning\\lessons\\L10-04-deep-reinforcement-learning.md": {
+        "words": 1242,
+        "missing": [],
+        "exercises": 4,
+        "objectives": 5,
+        "code_blocks": 3,
+        "placeholders": []
+      },
+      "modules\\M10-reinforcement-learning\\lessons\\L10-05-advanced-reinforcement-learning.md": {
+        "words": 1202,
+        "missing": [],
+        "exercises": 4,
+        "objectives": 5,
+        "code_blocks": 3,
+        "placeholders": []
+      },
+      "modules\\M11-generative-ai-and-large-language-models\\lessons\\L11-01-the-generative-modelling-landscape.md": {
+        "words": 3105,
+        "missing": [],
+        "exercises": 9,
+        "objectives": 7,
+        "code_blocks": 2,
+        "placeholders": []
+      },
+      "modules\\M11-generative-ai-and-large-language-models\\lessons\\L11-02-inside-a-large-language-model.md": {
+        "words": 2720,
+        "missing": [],
+        "exercises": 8,
+        "objectives": 8,
+        "code_blocks": 3,
+        "placeholders": []
+      },
+      "modules\\M11-generative-ai-and-large-language-models\\lessons\\L11-03-pretraining-instruction-tuning-and-alignment.md": {
+        "words": 2679,
+        "missing": [],
+        "exercises": 7,
+        "objectives": 7,
+        "code_blocks": 2,
+        "placeholders": []
+      },
+      "modules\\M11-generative-ai-and-large-language-models\\lessons\\L11-04-prompt-engineering-and-in-context-learning.md": {
+        "words": 2350,
+        "missing": [],
+        "exercises": 7,
+        "objectives": 7,
+        "code_blocks": 3,
+        "placeholders": []
+      },
+      "modules\\M11-generative-ai-and-large-language-models\\lessons\\L11-05-retrieval-augmented-generation.md": {
+        "words": 2505,
+        "missing": [],
+        "exercises": 8,
+        "objectives": 7,
+        "code_blocks": 3,
+        "placeholders": []
+      },
+      "modules\\M11-generative-ai-and-large-language-models\\lessons\\L11-06-fine-tuning-and-parameter-efficient-adaptation.md": {
+        "words": 2038,
+        "missing": [],
+        "exercises": 8,
+        "objectives": 7,
+        "code_blocks": 4,
+        "placeholders": []
+      },
+      "modules\\M11-generative-ai-and-large-language-models\\lessons\\L11-07-evaluating-llm-systems.md": {
+        "words": 2113,
+        "missing": [],
+        "exercises": 7,
+        "objectives": 7,
+        "code_blocks": 2,
+        "placeholders": []
+      },
+      "modules\\M12-ai-agents-and-agentic-systems\\lessons\\L12-01-foundations-and-architecture-of-ai-agents.md": {
+        "words": 967,
+        "missing": [],
+        "exercises": 4,
+        "objectives": 4,
+        "code_blocks": 2,
+        "placeholders": []
+      },
+      "modules\\M12-ai-agents-and-agentic-systems\\lessons\\L12-02-llm-agents-tool-calling-and-structured-outputs.md": {
+        "words": 992,
+        "missing": [],
+        "exercises": 4,
+        "objectives": 4,
+        "code_blocks": 2,
+        "placeholders": []
+      },
+      "modules\\M12-ai-agents-and-agentic-systems\\lessons\\L12-03-planning-memory-and-workflow-orchestration.md": {
+        "words": 974,
+        "missing": [],
+        "exercises": 4,
+        "objectives": 4,
+        "code_blocks": 2,
+        "placeholders": []
+      },
+      "modules\\M12-ai-agents-and-agentic-systems\\lessons\\L12-04-agent-frameworks-and-practical-implementation.md": {
+        "words": 907,
+        "missing": [],
+        "exercises": 4,
+        "objectives": 4,
+        "code_blocks": 3,
+        "placeholders": []
+      },
+      "modules\\M12-ai-agents-and-agentic-systems\\lessons\\L12-05-multi-agent-systems-and-collaboration.md": {
+        "words": 894,
+        "missing": [],
+        "exercises": 4,
+        "objectives": 4,
+        "code_blocks": 2,
+        "placeholders": []
+      },
+      "modules\\M12-ai-agents-and-agentic-systems\\lessons\\L12-06-mcp-security-evaluation-and-reliable-execution.md": {
+        "words": 931,
+        "missing": [],
+        "exercises": 4,
+        "objectives": 4,
+        "code_blocks": 3,
+        "placeholders": []
+      },
+      "modules\\M13-responsible-explainable-secure-ai\\lessons\\L13-01-responsible-ai-fairness-and-bias.md": {
+        "words": 2524,
+        "missing": [],
+        "exercises": 6,
+        "objectives": 5,
+        "code_blocks": 6,
+        "placeholders": []
+      },
+      "modules\\M13-responsible-explainable-secure-ai\\lessons\\L13-02-explainability-from-importance-to-counterfactuals.md": {
+        "words": 2009,
+        "missing": [],
+        "exercises": 6,
+        "objectives": 6,
+        "code_blocks": 7,
+        "placeholders": []
+      },
+      "modules\\M13-responsible-explainable-secure-ai\\lessons\\L13-03-privacy-memorisation-and-model-attacks.md": {
+        "words": 1727,
+        "missing": [
+          "objectives"
+        ],
+        "exercises": 6,
+        "objectives": 0,
+        "code_blocks": 4,
+        "placeholders": []
+      },
+      "modules\\M13-responsible-explainable-secure-ai\\lessons\\L13-04-security-adversarial-examples-and-prompt-injection.md": {
+        "words": 2480,
+        "missing": [
+          "objectives"
+        ],
+        "exercises": 7,
+        "objectives": 0,
+        "code_blocks": 8,
+        "placeholders": []
+      },
+      "modules\\M13-responsible-explainable-secure-ai\\lessons\\L13-05-governance-risk-and-the-ai-lifecycle.md": {
+        "words": 1957,
+        "missing": [],
+        "exercises": 6,
+        "objectives": 6,
+        "code_blocks": 3,
+        "placeholders": []
+      },
+      "modules\\M13-responsible-explainable-secure-ai\\lessons\\L13-06-auditing-and-responsible-deployment.md": {
+        "words": 1664,
+        "missing": [],
+        "exercises": 6,
+        "objectives": 5,
+        "code_blocks": 4,
+        "placeholders": []
+      },
+      "modules\\M14-advanced-ai-applications-and-capstone\\lessons\\L14-01-ai-in-practice-case-studies-and-hybrid-systems.md": {
+        "words": 2005,
+        "missing": [],
+        "exercises": 6,
+        "objectives": 5,
+        "code_blocks": 2,
+        "placeholders": []
+      },
+      "modules\\M14-advanced-ai-applications-and-capstone\\lessons\\L14-02-from-model-to-product-mlops-and-serving.md": {
+        "words": 1720,
+        "missing": [],
+        "exercises": 6,
+        "objectives": 5,
+        "code_blocks": 3,
+        "placeholders": []
+      },
+      "modules\\M14-advanced-ai-applications-and-capstone\\lessons\\L14-03-monitoring-drift-and-continuous-evaluation.md": {
+        "words": 1633,
+        "missing": [],
+        "exercises": 6,
+        "objectives": 5,
+        "code_blocks": 4,
+        "placeholders": []
+      },
+      "modules\\M14-advanced-ai-applications-and-capstone\\lessons\\L14-04-reading-and-reproducing-ai-research.md": {
+        "words": 2021,
+        "missing": [],
+        "exercises": 6,
+        "objectives": 6,
+        "code_blocks": 5,
+        "placeholders": []
+      },
+      "modules\\M14-advanced-ai-applications-and-capstone\\lessons\\L14-05-capstone-studio.md": {
+        "words": 1604,
+        "missing": [],
+        "exercises": 6,
+        "objectives": 5,
+        "code_blocks": 1,
+        "placeholders": []
+      }
+    },
+    "labs": {
+      "modules\\M01-introduction-and-foundations\\labs\\lab-01-01-claim-audit.md": {
+        "missing": [],
+        "rubric": true,
+        "starter": false,
+        "starter_links": [
+          "../notebooks/nb-01-01-capability-test-bench.ipynb",
+          "../notebooks/nb-01-01-capability-test-bench.ipynb"
+        ],
+        "extensions": true,
+        "hours": null,
+        "placeholders": []
+      },
+      "modules\\M01-introduction-and-foundations\\labs\\lab-01-02-turing-test-conversation.md": {
+        "missing": [],
+        "rubric": true,
+        "starter": false,
+        "starter_links": [
+          "../notebooks/nb-01-01-capability-test-bench.ipynb"
+        ],
+        "extensions": true,
+        "hours": null,
+        "placeholders": []
+      },
+      "modules\\M02-intelligent-agents-and-environments\\labs\\lab-02-01-intelligent-vacuum-cleaner.md": {
+        "missing": [],
+        "rubric": true,
+        "starter": false,
+        "starter_links": [
+          "../notebooks/nb-02-01-agent-loop-gridworld.ipynb",
+          "../notebooks/nb-02-01-agent-loop-gridworld.ipynb"
+        ],
+        "extensions": true,
+        "hours": 2.5,
+        "placeholders": []
+      },
+      "modules\\M02-intelligent-agents-and-environments\\labs\\lab-02-02-campus-navigation-agent.md": {
+        "missing": [],
+        "rubric": true,
+        "starter": false,
+        "starter_links": [],
+        "extensions": true,
+        "hours": 3.0,
+        "placeholders": []
+      },
+      "modules\\M03-problem-solving-and-search-algorithms\\labs\\lab-03-01-route-planning-under-constraints.md": {
+        "missing": [],
+        "rubric": true,
+        "starter": true,
+        "starter_links": [
+          "starters/lab-03-01_starter.py"
+        ],
+        "extensions": true,
+        "hours": 2.0,
+        "placeholders": []
+      },
+      "modules\\M03-problem-solving-and-search-algorithms\\labs\\lab-03-02-game-agent-and-timetable-solver.md": {
+        "missing": [],
+        "rubric": true,
+        "starter": true,
+        "starter_links": [
+          "starters/lab-03-02_starter.py"
+        ],
+        "extensions": true,
+        "hours": 2.5,
+        "placeholders": []
+      },
+      "modules\\M04-knowledge-representation-and-logical-reasoning\\labs\\lab-04-01-rule-based-expert-system.md": {
+        "missing": [],
+        "rubric": true,
+        "starter": false,
+        "starter_links": [],
+        "extensions": true,
+        "hours": 2.5,
+        "placeholders": []
+      },
+      "modules\\M04-knowledge-representation-and-logical-reasoning\\labs\\lab-04-02-logic-based-reasoning-and-inference.md": {
+        "missing": [],
+        "rubric": true,
+        "starter": false,
+        "starter_links": [],
+        "extensions": true,
+        "hours": 2.5,
+        "placeholders": []
+      },
+      "modules\\M04-knowledge-representation-and-logical-reasoning\\labs\\lab-04-03-bayesian-and-knowledge-based-decision-support.md": {
+        "missing": [],
+        "rubric": true,
+        "starter": false,
+        "starter_links": [],
+        "extensions": true,
+        "hours": 3.0,
+        "placeholders": []
+      },
+      "modules\\M05-uncertainty-bayesian-reasoning-and-fuzzy-logic\\labs\\lab-05-01-bayesian-and-fuzzy-decision-system.md": {
+        "missing": [],
+        "rubric": true,
+        "starter": true,
+        "starter_links": [
+          "../notebooks/nb-05-01-uncertainty-workbench.ipynb",
+          "starters/lab-05-01_starter.py",
+          "../notebooks/nb-05-01-uncertainty-workbench.ipynb"
+        ],
+        "extensions": true,
+        "hours": 3.0,
+        "placeholders": []
+      },
+      "modules\\M05-uncertainty-bayesian-reasoning-and-fuzzy-logic\\labs\\lab-05-02-bayesian-network-inference-and-diagnosis.md": {
+        "missing": [
+          "deliverable"
+        ],
+        "rubric": true,
+        "starter": false,
+        "starter_links": [
+          "../notebooks/nb-05-02-variable-elimination.ipynb"
+        ],
+        "extensions": true,
+        "hours": 3.0,
+        "placeholders": []
+      },
+      "modules\\M06-machine-learning-fundamentals\\labs\\lab-06-01-student-performance-prediction.md": {
+        "missing": [],
+        "rubric": true,
+        "starter": true,
+        "starter_links": [
+          "../notebooks/nb-06-01-data-preparation-workbench.ipynb"
+        ],
+        "extensions": true,
+        "hours": null,
+        "placeholders": []
+      },
+      "modules\\M06-machine-learning-fundamentals\\labs\\lab-06-02-model-comparison-spam-and-loans.md": {
+        "missing": [],
+        "rubric": true,
+        "starter": true,
+        "starter_links": [
+          "../notebooks/nb-06-02-regression-and-classification-workbench.ipynb"
+        ],
+        "extensions": true,
+        "hours": null,
+        "placeholders": []
+      },
+      "modules\\M06-machine-learning-fundamentals\\labs\\lab-06-03-customer-segmentation-and-attrition.md": {
+        "missing": [],
+        "rubric": true,
+        "starter": true,
+        "starter_links": [
+          "../notebooks/nb-06-03-model-comparison-and-ensembles.ipynb"
+        ],
+        "extensions": true,
+        "hours": null,
+        "placeholders": []
+      },
+      "modules\\M06-machine-learning-fundamentals\\labs\\lab-06-04-intrusion-fraud-and-leakage.md": {
+        "missing": [],
+        "rubric": true,
+        "starter": true,
+        "starter_links": [
+          "../notebooks/nb-06-04-clustering-pca-and-anomalies.ipynb"
+        ],
+        "extensions": true,
+        "hours": null,
+        "placeholders": []
+      },
+      "modules\\M07-neural-networks-and-deep-learning\\labs\\lab-07-01-neural-network-from-scratch.md": {
+        "missing": [],
+        "rubric": true,
+        "starter": false,
+        "starter_links": [],
+        "extensions": false,
+        "hours": null,
+        "placeholders": []
+      },
+      "modules\\M07-neural-networks-and-deep-learning\\labs\\lab-07-02-digital-fashion-and-plant-classifiers.md": {
+        "missing": [],
+        "rubric": true,
+        "starter": true,
+        "starter_links": [
+          "../notebooks/nb-07-02-pytorch-image-classification.ipynb"
+        ],
+        "extensions": false,
+        "hours": null,
+        "placeholders": []
+      },
+      "modules\\M07-neural-networks-and-deep-learning\\labs\\lab-07-03-sentiment-forecasting-and-transfer.md": {
+        "missing": [],
+        "rubric": true,
+        "starter": true,
+        "starter_links": [
+          "../notebooks/nb-07-03-sequences-attention-transfer.ipynb"
+        ],
+        "extensions": false,
+        "hours": null,
+        "placeholders": []
+      },
+      "modules\\M08-natural-language-processing\\labs\\lab-08-01-text-preprocessing-and-feature-extraction.md": {
+        "missing": [],
+        "rubric": true,
+        "starter": false,
+        "starter_links": [],
+        "extensions": true,
+        "hours": 2.0,
+        "placeholders": []
+      },
+      "modules\\M08-natural-language-processing\\labs\\lab-08-02-news-and-document-classification.md": {
+        "missing": [],
+        "rubric": true,
+        "starter": false,
+        "starter_links": [],
+        "extensions": true,
+        "hours": 2.5,
+        "placeholders": []
+      },
+      "modules\\M08-natural-language-processing\\labs\\lab-08-03-urdu-and-english-sentiment-and-ner.md": {
+        "missing": [],
+        "rubric": true,
+        "starter": false,
+        "starter_links": [],
+        "extensions": true,
+        "hours": 3.0,
+        "placeholders": []
+      },
+      "modules\\M09-computer-vision\\labs\\lab-09-01-image-processing-and-feature-extraction.md": {
+        "missing": [],
+        "rubric": true,
+        "starter": false,
+        "starter_links": [],
+        "extensions": true,
+        "hours": 2.5,
+        "placeholders": []
+      },
+      "modules\\M09-computer-vision\\labs\\lab-09-02-image-classification-with-cnns.md": {
+        "missing": [],
+        "rubric": true,
+        "starter": false,
+        "starter_links": [],
+        "extensions": true,
+        "hours": 3.0,
+        "placeholders": []
+      },
+      "modules\\M09-computer-vision\\labs\\lab-09-03-object-detection.md": {
+        "missing": [],
+        "rubric": true,
+        "starter": false,
+        "starter_links": [],
+        "extensions": true,
+        "hours": 2.5,
+        "placeholders": []
+      },
+      "modules\\M09-computer-vision\\labs\\lab-09-04-image-segmentation-with-unet.md": {
+        "missing": [],
+        "rubric": true,
+        "starter": false,
+        "starter_links": [],
+        "extensions": true,
+        "hours": 3.5,
+        "placeholders": []
+      },
+      "modules\\M10-reinforcement-learning\\labs\\lab-10-01-grid-world-navigation-using-q-learning.md": {
+        "missing": [],
+        "rubric": true,
+        "starter": false,
+        "starter_links": [],
+        "extensions": true,
+        "hours": 2.5,
+        "placeholders": []
+      },
+      "modules\\M10-reinforcement-learning\\labs\\lab-10-02-compare-sarsa-and-q-learning.md": {
+        "missing": [],
+        "rubric": true,
+        "starter": false,
+        "starter_links": [],
+        "extensions": true,
+        "hours": 2.5,
+        "placeholders": []
+      },
+      "modules\\M10-reinforcement-learning\\labs\\lab-10-03-cartpole-with-deep-q-networks.md": {
+        "missing": [],
+        "rubric": true,
+        "starter": false,
+        "starter_links": [],
+        "extensions": true,
+        "hours": 3.0,
+        "placeholders": []
+      },
+      "modules\\M10-reinforcement-learning\\labs\\lab-10-04-policy-based-learning-and-ppo-introduction.md": {
+        "missing": [],
+        "rubric": true,
+        "starter": false,
+        "starter_links": [],
+        "extensions": true,
+        "hours": 3.0,
+        "placeholders": []
+      },
+      "modules\\M11-generative-ai-and-large-language-models\\labs\\lab-11-01-prompt-engineering-laboratory.md": {
+        "missing": [],
+        "rubric": true,
+        "starter": true,
+        "starter_links": [
+          "../notebooks/nb-11-01-tokens-attention-and-generative-models.ipynb"
+        ],
+        "extensions": false,
+        "hours": null,
+        "placeholders": []
+      },
+      "modules\\M11-generative-ai-and-large-language-models\\labs\\lab-11-02-build-a-retrieval-augmented-assistant.md": {
+        "missing": [],
+        "rubric": true,
+        "starter": true,
+        "starter_links": [
+          "../notebooks/nb-11-02-retrieval-prompting-and-evaluation.ipynb"
+        ],
+        "extensions": false,
+        "hours": null,
+        "placeholders": []
+      },
+      "modules\\M11-generative-ai-and-large-language-models\\labs\\lab-11-03-evaluation-harness.md": {
+        "missing": [],
+        "rubric": true,
+        "starter": true,
+        "starter_links": [
+          "../notebooks/nb-11-02-retrieval-prompting-and-evaluation.ipynb"
+        ],
+        "extensions": false,
+        "hours": null,
+        "placeholders": []
+      },
+      "modules\\M12-ai-agents-and-agentic-systems\\labs\\lab-12-01-tool-using-agent.md": {
+        "missing": [],
+        "rubric": true,
+        "starter": true,
+        "starter_links": [
+          "../notebooks/nb-12-01-agentic-ai-workbench.ipynb"
+        ],
+        "extensions": true,
+        "hours": 2.5,
+        "placeholders": []
+      },
+      "modules\\M12-ai-agents-and-agentic-systems\\labs\\lab-12-02-agent-security-and-evaluation.md": {
+        "missing": [],
+        "rubric": true,
+        "starter": true,
+        "starter_links": [
+          "../notebooks/nb-12-01-agentic-ai-workbench.ipynb"
+        ],
+        "extensions": true,
+        "hours": 2.0,
+        "placeholders": []
+      },
+      "modules\\M13-responsible-explainable-secure-ai\\labs\\lab-13-01-fairness-audit.md": {
+        "missing": [],
+        "rubric": true,
+        "starter": true,
+        "starter_links": [
+          "starters/lab-13-01_starter.py",
+          "../notebooks/nb-13-01-explainability-toolkit.ipynb"
+        ],
+        "extensions": true,
+        "hours": 2.5,
+        "placeholders": []
+      },
+      "modules\\M13-responsible-explainable-secure-ai\\labs\\lab-13-02-security-and-prompt-injection-testing.md": {
+        "missing": [],
+        "rubric": true,
+        "starter": true,
+        "starter_links": [
+          "starters/lab-13-02_starter.py"
+        ],
+        "extensions": true,
+        "hours": 2.5,
+        "placeholders": []
+      },
+      "modules\\M14-advanced-ai-applications-and-capstone\\labs\\lab-14-01-multimodal-and-graph-systems.md": {
+        "missing": [],
+        "rubric": true,
+        "starter": true,
+        "starter_links": [
+          "starters/lab-14-01_starter.py"
+        ],
+        "extensions": true,
+        "hours": 2.5,
+        "placeholders": []
+      },
+      "modules\\M14-advanced-ai-applications-and-capstone\\labs\\lab-14-02-efficient-serving.md": {
+        "missing": [],
+        "rubric": true,
+        "starter": true,
+        "starter_links": [
+          "starters/lab-14-02_starter.py"
+        ],
+        "extensions": true,
+        "hours": 2.5,
+        "placeholders": []
+      }
+    },
+    "assessments": {
+      "assessments/quizzes\\quiz-m01.md": {
+        "questions": 12,
+        "solution": true,
+        "answer_items": 12
+      },
+      "assessments/quizzes\\quiz-m02.md": {
+        "questions": 12,
+        "solution": true,
+        "answer_items": 12
+      },
+      "assessments/quizzes\\quiz-m03.md": {
+        "questions": 12,
+        "solution": true,
+        "answer_items": 12
+      },
+      "assessments/quizzes\\quiz-m04.md": {
+        "questions": 11,
+        "solution": true,
+        "answer_items": 11
+      },
+      "assessments/quizzes\\quiz-m05.md": {
+        "questions": 11,
+        "solution": true,
+        "answer_items": 11
+      },
+      "assessments/quizzes\\quiz-m06.md": {
+        "questions": 11,
+        "solution": true,
+        "answer_items": 11
+      },
+      "assessments/quizzes\\quiz-m07.md": {
+        "questions": 11,
+        "solution": true,
+        "answer_items": 11
+      },
+      "assessments/quizzes\\quiz-m08.md": {
+        "questions": 10,
+        "solution": true,
+        "answer_items": 10
+      },
+      "assessments/quizzes\\quiz-m09.md": {
+        "questions": 10,
+        "solution": true,
+        "answer_items": 10
+      },
+      "assessments/quizzes\\quiz-m10.md": {
+        "questions": 10,
+        "solution": true,
+        "answer_items": 10
+      },
+      "assessments/quizzes\\quiz-m11.md": {
+        "questions": 11,
+        "solution": true,
+        "answer_items": 11
+      },
+      "assessments/quizzes\\quiz-m12.md": {
+        "questions": 11,
+        "solution": true,
+        "answer_items": 11
+      },
+      "assessments/quizzes\\quiz-m13.md": {
+        "questions": 11,
+        "solution": true,
+        "answer_items": 11
+      },
+      "assessments/quizzes\\quiz-m14.md": {
+        "questions": 11,
+        "solution": true,
+        "answer_items": 11
+      }
+    }
+  }
+}

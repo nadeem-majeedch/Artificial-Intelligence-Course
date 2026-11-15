@@ -121,3 +121,11 @@ and is a real, reproducible effect for this model on this task.
 | Structured-output analysis including retries | 20% |
 | Injection discussion, including the inconclusive case | 15% |
 | Decision memo with a monitoring plan | 20% |
+
+## Starter material
+
+The guided notebook [`nb-11-01-tokens-attention-and-generative-models.ipynb`](../notebooks/nb-11-01-tokens-attention-and-generative-models.ipynb) works through the
+same pipeline end to end; use it when you are stuck, and cite what you
+changed rather than copying its outputs.
+
+Module reference code: [`../code/`](../code/).

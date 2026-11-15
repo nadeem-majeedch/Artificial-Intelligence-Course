@@ -1,6 +1,6 @@
 # L07-02 — Backpropagation: The Mathematics of Learning
 
-[← Previous: ? Lesson](L07-01-from-perceptron-to-mlp.md) · [Module home](../README.md) · [Next: ? Lesson →](L07-03-training-in-practice.md)
+[← Previous: L07-01](L07-01-from-perceptron-to-mlp.md) · [Module home](../README.md) · [Next: L07-03 →](L07-03-training-in-practice.md)
 
 ## On this page
 
@@ -404,4 +404,4 @@ gradient**, **gradient clipping**, **gradient check**, **reverse-mode differenti
 
 ---
 
-**Navigation:** [← Previous: ? Lesson](L07-01-from-perceptron-to-mlp.md) · [Module home](../README.md) · [Next: ? Lesson →](L07-03-training-in-practice.md)
+**Navigation:** [← Previous: L07-01](L07-01-from-perceptron-to-mlp.md) · [Module home](../README.md) · [Next: L07-03 →](L07-03-training-in-practice.md)
